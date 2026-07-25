@@ -5,6 +5,17 @@ on:
     branches: [main]
     paths:
       - '_posts/**'
+  workflow_dispatch:
+    inputs:
+      post_files:
+        description: 'Newline-separated list of _posts/*.md files to pin'
+        required: true
+        type: string
+      batch_post_all:
+        description: 'Post all listed files (true) or just the newest (false)'
+        required: false
+        default: 'true'
+        type: string
 
 jobs:
   social-post:
@@ -15,16 +26,23 @@ jobs:
         with:
           fetch-depth: 2
 
-      - name: Detect new posts
+      - name: Resolve post files
         id: detect
         run: |
-          NEW=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- '_posts/*.md' | tr '\n' '\n')
-          echo "Found new posts: $NEW"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            NEW="${{ inputs.post_files }}"
+            BATCH="${{ inputs.batch_post_all }}"
+          else
+            NEW=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- '_posts/*.md')
+            BATCH="false"
+          fi
+          echo "Found posts: $NEW"
           {
             echo "new_files<<EOF"
             echo "$NEW"
             echo "EOF"
           } >> "$GITHUB_OUTPUT"
+          echo "batch_all=$BATCH" >> "$GITHUB_OUTPUT"
 
       - name: Set up Python
         if: steps.detect.outputs.new_files != ''
@@ -41,13 +59,12 @@ jobs:
         env:
           SITE_URL: 'https://clearcentslife.com'
           NEW_POST_FILES: ${{ steps.detect.outputs.new_files }}
-          # Pinterest (set these in GitHub → Settings → Secrets)
+          BATCH_POST_ALL: ${{ steps.detect.outputs.batch_all }}
           PINTEREST_ACCESS_TOKEN:  ${{ secrets.PINTEREST_ACCESS_TOKEN }}
           PINTEREST_REFRESH_TOKEN: ${{ secrets.PINTEREST_REFRESH_TOKEN }}
           PINTEREST_CLIENT_ID:     ${{ secrets.PINTEREST_CLIENT_ID }}
           PINTEREST_CLIENT_SECRET: ${{ secrets.PINTEREST_CLIENT_SECRET }}
           PINTEREST_BOARD_IDS:     ${{ secrets.PINTEREST_BOARD_IDS }}
-          # Reddit (set these in GitHub → Settings → Secrets)
           REDDIT_CLIENT_ID:     ${{ secrets.REDDIT_CLIENT_ID }}
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
           REDDIT_USERNAME:      ${{ secrets.REDDIT_USERNAME }}

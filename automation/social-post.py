@@ -214,24 +214,27 @@ def main():
         print("No new .md files in _posts/ — nothing to post.")
         sys.exit(0)
 
-    # Post the most recently added file only (avoid spam on bulk pushes)
-    target = sorted(files)[-1]
-    print(f"\n📢 Posting: {target}")
+    batch_all = os.environ.get('BATCH_POST_ALL', '').lower() == 'true'
+    targets = sorted(files) if batch_all else [sorted(files)[-1]]
 
-    try:
-        post = frontmatter.load(target)
-        meta = post.metadata
-        url  = build_post_url(meta, target)
-        print(f"   Title : {meta.get('title')}")
-        print(f"   URL   : {url}")
-        print(f"   Cat   : {category_slug(meta)}")
-    except Exception as e:
-        print(f"Failed to parse {target}: {e}")
-        sys.exit(1)
+    for i, target in enumerate(targets):
+        print(f"\n📢 Posting ({i+1}/{len(targets)}): {target}")
+        try:
+            post = frontmatter.load(target)
+            meta = post.metadata
+            url  = build_post_url(meta, target)
+            print(f"   Title : {meta.get('title')}")
+            print(f"   URL   : {url}")
+            print(f"   Cat   : {category_slug(meta)}")
+        except Exception as e:
+            print(f"Failed to parse {target}: {e}")
+            continue
 
-    post_to_pinterest(meta, url)
-    time.sleep(3)
-    post_to_reddit(meta, url)
+        post_to_pinterest(meta, url)
+        time.sleep(3)
+        post_to_reddit(meta, url)
+        if i < len(targets) - 1:
+            time.sleep(5)
 
 
 if __name__ == '__main__':
