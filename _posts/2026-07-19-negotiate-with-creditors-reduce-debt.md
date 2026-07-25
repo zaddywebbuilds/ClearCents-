@@ -6,6 +6,7 @@ categories: [debt-free]
 tags: [debt negotiation, creditors, collections, debt settlement]
 description: "You can negotiate directly with creditors and collection agencies to reduce what you owe. Here's exactly what to say, when to do it, and what to watch out for."
 image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80&auto=format&fit=crop"
+permalink: /debt-free/how-to-negotiate-with-creditors/
 ---
 
 Most people assume debt is fixed — you owe what you owe, and you pay it all back. That's not how it works. Creditors and collection agencies negotiate debt every single day. They do it because getting partial payment is better than getting nothing, and they know many borrowers can't pay the full balance.

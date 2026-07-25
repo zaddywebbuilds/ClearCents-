@@ -6,6 +6,7 @@ categories: [investing]
 tags: [emergency fund, investing, personal finance, financial security]
 description: "Should you invest first or build your emergency fund first? The answer depends on your situation — and getting it wrong is expensive either way. Here's how to think through it."
 image: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=800&q=80&auto=format&fit=crop"
+permalink: /investing/how-much-emergency-fund/
 ---
 
 This is one of the most common questions in personal finance, and it's also one of the most mishandled. The usual advice ("build a 3–6 month emergency fund before investing") ignores key nuances that could either cost you years of investment growth or land you in financial crisis when the car breaks down.
