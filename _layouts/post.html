@@ -114,14 +114,20 @@ layout: default
     <!-- Sidebar -->
     <aside class="sidebar" aria-label="Sidebar">
       <!-- Newsletter -->
-      <div class="newsletter-widget">
-        <div class="nl-icon">💌</div>
+      <div class="newsletter-widget" id="nlWidget">
+        <div class="nl-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="2" y="4" width="20" height="16" rx="2"/>
+            <polyline points="2,4 12,13 22,4"/>
+          </svg>
+        </div>
         <p class="nl-title">Free money tips in your inbox</p>
         <p class="nl-desc">Join readers getting practical budgeting tips every week. No spam, ever.</p>
-        <form class="nl-form" action="#" method="post" aria-label="Newsletter signup">
-          <input type="email" name="email" class="nl-input" placeholder="your@email.com" required aria-label="Email address">
+        <form class="nl-form" id="nlForm" aria-label="Newsletter signup">
+          <input type="email" name="email" id="nlEmail" class="nl-input" placeholder="your@email.com" required aria-label="Email address">
           <button type="submit" class="nl-btn">Subscribe free →</button>
         </form>
+        <p class="nl-success" id="nlSuccess" style="display:none;">You're in! Check your inbox for tips.</p>
       </div>
 
       <!-- AdSense sidebar -->

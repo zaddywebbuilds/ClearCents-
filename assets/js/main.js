@@ -117,4 +117,28 @@
     }
   });
 
+  /* ---------- Newsletter form — async POST to Google Apps Script ---------- */
+  const nlForm = document.getElementById('nlForm');
+  if (nlForm) {
+    const SCRIPT_URL = 'PASTE_YOUR_APPS_SCRIPT_URL_HERE';
+    nlForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const email = document.getElementById('nlEmail').value.trim();
+      if (!email || !SCRIPT_URL.startsWith('https://')) return;
+      const btn = nlForm.querySelector('.nl-btn');
+      btn.textContent = 'Sending…';
+      btn.disabled = true;
+      fetch(`${SCRIPT_URL}?email=${encodeURIComponent(email)}`, { mode: 'no-cors' })
+        .then(() => {
+          nlForm.style.display = 'none';
+          const ok = document.getElementById('nlSuccess');
+          if (ok) ok.style.display = 'block';
+        })
+        .catch(() => {
+          btn.textContent = 'Subscribe free →';
+          btn.disabled = false;
+        });
+    });
+  }
+
 })();
