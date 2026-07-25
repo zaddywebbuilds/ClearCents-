@@ -1,8 +1,18 @@
 title: ClearCents
 tagline: "Making cents of your money"
 description: "Practical budgeting, saving strategies, and side hustle tips for real people living on real salaries. No fluff — just what works."
-url: "https://clearcents.com"
-baseurl: ""
+
+# ─────────────────────────────────────────────────────────────
+# HOSTING URLS
+# Currently set for the free GitHub Pages project URL:
+#   https://zaddywebbuilds.github.io/ClearCents-/
+#
+# WHEN YOU CONNECT YOUR CUSTOM DOMAIN (clearcents.com), change to:
+#   url: "https://clearcents.com"
+#   baseurl: ""
+# ─────────────────────────────────────────────────────────────
+url: "https://zaddywebbuilds.github.io"
+baseurl: "/ClearCents-"
 
 author:
   name: ClearCents
