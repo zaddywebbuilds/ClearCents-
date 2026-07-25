@@ -1,0 +1,38 @@
+{% if site.adsense_publisher_id and site.adsense_publisher_id != "ca-pub-XXXXXXXXXXXXXXXX" %}
+{% if include.type == "sidebar" %}
+<!-- Sidebar Ad 300x250 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="{{ site.adsense_publisher_id }}"
+     data-ad-slot="{{ include.slot | default: 'auto' }}"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+{% elsif include.type == "in-article" %}
+<!-- In-Article Ad -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="{{ site.adsense_publisher_id }}"
+     data-ad-slot="{{ include.slot | default: 'auto' }}"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+{% elsif include.type == "banner" %}
+<!-- Banner Ad -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="{{ site.adsense_publisher_id }}"
+     data-ad-slot="{{ include.slot | default: 'auto' }}"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+{% else %}
+<!-- Auto Ad -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="{{ site.adsense_publisher_id }}"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+{% endif %}
+{% endif %}

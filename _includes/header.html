@@ -1,0 +1,31 @@
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="/" class="site-logo" aria-label="{{ site.title }} home">
+      <div class="logo-mark" aria-hidden="true">¢</div>
+      <span class="logo-name">Clear<span class="cents">Cents</span></span>
+    </a>
+
+    <nav class="site-nav" aria-label="Main navigation">
+      {% for cat in site.nav_categories %}
+      <a href="/{{ cat.name | downcase | replace: ' ', '-' }}/">{{ cat.name }}</a>
+      {% endfor %}
+      <a href="/about/">About</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileMenu">
+      &#9776;
+    </button>
+  </div>
+</header>
+
+<nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation">
+  {% for cat in site.nav_categories %}
+  <a href="/{{ cat.name | downcase | replace: ' ', '-' }}/">{{ cat.icon }} {{ cat.name }}</a>
+  {% endfor %}
+  <a href="/about/">About</a>
+</nav>
+
+<!-- Reading progress bar (shown on post pages) -->
+{% if page.layout == 'post' %}
+<div class="progress-bar" id="progressBar" role="progressbar" aria-label="Reading progress" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+{% endif %}

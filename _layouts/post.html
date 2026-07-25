@@ -1,0 +1,170 @@
+---
+layout: default
+---
+
+<!-- Post header -->
+<header class="post-hero">
+  <div class="container">
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="/">Home</a>
+      <span aria-hidden="true">›</span>
+      {% if page.categories %}
+      <a href="/{{ page.categories | first | downcase | replace: ' ','-' }}/">{{ page.categories | first }}</a>
+      <span aria-hidden="true">›</span>
+      {% endif %}
+      <span aria-current="page">{{ page.title | truncate: 40 }}</span>
+    </nav>
+
+    {% if page.categories %}<span class="post-cat">{{ page.categories | first }}</span>{% endif %}
+    <h1>{{ page.title | escape }}</h1>
+
+    <div class="post-hero-meta">
+      <span>{{ page.date | date: "%B %d, %Y" }}</span>
+      <span class="divider"></span>
+      <span>{{ content | number_of_words | divided_by: 200 | plus: 1 }} min read</span>
+      {% if page.tags.size > 0 %}
+      <span class="divider"></span>
+      <span>{{ page.tags | join: " · " }}</span>
+      {% endif %}
+    </div>
+  </div>
+</header>
+
+<!-- Featured image (always a real photo) -->
+{% capture cover_img %}{% include img-src.html post=page %}{% endcapture %}
+<div class="container">
+  <img src="{{ cover_img | strip }}" alt="{{ page.title | escape }}" class="post-cover" width="1200" height="630" loading="eager">
+</div>
+
+<!-- AdSense banner under header -->
+<div class="container">
+  <div class="ad-slot-banner">
+    {% include adsense.html type="banner" %}
+  </div>
+</div>
+
+<!-- Post body -->
+<div class="container">
+  <div class="post-layout">
+
+    <!-- Main content -->
+    <article>
+      <div class="post-content" id="postContent">
+        {{ content }}
+      </div>
+
+      <!-- Post tags -->
+      {% if page.tags.size > 0 %}
+      <div class="post-tags" aria-label="Post tags">
+        {% for tag in page.tags %}
+        <span class="ptag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      <!-- Share box -->
+      <div class="share-box">
+        <p class="share-label">Found this helpful? Share it</p>
+        <div class="share-btns">
+          <a class="share-btn" href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ page.url | absolute_url | url_encode }}" target="_blank" rel="noopener" aria-label="Share on X">
+            𝕏 Share on X
+          </a>
+          <a class="share-btn" href="https://pinterest.com/pin/create/button/?url={{ page.url | absolute_url | url_encode }}&description={{ page.title | url_encode }}{% if page.image %}&media={{ page.image | absolute_url | url_encode }}{% endif %}" target="_blank" rel="noopener" aria-label="Pin on Pinterest">
+            📌 Pin it
+          </a>
+          <a class="share-btn" href="https://reddit.com/submit?url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}" target="_blank" rel="noopener" aria-label="Share on Reddit">
+            ↗ Post to Reddit
+          </a>
+          <button class="share-btn" id="copyLink" aria-label="Copy link">
+            🔗 Copy link
+          </button>
+        </div>
+      </div>
+
+      <!-- Related posts -->
+      {% assign related = site.posts | where_exp: "p", "p.url != page.url" | sample: 3 %}
+      {% if related.size > 0 %}
+      <section class="related-posts" aria-label="Related articles">
+        <h3>You might also like</h3>
+        <div class="related-grid">
+          {% for post in related %}
+          {% capture rel_img %}{% include img-src.html post=post %}{% endcapture %}
+          <article class="post-card">
+            <div class="card-img">
+              {% if post.categories %}
+              <span class="card-cat-overlay">{{ post.categories | first }}</span>
+              {% endif %}
+              <img src="{{ rel_img | strip }}" alt="{{ post.title | escape }}" loading="lazy" width="400" height="267">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title"><a href="{{ post.url }}">{{ post.title | escape }}</a></h4>
+              <div class="card-foot">
+                <span>{{ post.date | date: "%b %d, %Y" }}</span>
+                <a href="{{ post.url }}" class="card-read">Read →</a>
+              </div>
+            </div>
+          </article>
+          {% endfor %}
+        </div>
+      </section>
+      {% endif %}
+    </article>
+
+    <!-- Sidebar -->
+    <aside class="sidebar" aria-label="Sidebar">
+      <!-- Newsletter -->
+      <div class="newsletter-widget">
+        <div class="nl-icon">💌</div>
+        <p class="nl-title">Free money tips in your inbox</p>
+        <p class="nl-desc">Join readers getting practical budgeting tips every week. No spam, ever.</p>
+        <form class="nl-form" action="#" method="post" aria-label="Newsletter signup">
+          <input type="email" name="email" class="nl-input" placeholder="your@email.com" required aria-label="Email address">
+          <button type="submit" class="nl-btn">Subscribe free →</button>
+        </form>
+      </div>
+
+      <!-- AdSense sidebar -->
+      <div class="widget">
+        <div class="ad-slot">
+          {% include adsense.html type="sidebar" %}
+        </div>
+      </div>
+
+      <!-- Popular posts -->
+      <div class="widget">
+        <div class="widget-label">🔥 Popular right now</div>
+        {% assign popular = site.posts | sort: 'date' | reverse | limit: 5 %}
+        {% for post in popular %}
+        <div class="popular-item">
+          <span class="pop-num">0{{ forloop.index }}</span>
+          <div class="pop-title">
+            <a href="{{ post.url }}">{{ post.title | truncate: 60 }}</a>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+
+      <!-- Categories -->
+      <div class="widget">
+        <div class="widget-label">📂 Browse topics</div>
+        {% for cat in site.nav_categories %}
+        <div class="cat-item">
+          <a href="/{{ cat.name | downcase | replace: ' ', '-' }}/">{{ cat.icon }} {{ cat.name }}</a>
+          <span class="cat-count">
+            {{ site.posts | where: 'categories', cat.name | size }}
+          </span>
+        </div>
+        {% endfor %}
+      </div>
+
+      <!-- Second AdSense slot -->
+      <div class="widget">
+        <div class="ad-slot">
+          {% include adsense.html type="sidebar" %}
+        </div>
+      </div>
+    </aside>
+
+  </div>
+</div>

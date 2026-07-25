@@ -1,0 +1,16 @@
+{%- comment -%}
+Resolves the best real image for a post. Priority:
+1. The post's own `image:` front-matter (set per-post, or by the automation via Unsplash)
+2. A real category default photo in /assets/images/defaults/
+3. The generic default photo
+Never returns an emoji — real images only.
+Usage: {% capture img %}{% include img-src.html post=post %}{% endcapture %}{{ img | strip }}
+{%- endcomment -%}
+{%- if include.post.image -%}
+{{- include.post.image -}}
+{%- elsif include.post.categories.size > 0 -%}
+{%- assign slug = include.post.categories[0] | downcase | replace: ' ', '-' -%}
+/assets/images/defaults/{{ slug }}.jpg
+{%- else -%}
+/assets/images/defaults/default.jpg
+{%- endif -%}

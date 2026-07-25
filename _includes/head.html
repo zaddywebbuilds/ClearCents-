@@ -1,0 +1,144 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Title -->
+<title>{% if page.title %}{{ page.title | escape }} | {{ site.title }}{% else %}{{ site.title }} — {{ site.tagline }}{% endif %}</title>
+
+<!-- Description -->
+{% if page.description %}<meta name="description" content="{{ page.description | strip_html | truncate: 160 | escape }}">
+{% elsif page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 | escape }}">
+{% else %}<meta name="description" content="{{ site.description | escape }}">{% endif %}
+
+<!-- Keywords -->
+{% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
+
+<!-- Canonical -->
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+
+<!-- Robots -->
+<meta name="robots" content="index, follow, max-image-preview:large">
+
+<!-- Open Graph -->
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+{% if page.layout == 'post' %}
+<meta property="og:type" content="article">
+<meta property="og:title" content="{{ page.title | escape }}">
+{% if page.description %}<meta property="og:description" content="{{ page.description | strip_html | truncate: 160 | escape }}">
+{% elsif page.excerpt %}<meta property="og:description" content="{{ page.excerpt | strip_html | truncate: 160 | escape }}">{% endif %}
+{% if page.image %}<meta property="og:image" content="{{ page.image | absolute_url }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">{% endif %}
+<meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+<meta property="article:modified_time" content="{{ page.last_modified_at | default: page.date | date_to_xmlschema }}">
+<meta property="article:author" content="{{ site.author.name }}">
+{% if page.categories %}<meta property="article:section" content="{{ page.categories | first }}">{% endif %}
+{% for tag in page.tags %}<meta property="article:tag" content="{{ tag }}">{% endfor %}
+{% else %}
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ site.title }} — {{ site.tagline }}">
+<meta property="og:description" content="{{ site.description | escape }}">
+{% endif %}
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@{{ site.twitter.username }}">
+<meta name="twitter:creator" content="@{{ site.twitter.username }}">
+{% if page.layout == 'post' %}
+<meta name="twitter:title" content="{{ page.title | escape }}">
+{% if page.description %}<meta name="twitter:description" content="{{ page.description | strip_html | truncate: 160 | escape }}">
+{% elsif page.excerpt %}<meta name="twitter:description" content="{{ page.excerpt | strip_html | truncate: 160 | escape }}">{% endif %}
+{% if page.image %}<meta name="twitter:image" content="{{ page.image | absolute_url }}">{% endif %}
+{% else %}
+<meta name="twitter:title" content="{{ site.title }}">
+<meta name="twitter:description" content="{{ site.description | escape }}">
+{% endif %}
+
+<!-- Pinterest Rich Pins -->
+<meta name="pinterest-rich-pin" content="true">
+<meta property="og:rich_attachment" content="true">
+
+<!-- JSON-LD Structured Data -->
+{% if page.layout == 'post' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ page.url | absolute_url }}" },
+  "headline": "{{ page.title | escape }}",
+  {% if page.image %}"image": { "@type": "ImageObject", "url": "{{ page.image | absolute_url }}", "width": 1200, "height": 630 },{% endif %}
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+  "author": { "@type": "Person", "name": "{{ site.author.name }}", "url": "{{ site.url }}/about/" },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "url": "{{ site.url }}",
+    "logo": { "@type": "ImageObject", "url": "{{ '/assets/images/logo.png' | absolute_url }}", "width": 200, "height": 60 }
+  },
+  "description": "{% if page.description %}{{ page.description | strip_html | truncate: 160 | escape }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 | escape }}{% endif %}",
+  "articleSection": "{{ page.categories | first | default: 'Finance' }}",
+  "keywords": "{{ page.tags | join: ', ' }}"
+}
+</script>
+{% else %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ site.title }}",
+  "url": "{{ site.url }}",
+  "description": "{{ site.description | escape }}",
+  "potentialAction": { "@type": "SearchAction", "target": "{{ site.url }}/search/?q={search_term_string}", "query-input": "required name=search_term_string" }
+}
+</script>
+{% endif %}
+
+<!-- Breadcrumb Schema -->
+{% if page.layout == 'post' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}" },
+    { "@type": "ListItem", "position": 2, "name": "{{ page.categories | first | default: 'Blog' }}", "item": "{{ site.url }}/{{ page.categories | first | downcase | default: 'blog' }}/" },
+    { "@type": "ListItem", "position": 3, "name": "{{ page.title | escape }}", "item": "{{ page.url | absolute_url }}" }
+  ]
+}
+</script>
+{% endif %}
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+<link rel="alternate icon" href="/assets/images/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+<meta name="theme-color" content="#050810">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+
+<!-- Main CSS -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!-- Google Analytics -->
+{% if site.google_analytics and site.google_analytics != "G-XXXXXXXXXX" %}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ site.google_analytics }}', { page_path: window.location.pathname });
+</script>
+{% endif %}
+
+<!-- AdSense -->
+{% if site.adsense_publisher_id and site.adsense_publisher_id != "ca-pub-XXXXXXXXXXXXXXXX" %}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ site.adsense_publisher_id }}" crossorigin="anonymous"></script>
+{% endif %}
+
+<!-- Feed -->
+<link type="application/atom+xml" rel="alternate" href="{{ '/feed.xml' | absolute_url }}" title="{{ site.title }}">
