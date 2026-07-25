@@ -7,10 +7,10 @@ layout: default
   <div class="container">
     <!-- Breadcrumb -->
     <nav class="breadcrumb" aria-label="Breadcrumb">
-      <a href="/">Home</a>
+      <a href="{{ '/' | relative_url }}">Home</a>
       <span aria-hidden="true">›</span>
       {% if page.categories %}
-      <a href="/{{ page.categories | first | downcase | replace: ' ','-' }}/">{{ page.categories | first }}</a>
+      <a href="{{ page.categories | first | downcase | replace: ' ','-' | prepend: '/' | append: '/' | relative_url }}">{{ page.categories | first }}</a>
       <span aria-hidden="true">›</span>
       {% endif %}
       <span aria-current="page">{{ page.title | truncate: 40 }}</span>
@@ -98,10 +98,10 @@ layout: default
               <img src="{{ rel_img | strip }}" alt="{{ post.title | escape }}" loading="lazy" width="400" height="267">
             </div>
             <div class="card-body">
-              <h4 class="card-title"><a href="{{ post.url }}">{{ post.title | escape }}</a></h4>
+              <h4 class="card-title"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h4>
               <div class="card-foot">
                 <span>{{ post.date | date: "%b %d, %Y" }}</span>
-                <a href="{{ post.url }}" class="card-read">Read →</a>
+                <a href="{{ post.url | relative_url }}" class="card-read">Read →</a>
               </div>
             </div>
           </article>
@@ -139,7 +139,7 @@ layout: default
         <div class="popular-item">
           <span class="pop-num">0{{ forloop.index }}</span>
           <div class="pop-title">
-            <a href="{{ post.url }}">{{ post.title | truncate: 60 }}</a>
+            <a href="{{ post.url | relative_url }}">{{ post.title | truncate: 60 }}</a>
           </div>
         </div>
         {% endfor %}
@@ -150,7 +150,7 @@ layout: default
         <div class="widget-label">📂 Browse topics</div>
         {% for cat in site.nav_categories %}
         <div class="cat-item">
-          <a href="/{{ cat.name | downcase | replace: ' ', '-' }}/">{{ cat.icon }} {{ cat.name }}</a>
+          <a href="{{ cat.name | downcase | replace: ' ', '-' | prepend: '/' | append: '/' | relative_url }}">{{ cat.icon }} {{ cat.name }}</a>
           <span class="cat-count">
             {{ site.posts | where: 'categories', cat.name | size }}
           </span>

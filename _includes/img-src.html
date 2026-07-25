@@ -7,10 +7,14 @@ Never returns an emoji — real images only.
 Usage: {% capture img %}{% include img-src.html post=post %}{% endcapture %}{{ img | strip }}
 {%- endcomment -%}
 {%- if include.post.image -%}
+{%- if include.post.image contains '://' -%}
 {{- include.post.image -}}
+{%- else -%}
+{{- include.post.image | relative_url -}}
+{%- endif -%}
 {%- elsif include.post.categories.size > 0 -%}
 {%- assign slug = include.post.categories[0] | downcase | replace: ' ', '-' -%}
-/assets/images/defaults/{{ slug }}.jpg
+{{- '/assets/images/defaults/' | append: slug | append: '.jpg' | relative_url -}}
 {%- else -%}
-/assets/images/defaults/default.jpg
+{{- '/assets/images/defaults/default.jpg' | relative_url -}}
 {%- endif -%}

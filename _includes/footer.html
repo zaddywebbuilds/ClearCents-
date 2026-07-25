@@ -2,7 +2,7 @@
   <div class="container">
     <div class="footer-top">
       <div class="footer-brand">
-        <a href="/" class="site-logo" aria-label="{{ site.title }} home">
+        <a href="{{ '/' | relative_url }}" class="site-logo" aria-label="{{ site.title }} home">
           <div class="logo-mark" aria-hidden="true">¢</div>
           <span class="logo-name">Clear<span class="cents">Cents</span></span>
         </a>
@@ -10,7 +10,7 @@
         <div class="footer-socials">
           <a href="https://twitter.com/{{ site.author.twitter }}" class="social-ico" target="_blank" rel="noopener" aria-label="Twitter">𝕏</a>
           <a href="https://pinterest.com/{{ site.author.pinterest }}" class="social-ico" target="_blank" rel="noopener" aria-label="Pinterest">𝑷</a>
-          <a href="/feed.xml" class="social-ico" target="_blank" rel="noopener" aria-label="RSS Feed">⊕</a>
+          <a href="{{ '/feed.xml' | relative_url }}" class="social-ico" target="_blank" rel="noopener" aria-label="RSS Feed">⊕</a>
         </div>
       </div>
 
@@ -18,7 +18,7 @@
         <h4>Topics</h4>
         <ul class="footer-links">
           {% for cat in site.nav_categories %}
-          <li><a href="/{{ cat.name | downcase | replace: ' ', '-' }}/">{{ cat.name }}</a></li>
+          <li><a href="{{ cat.name | downcase | replace: ' ', '-' | prepend: '/' | append: '/' | relative_url }}">{{ cat.name }}</a></li>
           {% endfor %}
         </ul>
       </div>
@@ -26,28 +26,28 @@
       <div class="footer-col">
         <h4>Tools</h4>
         <ul class="footer-links">
-          <li><a href="/budget-calculator/">Budget Calculator</a></li>
-          <li><a href="/debt-payoff-tool/">Debt Payoff Tool</a></li>
-          <li><a href="/savings-goal/">Savings Goal Tracker</a></li>
-          <li><a href="/free-budget-template/">Free Budget Template</a></li>
+          <li><a href="{{ '/budget-calculator/' | relative_url }}">Budget Calculator</a></li>
+          <li><a href="{{ '/debt-payoff-tool/' | relative_url }}">Debt Payoff Tool</a></li>
+          <li><a href="{{ '/savings-goal/' | relative_url }}">Savings Goal Tracker</a></li>
+          <li><a href="{{ '/free-budget-template/' | relative_url }}">Free Budget Template</a></li>
         </ul>
       </div>
 
       <div class="footer-col">
         <h4>Site</h4>
         <ul class="footer-links">
-          <li><a href="/about/">About</a></li>
-          <li><a href="/privacy-policy/">Privacy Policy</a></li>
-          <li><a href="/disclaimer/">Disclaimer</a></li>
-          <li><a href="/contact/">Contact</a></li>
-          <li><a href="/sitemap.xml">Sitemap</a></li>
+          <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+          <li><a href="{{ '/privacy-policy/' | relative_url }}">Privacy Policy</a></li>
+          <li><a href="{{ '/disclaimer/' | relative_url }}">Disclaimer</a></li>
+          <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+          <li><a href="{{ '/sitemap.xml' | relative_url }}">Sitemap</a></li>
         </ul>
       </div>
     </div>
 
     <div class="footer-bottom">
       <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
-      <p>Made with ☕ — <a href="/about/">About this blog</a></p>
+      <p>Made with ☕ — <a href="{{ '/about/' | relative_url }}">About this blog</a></p>
       <p class="footer-badge"><span class="dot"></span> Updated daily</p>
     </div>
   </div>

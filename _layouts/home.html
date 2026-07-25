@@ -32,7 +32,7 @@ layout: default
 
       <div class="hero-cta">
         <a href="#latest" class="btn btn-gold">Browse articles ↓</a>
-        <a href="/free-budget-template/" class="btn btn-outline">Get free budget template</a>
+        <a href="{{ '/free-budget-template/' | relative_url }}" class="btn btn-outline">Get free budget template</a>
       </div>
 
       <div class="hero-stats">
@@ -70,9 +70,9 @@ layout: default
 
     <!-- Category filter pills -->
     <div class="cats-bar" role="navigation" aria-label="Filter by category">
-      <a href="/" class="cat-pill active">All</a>
+      <a href="{{ '/' | relative_url }}" class="cat-pill active">All</a>
       {% for cat in site.nav_categories %}
-      <a href="/{{ cat.name | downcase | replace: ' ', '-' }}/" class="cat-pill">{{ cat.icon }} {{ cat.name }}</a>
+      <a href="{{ cat.name | downcase | replace: ' ', '-' | prepend: '/' | append: '/' | relative_url }}" class="cat-pill">{{ cat.icon }} {{ cat.name }}</a>
       {% endfor %}
     </div>
 
@@ -91,14 +91,14 @@ layout: default
       </div>
       <div class="feat-body">
         <span class="feat-label">★ Featured story</span>
-        <h2><a href="{{ featured.url }}">{{ featured.title | escape }}</a></h2>
+        <h2><a href="{{ featured.url | relative_url }}">{{ featured.title | escape }}</a></h2>
         <p class="post-excerpt">{{ featured.excerpt | strip_html | truncate: 200 }}</p>
         <div class="post-meta">
           <span>{{ featured.date | date: "%B %d, %Y" }}</span>
           <span class="sep">·</span>
           <span>{{ feat_read }} min read</span>
         </div>
-        <a href="{{ featured.url }}" class="read-more" aria-label="Read {{ featured.title | escape }}">Read article →</a>
+        <a href="{{ featured.url | relative_url }}" class="read-more" aria-label="Read {{ featured.title | escape }}">Read article →</a>
       </div>
     </article>
 
@@ -117,11 +117,11 @@ layout: default
           <img src="{{ card_img | strip }}" alt="{{ post.title | escape }}" loading="lazy" width="400" height="267">
         </div>
         <div class="card-body">
-          <h3 class="card-title"><a href="{{ post.url }}">{{ post.title | escape }}</a></h3>
+          <h3 class="card-title"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
           <p class="card-excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>
           <div class="card-foot">
             <span>{{ post.date | date: "%b %d, %Y" }}</span>
-            <a href="{{ post.url }}" class="card-read" aria-label="Read {{ post.title | escape }}">Read →</a>
+            <a href="{{ post.url | relative_url }}" class="card-read" aria-label="Read {{ post.title | escape }}">Read →</a>
           </div>
         </div>
       </article>
@@ -133,7 +133,7 @@ layout: default
     {% if paginator.total_pages > 1 %}
     <nav class="pagination" aria-label="Pagination">
       {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}" aria-label="Previous page">&larr;</a>
+      <a href="{{ paginator.previous_page_path | relative_url }}" aria-label="Previous page">&larr;</a>
       {% else %}
       <span aria-hidden="true">&larr;</span>
       {% endif %}
@@ -142,14 +142,14 @@ layout: default
       {% if i == paginator.page %}
       <span class="current" aria-current="page">{{ i }}</span>
       {% elsif i == 1 %}
-      <a href="/">{{ i }}</a>
+      <a href="{{ '/' | relative_url }}">{{ i }}</a>
       {% else %}
-      <a href="/page{{ i }}/">{{ i }}</a>
+      <a href="{{ '/page' | append: i | append: '/' | relative_url }}">{{ i }}</a>
       {% endif %}
       {% endfor %}
 
       {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" aria-label="Next page">&rarr;</a>
+      <a href="{{ paginator.next_page_path | relative_url }}" aria-label="Next page">&rarr;</a>
       {% else %}
       <span aria-hidden="true">&rarr;</span>
       {% endif %}
