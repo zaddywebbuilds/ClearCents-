@@ -1,0 +1,55 @@
+name: Auto-post to Pinterest and Reddit
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '_posts/**'
+
+jobs:
+  social-post:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Detect new posts
+        id: detect
+        run: |
+          NEW=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- '_posts/*.md' | tr '\n' '\n')
+          echo "Found new posts: $NEW"
+          {
+            echo "new_files<<EOF"
+            echo "$NEW"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Set up Python
+        if: steps.detect.outputs.new_files != ''
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        if: steps.detect.outputs.new_files != ''
+        run: pip install requests python-frontmatter
+
+      - name: Post to Pinterest and Reddit
+        if: steps.detect.outputs.new_files != ''
+        env:
+          SITE_URL: 'https://clearcentslife.com'
+          NEW_POST_FILES: ${{ steps.detect.outputs.new_files }}
+          # Pinterest (set these in GitHub → Settings → Secrets)
+          PINTEREST_ACCESS_TOKEN:  ${{ secrets.PINTEREST_ACCESS_TOKEN }}
+          PINTEREST_REFRESH_TOKEN: ${{ secrets.PINTEREST_REFRESH_TOKEN }}
+          PINTEREST_CLIENT_ID:     ${{ secrets.PINTEREST_CLIENT_ID }}
+          PINTEREST_CLIENT_SECRET: ${{ secrets.PINTEREST_CLIENT_SECRET }}
+          PINTEREST_BOARD_IDS:     ${{ secrets.PINTEREST_BOARD_IDS }}
+          # Reddit (set these in GitHub → Settings → Secrets)
+          REDDIT_CLIENT_ID:     ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+          REDDIT_USERNAME:      ${{ secrets.REDDIT_USERNAME }}
+          REDDIT_PASSWORD:      ${{ secrets.REDDIT_PASSWORD }}
+        run: python automation/social-post.py
