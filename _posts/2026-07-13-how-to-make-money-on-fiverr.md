@@ -20,7 +20,7 @@ Fiverr is a marketplace where freelancers offer services — called "gigs" — s
 
 What Fiverr is: a platform to find clients for freelance services without cold emailing or networking.
 
-What Fiverr isn't: passive income, fast money, or a place where simply signing up generates orders. You need to show up with a real service and a professional presentation.
+What Fiverr isn't: [passive income](/side-hustles/passive-income-ideas/), fast money, or a place where simply signing up generates orders. You need to show up with a real service and a professional presentation.
 
 ## Step 1: Choose the Right Service to Offer
 
@@ -110,4 +110,4 @@ Update your gig based on what you learn. Add FAQ answers to your description. Ad
 
 $500/month by month 3 is achievable in many categories. It requires real work — treating Fiverr as a business, not a lottery ticket.
 
-The sellers who fail on Fiverr set up a gig, get no orders in the first two weeks, and quit. The sellers who succeed treat those first two months as an investment and push through. Pick your service, build your profile today, and commit to 90 days before you evaluate whether it's working.
+The sellers who fail on Fiverr set up a gig, get no orders in the first two weeks, and quit. The sellers who succeed treat those first two months as an investment and push through. Pick your service, build your profile today, and commit to 90 days before you evaluate whether it's working. Once income is flowing consistently, [starting a side hustle around your day job](/side-hustles/how-to-start-a-side-hustle/) is the next step to scaling without burning out.

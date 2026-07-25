@@ -19,7 +19,7 @@ One thousand dollars is the magic number that changes everything about your fina
 
 It's enough to cover most unexpected car repairs without going into debt. It breaks the paycheck-to-paycheck cycle because you have a cushion. And psychologically, hitting $1,000 makes the next goal feel achievable.
 
-Before you invest, before you pay extra on debt, before anything else — **build this $1,000 emergency fund.**
+Before you invest, before you [pay extra on debt](/debt-free/debt-snowball-vs-debt-avalanche/), before anything else — **build this $1,000 emergency fund.**
 
 ## The Math (It's Easier Than You Think)
 
@@ -93,7 +93,7 @@ Don't stop. You've built the habit — now scale it.
 
 Month 4: keep the automatic transfer running and aim for $2,000 (three months of minimum expenses).
 
-Month 7: once you have three months of expenses saved, redirect half of the weekly transfer toward paying off your highest-interest debt or investing.
+Month 7: once you have three months of expenses saved, redirect half of the weekly transfer toward [paying off your highest-interest debt](/debt-free/debt-snowball-vs-debt-avalanche/) or [investing](/investing/how-to-start-investing/).
 
 But that's a problem for a future version of you. Right now, your only job is the first $1,000.
 

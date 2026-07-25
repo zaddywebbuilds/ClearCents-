@@ -85,13 +85,13 @@ The moment the transfers become automatic, the habit is essentially free. You st
 Before January 1, decide what this money is for. Not vaguely — specifically.
 
 Good destinations:
-- **Emergency fund** (if you don't have 3 months of expenses saved yet, this is your answer)
-- **High-interest debt payoff** (any credit card charging above 15% APY deserves this money)
+- **[Emergency fund](/investing/how-much-emergency-fund/)** (if you don't have 3 months of expenses saved yet, this is your answer)
+- **[High-interest debt payoff](/debt-free/debt-snowball-vs-debt-avalanche/)** (any credit card charging above 15% APY deserves this money)
 - **Vacation fund** (decide the trip before you start saving — it makes the challenge more motivating)
 - **Home repair fund** (the water heater always dies at the worst time)
 - **Car maintenance reserve** (tires, brakes, and oil changes on your schedule, not the universe's)
 
-The people who save $1,378 and then spend it on Christmas gifts the same December they finished saving have accomplished much less than the people who redirected it to something that changes their financial situation.
+The people who save $1,378 and then spend it on Christmas gifts the same December they finished saving have accomplished much less than the people who redirected it to [something that changes their financial situation](/investing/how-to-start-investing/).
 
 ## Starting Midyear
 

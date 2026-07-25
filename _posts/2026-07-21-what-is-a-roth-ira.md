@@ -52,7 +52,7 @@ You can contribute to a Roth IRA for the prior tax year until the April 15 filin
 
 ## The Flexibility Most People Don't Know About
 
-Here's what makes the Roth IRA genuinely different from other retirement accounts: **you can withdraw your contributions (not earnings) at any time, for any reason, with no penalties and no taxes.**
+Here's what makes the Roth IRA genuinely different from other retirement accounts: **you can withdraw your contributions (not earnings) at any time, for any reason, with no penalties and no taxes.** This makes it a potential backup [emergency fund](/investing/how-much-emergency-fund/) — though keeping those funds separate is always better.
 
 You contributed $7,000 last year. That $7,000 in contributions can be pulled out tomorrow — no 10% early withdrawal penalty, no taxes. (Your earnings stay in and are subject to the usual retirement withdrawal rules.)
 
@@ -73,7 +73,7 @@ Opening a Roth IRA is just opening an account. The money inside the account need
 
 - **Target-date retirement fund** — the simplest possible choice. A "2055 fund" or "2060 fund" (pick the year closest to when you'll turn 65) automatically adjusts its allocation as you age — more stocks now, more bonds as you approach retirement. You contribute; the fund manages itself.
 
-- **S&P 500 index fund** — tracks the 500 largest US companies. Historical return of roughly 10% annually (7% after inflation). Low fees, high diversification.
+- **[S&P 500 index fund](/investing/index-funds-for-beginners/)** — tracks the 500 largest US companies. Historical return of roughly 10% annually (7% after inflation). Low fees, high diversification.
 
 - **Total stock market index fund** — similar to S&P 500 but includes smaller companies. Very slightly more diversified.
 
@@ -107,4 +107,4 @@ Every year you wait, you give up the most powerful years of compounding. A 22-ye
 5. Go to "Invest" and choose your fund (FZROX at Fidelity is the cleanest starting point)
 6. Set up a monthly automatic contribution
 
-You're done. You've done something more valuable with 15 minutes than most people do in years of reading about money.
+You're done. You've done something more valuable with 15 minutes than most people do in years of reading about money. Next step: learn [what to put inside it — starting with index funds](/investing/index-funds-for-beginners/).

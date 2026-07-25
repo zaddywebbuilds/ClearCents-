@@ -21,7 +21,7 @@ A night shift nurse has 10 free hours on days off but may be too physically and 
 
 Before picking a side hustle, honestly assess where your energy goes and what you have left at the end of the day.
 
-**High-energy-cost day jobs** (healthcare, teaching, social work, management): choose side hustles that are low-social and low-mental-effort. Delivery driving, pet sitting, selling physical items, cleaning — things where you can show up without being "on."
+**High-energy-cost day jobs** (healthcare, teaching, social work, management): choose side hustles that are low-social and low-mental-effort. [Delivery driving, pet sitting, selling physical items](/side-hustles/best-side-hustles-for-beginners/), cleaning — things where you can show up without being "on."
 
 **Low-energy day jobs** (data entry, warehouse, administrative work): you may have more mental energy left over. Freelance writing, tutoring, virtual assistance, and graphic design can work well.
 
@@ -97,7 +97,7 @@ Not every side hustle should become a full-time business. For many people, $500�
 
 Signs you might be ready to scale or go full-time:
 - Side hustle income consistently exceeds 50–70% of your day job take-home
-- You have 6+ months of expenses in savings
+- You have [6+ months of expenses in savings](/investing/how-much-emergency-fund/)
 - You have a clear path to replacing your health insurance
 - You have enough clients that demand exceeds your available hours
 - You genuinely want to — not just because you think you should

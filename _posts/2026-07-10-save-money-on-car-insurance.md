@@ -35,9 +35,9 @@ Get bundled quotes from State Farm, Allstate, GEICO, and Nationwide. Compare the
 
 Your deductible is what you pay out of pocket before insurance kicks in on a claim. Most people set it low ($250–500) to minimize the amount they'd pay after an accident. The tradeoff is a significantly higher annual premium.
 
-If you have an emergency fund of $1,000 or more, raise your deductible to $1,000. The premium savings are typically $200–500/year — and if you go years without filing a claim (which most drivers do), you've kept that money instead of giving it to the insurer.
+If you have an [emergency fund](/save-money/how-to-save-1000-dollars-in-3-months/) of $1,000 or more, raise your deductible to $1,000. The premium savings are typically $200–500/year — and if you go years without filing a claim (which most drivers do), you've kept that money instead of giving it to the insurer.
 
-Important caveat: only raise your deductible if you actually have the cash to cover it. If a $1,000 claim would wipe out your bank account, keep the lower deductible for now and build your emergency fund first.
+Important caveat: only raise your deductible if you actually have the cash to cover it. If a $1,000 claim would wipe out your bank account, keep the lower deductible for now and [build your emergency fund](/save-money/52-week-savings-challenge/) first.
 
 ## 4. Drop Collision and Comprehensive on Old Cars
 

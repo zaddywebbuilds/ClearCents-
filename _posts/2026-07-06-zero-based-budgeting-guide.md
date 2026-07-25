@@ -22,7 +22,7 @@ If you bring home $3,800 this month and your budget only accounts for $3,400 of 
 
 ## Why It Works Better Than Percentage Budgets
 
-The 50/30/20 rule gives you guardrails. Zero-based budgeting gives you a complete map. There's a big difference.
+The [50/30/20 rule](/budgeting/5030-20-budget-rule-beginners-guide/) gives you guardrails. Zero-based budgeting gives you a complete map. There's a big difference.
 
 With percentage budgets, you know roughly where your money should go but you're not planning specific purchases. With zero-based budgeting, you're deciding in advance: $420 for groceries, $80 for gas, $200 for eating out, $150 for the emergency fund. Real numbers for real categories.
 
@@ -84,7 +84,7 @@ Start assigning dollar amounts to each category. Start with the non-negotiables 
 
 If you run out of income before covering everything: cut discretionary categories first. Dining out goes from $300 to $100. Entertainment from $150 to $50. This is the budget doing its job — showing you reality before the month happens.
 
-If you have money left over after covering everything: this is the best problem to have. Assign that surplus to your highest priority financial goal — emergency fund, extra debt payment, or retirement savings. Don't leave it unassigned or it will evaporate.
+If you have money left over after covering everything: this is the best problem to have. Assign that surplus to your highest priority financial goal — [emergency fund](/save-money/how-to-save-1000-dollars-in-3-months/), extra [debt payment](/debt-free/debt-snowball-vs-debt-avalanche/), or retirement savings. Don't leave it unassigned or it will evaporate.
 
 ## Step 4: Track Throughout the Month
 
@@ -92,7 +92,7 @@ A zero-based budget you write once and ignore doesn't help. You need to track sp
 
 **Three ways to track:**
 
-1. **YNAB (You Need a Budget)** — the gold standard for zero-based budgeting. Every transaction gets assigned to a category. You always know exactly where you stand. About $15/month but many people find it pays for itself immediately.
+1. **[YNAB (You Need a Budget)](/budgeting/best-free-budgeting-apps-2026/)** — the gold standard for zero-based budgeting. Every transaction gets assigned to a category. You always know exactly where you stand. About $15/month but many people find it pays for itself immediately.
 
 2. **EveryDollar** — Dave Ramsey's free app, built specifically for zero-based budgeting. More basic than YNAB but gets the job done.
 

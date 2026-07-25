@@ -27,7 +27,7 @@ Here's the choice most beginners don't know exists: you can invest through a reg
 
 For most people under 50 who are just starting, **a Roth IRA is the better first account**.
 
-**How a Roth IRA works:**
+**How a [Roth IRA](/investing/what-is-a-roth-ira/) works:**
 - You contribute after-tax money (money you've already paid taxes on)
 - Your investments grow tax-free
 - You pay zero taxes when you withdraw the money in retirement
@@ -43,7 +43,7 @@ For most people under 50 who are just starting, **a Roth IRA is the better first
 
 This is where beginners overcomplicate things. You don't need to research individual stocks, understand earnings reports, or watch CNBC. You need one fund.
 
-**The recommendation for most beginners: a total market index fund or an S&P 500 index fund.**
+**The recommendation for most beginners: a total market index fund or an [S&P 500 index fund](/investing/index-funds-for-beginners/).**
 
 An index fund is a bundle of stocks that automatically tracks a market index. An S&P 500 index fund, for example, owns small pieces of 500 of the largest US companies — Apple, Microsoft, Amazon, Google, Berkshire Hathaway, and 495 others. When those companies do well, your investment grows. When they do poorly, it shrinks.
 
@@ -99,7 +99,7 @@ This question has a nuanced answer:
 
 **Pay off high-interest debt next:**
 - Any debt above 7–10% APR should generally be paid off before aggressive investing
-- Credit card debt at 20%+ is a guaranteed 20% return (via interest you stop paying) vs. the stock market's uncertain 7–10%
+- Credit card debt at 20%+ is a guaranteed 20% return (via interest you stop paying) vs. the stock market's uncertain 7–10%. Use the [debt avalanche or snowball method](/debt-free/debt-snowball-vs-debt-avalanche/) to eliminate it systematically.
 
 **After high-interest debt is gone:**
 - Max your Roth IRA first ($7,000/year)

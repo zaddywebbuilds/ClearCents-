@@ -85,11 +85,11 @@ Both methods only work with extra payment beyond minimums. If you're only paying
 Finding extra money:
 - Cut one subscription you barely use ($15–50/month)
 - Sell something on Facebook Marketplace or eBay ($50–300 one-time)
-- Add a small side hustle income and direct it entirely to debt
+- Add a [small side hustle income](/side-hustles/best-side-hustles-for-beginners/) and direct it entirely to debt
 - Redirect a tax refund to your target debt instead of spending it
 - Pause retirement contributions temporarily if you're paying more than 15% interest on any debt (this is debated, but high-interest debt is a guaranteed negative return that's hard for investments to outpace)
 
-Even $100–200 per month extra accelerates payoff dramatically. A $5,000 credit card at 22% APR on minimums alone takes 10+ years to pay off. Adding $200/month extra eliminates it in under 2 years.
+Even $100–200 per month extra accelerates payoff dramatically. A $5,000 credit card at 22% APR on minimums alone takes 10+ years to pay off. Adding $200/month extra eliminates it in under 2 years. For a full step-by-step plan, see our guide to [paying off credit card debt fast](/debt-free/how-to-pay-off-credit-card-debt/).
 
 ## Start Today, Not Monday
 

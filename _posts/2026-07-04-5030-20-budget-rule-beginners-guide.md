@@ -67,13 +67,13 @@ The 30% allocation gives you real breathing room. On a $4,000 monthly take-home,
 This is the category that changes your financial future. Your 20% goes to:
 
 - **Emergency fund** — until you have 3–6 months of expenses saved
-- **401(k) or IRA contributions** — even $100/month invested in your 20s or 30s matters enormously due to compound interest
+- **401(k) or IRA contributions** — even [$100/month invested in your 20s or 30s](/investing/how-to-start-investing/) matters enormously due to compound interest
 - **Extra debt payments** — anything above minimums on credit cards or student loans
 - **Sinking funds** — saving in advance for predictable big expenses (car repairs, holiday gifts, annual subscriptions)
 
 The order matters. If your employer offers a 401(k) match, contribute at least enough to get the full match before anything else. It's free money — literally a 50–100% instant return on that contribution.
 
-After that, build your emergency fund to $1,000, then focus on high-interest debt, then grow the emergency fund to the full 3–6 months.
+After that, [build your emergency fund to $1,000](/save-money/how-to-save-1000-dollars-in-3-months/), then focus on high-interest debt, then grow the emergency fund to the full 3–6 months.
 
 ## What to Do When the Numbers Don't Add Up
 
@@ -92,7 +92,7 @@ The 50/30/20 rule works best when you don't have to think about it constantly. S
 1. **Open a second savings account** just for your 20%. Name it "Future" or "Emergency Fund."
 2. **Set an automatic transfer** on payday — 20% moves immediately.
 3. **Check in once a month**, not daily. Review your bank statement at the end of each month and see which category ran over.
-4. **Use a simple app** like YNAB, Mint, or even a notes app to tag your spending as needs, wants, or savings.
+4. **Use [a budgeting app](/budgeting/best-free-budgeting-apps-2026/)** like YNAB, Mint, or even a notes app to tag your spending as needs, wants, or savings.
 
 ## The Real Goal of This Budget
 

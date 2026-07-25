@@ -76,7 +76,7 @@ A serious 30-day no-spend challenge typically saves **$300–700** for a single 
 - YouTube and free streaming (Pluto TV, Tubi, Peacock free tier)
 - Cooking new recipes from what you already have
 
-**4. Meal prep for the week every Sunday.** The biggest spending trigger during a no-spend month is not knowing what's for dinner and defaulting to takeout. Prep your meals on Sunday so the answer is always ready.
+**4. Meal prep for the week every Sunday.** The biggest spending trigger during a no-spend month is not knowing what's for dinner and defaulting to takeout. [Plan your meals and prep on Sunday](/save-money/cut-grocery-bill-in-half/) so the answer is always ready.
 
 **5. Create a "want" list instead of buying.** When you see something you want during the month, write it down on a list. Don't buy it — just record it. At the end of the month, review the list. You'll find that 70–80% of items on it no longer feel urgent. The ones that remain are worth considering.
 
@@ -94,8 +94,8 @@ A serious 30-day no-spend challenge typically saves **$300–700** for a single 
 
 Don't let the savings just sit in your checking account — you'll spend it as soon as the challenge ends. Before the month starts, decide where the money is going:
 
-- Emergency fund top-up
-- Extra payment on your highest-interest debt
+- [Emergency fund](/save-money/how-to-save-1000-dollars-in-3-months/) top-up
+- Extra payment on your [highest-interest debt](/debt-free/debt-snowball-vs-debt-avalanche/)
 - A savings goal (vacation, car, home)
 - One month ahead on bills so you're always ahead
 

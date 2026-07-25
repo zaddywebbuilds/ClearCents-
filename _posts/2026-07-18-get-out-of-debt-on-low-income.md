@@ -40,7 +40,7 @@ Then calculate your total monthly minimum payments and compare it to your take-h
 
 ## Step 2: Build a Survival Budget First
 
-Before worrying about debt payoff, make sure your basic needs are covered. The order of financial priority on a low income:
+Before worrying about debt payoff, make sure your basic needs are covered. A [zero-based budget](/budgeting/zero-based-budgeting-guide/) works well here — every dollar gets a job, starting with survival essentials first. The order of financial priority on a low income:
 
 1. Food
 2. Housing (rent/mortgage)
@@ -72,7 +72,7 @@ Many people don't know that debts can be reduced, not just paid. Here are tools 
 
 **Hospital and medical debt:** Most hospitals, even private ones, have charity care programs or financial hardship discounts for patients below certain income thresholds. Call the billing department, explain your income, and ask what programs are available. Many people get 50–100% of medical debt forgiven or significantly reduced.
 
-**Credit card hardship programs:** Major card issuers (Chase, Citi, Bank of America, Capital One) have hardship programs that temporarily reduce your interest rate to 0–9% for 6–12 months if you call and explain your situation. You may lose the ability to use the card during this period, but the interest reduction is significant.
+**Credit card hardship programs:** Major card issuers (Chase, Citi, Bank of America, Capital One) have hardship programs that temporarily reduce your interest rate to 0–9% for 6–12 months if you call and explain your situation. Our guide to [negotiating with creditors](/debt-free/how-to-negotiate-with-creditors/) covers exactly what to say. You may lose the ability to use the card during this period, but the interest reduction is significant.
 
 **Debt settlement:** If a debt is already in collections (90+ days past due), you may be able to settle for 30–60 cents on the dollar. Collectors buy debts at a significant discount and are willing to negotiate. This damages your credit score, so it's a last resort — but for truly unmanageable debt, it may be the only realistic path.
 
@@ -84,7 +84,7 @@ On a low income, the fastest path to debt freedom isn't cutting more — it's ea
 
 **Income options that work around a tight schedule:**
 - Selling items you own (Facebook Marketplace, OfferUp, eBay)
-- Delivery driving on weekends (DoorDash, Instacart — start same week)
+- [Delivery driving on weekends](/side-hustles/best-side-hustles-for-beginners/) (DoorDash, Instacart — start same week)
 - TaskRabbit for physical tasks (moving help, yard work, cleaning)
 - Blood/plasma donation — many centers pay $50–100/week for new donors
 - Participating in paid research studies (look for university studies in your area)

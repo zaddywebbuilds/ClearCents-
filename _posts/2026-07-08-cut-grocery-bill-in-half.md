@@ -46,7 +46,7 @@ If you don't have a Costco membership ($65/year), check if a friend or family me
 
 Before each grocery trip, spend 5 minutes looking at what's already in your fridge, freezer, and pantry. Build one or two meals around what needs to be used up before it expires.
 
-The USDA estimates that American households waste between $1,500 and $3,000 worth of food per year. That's not a grocery problem — that's a "buying food and not eating it" problem. Solving this alone can save $100+ per month.
+The USDA estimates that American households waste between $1,500 and $3,000 worth of food per year. That's not a grocery problem — that's a "buying food and not eating it" problem. Solving this alone can save $100+ per month — a meaningful step toward [saving your first $1,000](/save-money/how-to-save-1000-dollars-in-3-months/).
 
 A helpful practice: keep a running list on your fridge of what needs to be used soonest. Leftovers become tomorrow's lunch automatically, not an afterthought.
 
@@ -104,4 +104,4 @@ Before you walk into the store, decide how much you're spending. Write a number 
 
 This sounds extreme but it's actually just decision-making in advance rather than in the moment. In-store decisions happen when you're busy, slightly hungry, and surrounded by products designed to make you want them. Pre-commitment is stronger than in-the-moment willpower every time.
 
-Start with a number that's 20% less than you usually spend. If you typically spend $250 per week, try $200. You'll be surprised how often you hit it without feeling deprived — because you planned better.
+Start with a number that's 20% less than you usually spend — your [zero-based budget](/budgeting/zero-based-budgeting-guide/) should already have this number. If you typically spend $250 per week, try $200. You'll be surprised how often you hit it without feeling deprived — because you planned better.

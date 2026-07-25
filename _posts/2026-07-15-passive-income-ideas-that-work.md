@@ -29,7 +29,7 @@ With that calibrated expectation, here are the seven best options in 2026.
 
 This one gets overlooked because people want exciting passive income ideas. But a high-yield savings account (HYSA) paying 4–5% APY on $50,000 generates $2,000–2,500 per year — completely passively, FDIC insured, no skill required.
 
-You don't need $50k to start. Even $5,000 in an Ally or Marcus savings account generates $200–250/year with zero risk and zero effort. As you build savings, this income grows automatically.
+You don't need $50k to start. Even $5,000 in an Ally or Marcus savings account generates $200–250/year with zero risk and zero effort. As you [build savings](/save-money/how-to-save-1000-dollars-in-3-months/), this income grows automatically.
 
 For money you need soon (3–12 months), also consider I-Bonds (inflation-protected, purchased at TreasuryDirect.gov) and short-term Treasury bills (available via TreasuryDirect or your brokerage).
 
@@ -41,7 +41,7 @@ For money you need soon (3–12 months), also consider I-Bonds (inflation-protec
 
 When you own dividend-paying stocks or funds, companies pay you a portion of their profits quarterly — just for owning shares. You don't have to do anything.
 
-The S&P 500's historical dividend yield is around 1.5–2%. Dividend-focused funds and ETFs (like VYM, SCHD, or DGRO) typically yield 3–4%. REITs (Real Estate Investment Trusts) often yield 4–6%.
+The S&P 500's historical dividend yield is around 1.5–2%. [Dividend-focused funds and ETFs](/investing/index-funds-for-beginners/) (like VYM, SCHD, or DGRO) typically yield 3–4%. REITs (Real Estate Investment Trusts) often yield 4–6%.
 
 **How it compounds:** Enroll every dividend payment back into buying more shares (DRIP — Dividend Reinvestment Plan). Your position grows, which generates more dividends, which buy more shares. Over 10–20 years, this snowball effect is genuinely transformative.
 
@@ -127,4 +127,4 @@ If you take good photos or make music, you can upload your work to stock sites a
 - **Have assets?** → rent them out
 - **Willing to create content for 12+ months?** → affiliate marketing
 
-Pick one. Start this week.
+Pick one. Start this week — if you're still exploring options, our [guide to 15 side hustles for beginners](/side-hustles/best-side-hustles-for-beginners/) covers active income streams you can start immediately.

@@ -42,7 +42,7 @@ If your car qualifies, Uber Black (luxury vehicle, minimum black car standards) 
 
 Every website, blog, newsletter, and business needs written content. Beginners typically start at $25–50 per article on platforms like Fiverr, Upwork, or Contena. Writers who specialize in high-value niches (finance, healthcare, SaaS, law) can earn $100–500+ per article within a year of building a portfolio.
 
-Start by writing three to five sample articles on a topic you know well. Use those as your portfolio when applying for clients. Don't let "I'm not a professional writer" stop you — most clients want clear, useful, accurate writing, not literary prose.
+Start by writing three to five sample articles on a topic you know well. Use those as your portfolio when [applying for clients on platforms like Fiverr](/side-hustles/how-to-make-money-on-fiverr/). Don't let "I'm not a professional writer" stop you — most clients want clear, useful, accurate writing, not literary prose.
 
 ## 4. Tutoring and Teaching
 
@@ -168,4 +168,4 @@ Residential and commercial cleaning is one of the most consistently in-demand se
 
 ---
 
-**Bottom line:** pick one. The biggest mistake with side hustles is spending weeks researching all options instead of spending one week starting one. Start with whatever on this list matches your schedule, skills, and interests — then actually start it this week.
+**Bottom line:** pick one. The biggest mistake with side hustles is spending weeks researching all options instead of spending one week starting one. Start with whatever on this list matches your schedule, skills, and interests — then actually [start it this week](/side-hustles/how-to-start-a-side-hustle/).

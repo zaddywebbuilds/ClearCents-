@@ -116,7 +116,7 @@ Larger funds (>$1 billion in assets) are more stable and have better liquidity. 
 
 Where you hold your index fund matters as much as which fund you pick.
 
-**Roth IRA** (first choice for most): Tax-free growth and withdrawals. $7,000/year limit. Best for most people under 50 who expect to be in a higher tax bracket in retirement.
+**[Roth IRA](/investing/what-is-a-roth-ira/)** (first choice for most): Tax-free growth and withdrawals. $7,000/year limit. Best for most people under 50 who expect to be in a higher tax bracket in retirement.
 
 **Traditional IRA**: Tax-deductible contributions, taxed on withdrawal. Better if you're in a high bracket now and expect lower income in retirement.
 
@@ -124,7 +124,7 @@ Where you hold your index fund matters as much as which fund you pick.
 
 **Taxable brokerage account**: No tax advantages, but no limits on contributions. Good for money beyond retirement account limits.
 
-Priority order: 401(k) up to employer match → Roth IRA to max ($7,000) → back to 401(k) → taxable account.
+Priority order: 401(k) up to employer match → Roth IRA to max ($7,000) → back to 401(k) → taxable account. Not sure how much to save before you invest? Read our guide on [emergency funds vs. investing](/investing/how-much-emergency-fund/).
 
 ## What to Expect: The Rollercoaster Years
 

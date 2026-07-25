@@ -74,7 +74,7 @@ Calculate your debt-free date at minimum payments (any online calculator does th
 
 *Short-term:*
 - Pick up overtime shifts if available
-- Start a weekend side hustle (delivery, TaskRabbit, freelancing)
+- Start a [weekend side hustle](/side-hustles/best-side-hustles-for-beginners/) (delivery, TaskRabbit, freelancing)
 - Redirect any windfall — tax refund, bonus, birthday money — entirely to debt
 
 *Budget-based:*
@@ -96,7 +96,7 @@ If you have multiple credit cards, you need a priority order. Two options:
 
 **Debt snowball** (most motivating): Attack the smallest balance first. Knock it out, then roll that payment to the next card.
 
-Both work. The snowball has better psychological completion rates. The avalanche saves more money. Pick the one you'll actually stick with.
+Both work. The snowball has better psychological completion rates. The avalanche saves more money. Pick the one you'll actually stick with. Not sure which to choose? Read our [full comparison of the debt snowball vs. debt avalanche](/debt-free/debt-snowball-vs-debt-avalanche/).
 
 ## What to Do With Each Card as You Pay It Off
 

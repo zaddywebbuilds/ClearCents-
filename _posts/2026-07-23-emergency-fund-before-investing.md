@@ -61,7 +61,7 @@ No emergency fund earns 100% guaranteed. Contribute enough to get the full match
 
 ### If you have high-interest debt: Pay it off before heavy investing
 
-Credit card debt at 20% APR is a guaranteed 20% return when you pay it off. Very few investments reliably return 20% over time. The math is clear: eliminate high-interest debt before non-matched investing.
+[Credit card debt](/debt-free/how-to-pay-off-credit-card-debt/) at 20% APR is a guaranteed 20% return when you pay it off. Very few investments reliably return 20% over time. The math is clear: eliminate high-interest debt before non-matched investing.
 
 **Order:** $1,000 starter emergency fund → 401(k) to match → pay off debt above 7-10% APR → emergency fund → then full investing.
 
@@ -126,7 +126,7 @@ The downside: accessing retirement money for non-retirement purposes slows long-
 
 **Step 4:** Build your emergency fund to 3–6 months (closer to 6 if income is unstable, closer to 3 if very stable employment).
 
-**Step 5:** Max your Roth IRA ($7,000/year).
+**Step 5:** Max your [Roth IRA](/investing/what-is-a-roth-ira/) ($7,000/year).
 
 **Step 6:** Max your 401(k) if you have more to invest beyond the IRA.
 
@@ -138,6 +138,6 @@ Most people are somewhere in steps 1–4. The key insight: these steps aren't st
 
 **For most people:** $1,000 starter emergency fund → 401(k) match → eliminate high-interest debt → 3–6 month emergency fund → then invest aggressively.
 
-Don't invest in individual stocks or speculation with no emergency fund. Don't delay investing for years while you slowly build a 6-month fund. Find the balance that protects you from crisis without sacrificing years of compounding.
+Don't invest in individual stocks or speculation with no emergency fund. Don't delay investing for years while you slowly build a 6-month fund. The [52-week savings challenge](/save-money/52-week-savings-challenge/) is a simple way to build that cushion without feeling it. Find the balance that protects you from crisis without sacrificing years of compounding.
 
 The math works best when you're doing both — a growing emergency fund and growing investments — not waiting for one to be "done" before starting the other.

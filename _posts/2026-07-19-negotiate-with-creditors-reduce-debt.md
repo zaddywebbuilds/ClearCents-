@@ -11,7 +11,7 @@ permalink: /debt-free/how-to-negotiate-with-creditors/
 
 Most people assume debt is fixed — you owe what you owe, and you pay it all back. That's not how it works. Creditors and collection agencies negotiate debt every single day. They do it because getting partial payment is better than getting nothing, and they know many borrowers can't pay the full balance.
 
-You have more leverage than you think. Here's how to use it.
+You have more leverage than you think. Here's how to use it. (If you're still deciding which debts to attack first, read our [debt snowball vs. debt avalanche guide](/debt-free/debt-snowball-vs-debt-avalanche/) before negotiating.)
 
 ## Understanding Who You're Dealing With
 
@@ -112,7 +112,7 @@ However: if the account is already in collections, your credit has already been 
 
 ## When to Ask for Pay-for-Delete
 
-Before settling, always ask: "If I pay this in full (or for this settlement amount), will you delete the account from my credit report?"
+Before settling, always ask: "If I pay this in full (or for this settlement amount), will you delete the account from my credit report?" If the account involves credit card debt, also review our guide to [paying off credit card debt fast](/debt-free/how-to-pay-off-credit-card-debt/) for additional strategies before you reach this stage.
 
 Many collectors will agree to "pay for delete" — especially for smaller amounts — though this technically violates credit bureau guidelines. Get any pay-for-delete agreement in writing before paying.
 

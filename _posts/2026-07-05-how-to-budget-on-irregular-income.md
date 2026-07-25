@@ -43,7 +43,7 @@ Now treat your baseline like a fixed paycheck and build a lean, honest budget ar
 5. Transportation
 6. Everything else
 
-If your baseline doesn't cover all of the above, that's critical information. It means you either need to cut fixed expenses or find ways to increase your income floor.
+If your baseline doesn't cover all of the above, that's critical information. It means you either need to cut fixed expenses or find ways to [increase your income floor](/side-hustles/best-side-hustles-for-beginners/).
 
 **What about savings and extras?** Leave them out of the baseline budget for now. They get funded from overflow (Step 4).
 
@@ -67,7 +67,7 @@ As your holding account builds up, you start having "overflow" — money beyond 
 1. **Tax reserve** — if you're self-employed, 25–30% of all income needs to go to federal and state taxes. Do this first, automatically. Set up a dedicated savings account labeled "Taxes." Every deposit, move that percentage out immediately.
 2. **Emergency fund** — 3–6 months of your baseline expenses, kept separate
 3. **Irregular bill fund** — annual subscriptions, car registration, quarterly insurance premiums
-4. **Retirement** — SEP-IRA or solo 401(k) if self-employed; traditional IRA if employed elsewhere
+4. **Retirement** — SEP-IRA or solo 401(k) if self-employed; [Roth or traditional IRA](/investing/what-is-a-roth-ira/) if employed elsewhere
 5. **Goals** — vacation, equipment, business investment, whatever is next
 
 ## Step 5: Review Quarterly, Not Monthly
@@ -83,7 +83,7 @@ Monthly reviews can make variable-income earners feel like they're constantly fa
 
 ## Tools That Actually Help Variable-Income Budgeters
 
-- **YNAB (You Need a Budget)** — built specifically for this kind of income; their "age your money" philosophy is designed for irregular earners
+- **[YNAB (You Need a Budget)](/budgeting/best-free-budgeting-apps-2026/)** — built specifically for this kind of income; their "age your money" philosophy is designed for irregular earners
 - **Separate bank accounts** — simple and free; Ally, Marcus, or your current bank all work
 - **A simple Google Sheet** — track actual income received vs. what you transferred to spending each month
 

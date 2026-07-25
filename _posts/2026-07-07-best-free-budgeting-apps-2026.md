@@ -16,7 +16,7 @@ Here are the seven best free budgeting apps in 2026, what each one does well, an
 
 **Cost:** $14.99/month or $99/year — but free for 34 days, and free for college students with a .edu email
 
-YNAB isn't technically free, but it earns the top spot because nothing else comes close to what it does. Built on zero-based budgeting principles, YNAB teaches you to give every dollar a job before you spend it. It syncs with your bank accounts, categorizes transactions, and shows you exactly how much is left in each budget category in real time.
+YNAB isn't technically free, but it earns the top spot because nothing else comes close to what it does. Built on [zero-based budgeting](/budgeting/zero-based-budgeting-guide/) principles, YNAB teaches you to give every dollar a job before you spend it. It syncs with your bank accounts, categorizes transactions, and shows you exactly how much is left in each budget category in real time.
 
 The learning curve is real. YNAB takes 2–3 weeks to click. But once it does, most users report saving $600 or more in their first two months — which more than covers the subscription cost.
 
@@ -28,7 +28,7 @@ The learning curve is real. YNAB takes 2–3 weeks to click. But once it does, m
 
 **Cost:** Free (basic) / $17.99/month for premium bank sync
 
-EveryDollar is Dave Ramsey's budgeting app and the best free zero-based budgeting tool available. The free version requires you to enter transactions manually — which some people hate and others find valuable because it forces you to think about every purchase.
+EveryDollar is Dave Ramsey's budgeting app and the best free [zero-based budgeting](/budgeting/zero-based-budgeting-guide/) tool available. The free version requires you to enter transactions manually — which some people hate and others find valuable because it forces you to think about every purchase.
 
 The interface is clean, the concept is simple, and it's genuinely usable without paying anything. You create your monthly budget, assign income to categories, and track manually as you spend. The premium version adds automatic bank syncing, but the free version is sufficient for most people starting out.
 
