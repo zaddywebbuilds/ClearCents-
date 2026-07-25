@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<header class="page-hero">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <span aria-hidden="true">›</span>
+      <span aria-current="page">{{ page.title }}</span>
+    </nav>
+    <span class="post-cat">{{ page.title }}</span>
+    <h1 class="page-hero-title">{{ page.title }}</h1>
+    <p class="page-hero-sub">{{ page.description }}</p>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    {% assign cat_posts = site.posts | where_exp: "post", "post.categories contains page.category" %}
+    {% if cat_posts.size > 0 %}
+    <p class="cat-count-line">{{ cat_posts.size }} article{% if cat_posts.size != 1 %}s{% endif %} in this category</p>
+    <div class="posts-grid">
+      {% for post in cat_posts %}
+      {% assign post_read = post.content | number_of_words | divided_by: 200 | plus: 1 %}
+      {% capture card_img %}{% include img-src.html post=post %}{% endcapture %}
+      <article class="post-card fade-in">
+        <div class="card-img">
+          <span class="card-time-overlay">{{ post_read }} min</span>
+          <img src="{{ card_img | strip }}" alt="{{ post.title | escape }}" loading="lazy" width="400" height="267">
+        </div>
+        <div class="card-body">
+          <h3 class="card-title"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+          <p class="card-excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>
+          <div class="card-foot">
+            <span>{{ post.date | date: "%b %d, %Y" }}</span>
+            <a href="{{ post.url | relative_url }}" class="card-read" aria-label="Read {{ post.title | escape }}">Read →</a>
+          </div>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+    {% else %}
+    <div class="empty-cat">
+      <p>No posts in this category yet — check back soon.</p>
+      <a href="{{ '/' | relative_url }}" class="btn btn-gold">Browse all articles</a>
+    </div>
+    {% endif %}
+  </div>
+</section>

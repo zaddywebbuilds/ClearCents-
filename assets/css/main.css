@@ -729,6 +729,47 @@ ul, ol { padding-left: 1.5rem; }
 .nl-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 24px rgba(245,197,24,0.35); }
 .nl-success { font-size: 0.9rem; font-weight: 600; color: var(--green); text-align: center; padding: 0.5rem 0; }
 
+/* Page hero (About, Privacy, Category pages) */
+.page-hero {
+  padding: 8rem 0 3.5rem;
+  position: relative;
+  border-bottom: 1px solid var(--glass-border);
+}
+.page-hero-title {
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  font-weight: 700; line-height: 1.15;
+  margin: 0.5rem 0 0.75rem;
+}
+.page-hero-sub {
+  font-size: 1.05rem; color: var(--text-3);
+  max-width: 600px; line-height: 1.7;
+  margin: 0;
+}
+.cat-count-line {
+  font-size: 0.85rem; color: var(--text-4);
+  margin-bottom: 2rem; letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.empty-cat {
+  text-align: center; padding: 4rem 0;
+  color: var(--text-3);
+}
+.empty-cat p { margin-bottom: 1.5rem; font-size: 1.05rem; }
+
+/* Prose pages (About, Privacy) */
+.prose-page { max-width: 740px; margin: 0 auto; padding: 3.5rem 0 5rem; }
+.prose-page h2 {
+  font-size: 1.4rem; font-weight: 700;
+  margin: 2.5rem 0 0.75rem;
+  color: var(--text-1);
+}
+.prose-page h3 { font-size: 1.1rem; font-weight: 600; margin: 1.75rem 0 0.5rem; color: var(--text-2); }
+.prose-page p { color: var(--text-3); line-height: 1.8; margin-bottom: 1rem; }
+.prose-page ul { color: var(--text-3); line-height: 1.8; margin: 0.5rem 0 1rem 1.25rem; }
+.prose-page li { margin-bottom: 0.4rem; }
+.prose-page a { color: var(--gold); text-decoration: underline; }
+.prose-page .prose-last-updated { font-size: 0.82rem; color: var(--text-4); margin-bottom: 2.5rem; }
+
 /* Popular posts */
 .popular-item { display: flex; gap: 10px; padding: 0.75rem 0; border-bottom: 1px solid var(--glass-border); }
 .popular-item:last-child { border-bottom: none; padding-bottom: 0; }
