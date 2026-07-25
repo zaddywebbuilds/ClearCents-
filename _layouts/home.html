@@ -4,51 +4,57 @@ layout: default
 
 <!-- HERO -->
 <section class="hero" aria-label="Hero">
-  <div class="coins-scene" aria-hidden="true">
-    <div class="hero-orb hero-orb-1"></div>
-    <div class="hero-orb hero-orb-2"></div>
-    <div class="coin coin-1"><div class="coin-face">¢</div></div>
-    <div class="coin coin-2"><div class="coin-face">$</div></div>
-    <div class="coin coin-3"><div class="coin-face">$</div></div>
-    <div class="coin coin-4"><div class="coin-face">¢</div></div>
-    <div class="coin coin-5"><div class="coin-face">$</div></div>
-  </div>
+  <div class="hero-orb hero-orb-1" aria-hidden="true"></div>
+  <div class="hero-orb hero-orb-2" aria-hidden="true"></div>
 
   <div class="container">
-    <div class="hero-inner">
-      <div class="hero-eyebrow">
-        <span class="dot"></span>
-        Practical money advice — no fluff
+    <div class="hero-split">
+
+      <!-- Left: text -->
+      <div class="hero-inner">
+        <div class="hero-eyebrow">
+          <span class="dot"></span>
+          Practical money advice — no fluff
+        </div>
+
+        <h1 class="hero-title">
+          Stop stressing about money.
+          <span class="line-2">Start making cents of it.</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          Real budgeting strategies, saving hacks, and side hustle ideas for people living on real salaries. No investing jargon, no judgment.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#latest" class="btn btn-gold">Browse articles ↓</a>
+          <a href="{{ '/free-budget-template/' | relative_url }}" class="btn btn-outline">Get free budget template</a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <span class="stat-val">$<span class="accent">0</span></span>
+            <span class="stat-key">Cost to start</span>
+          </div>
+          <div class="hero-stat">
+            <span class="stat-val">5<span class="accent">min</span></span>
+            <span class="stat-key">Average read time</span>
+          </div>
+          <div class="hero-stat">
+            <span class="stat-val"><span class="accent">100</span>%</span>
+            <span class="stat-key">Free tips</span>
+          </div>
+        </div>
       </div>
 
-      <h1 class="hero-title">
-        Stop stressing about money.
-        <span class="line-2">Start making cents of it.</span>
-      </h1>
-
-      <p class="hero-subtitle">
-        Real budgeting strategies, saving hacks, and side hustle ideas for people living on real salaries. No investing jargon, no judgment.
-      </p>
-
-      <div class="hero-cta">
-        <a href="#latest" class="btn btn-gold">Browse articles ↓</a>
-        <a href="{{ '/free-budget-template/' | relative_url }}" class="btn btn-outline">Get free budget template</a>
+      <!-- Right: hero video -->
+      <div class="hero-video-wrap" aria-hidden="true">
+        <video autoplay muted loop playsinline>
+          <source src="{{ '/assets/videos/hero.mp4' | relative_url }}" type="video/mp4">
+        </video>
+        <div class="hero-video-glow"></div>
       </div>
 
-      <div class="hero-stats">
-        <div class="hero-stat">
-          <span class="stat-val">$<span class="accent">0</span></span>
-          <span class="stat-key">Cost to start</span>
-        </div>
-        <div class="hero-stat">
-          <span class="stat-val">5<span class="accent">min</span></span>
-          <span class="stat-key">Average read time</span>
-        </div>
-        <div class="hero-stat">
-          <span class="stat-val"><span class="accent">100</span>%</span>
-          <span class="stat-key">Free tips</span>
-        </div>
-      </div>
     </div>
   </div>
 </section>
