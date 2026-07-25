@@ -82,8 +82,13 @@ layout: default
         </div>
       </div>
 
-      <!-- Related posts -->
-      {% assign related = site.posts | where_exp: "p", "p.url != page.url" | sample: 3 %}
+      <!-- Related posts: same category first, then fill with others -->
+      {% assign same_cat = site.posts | where_exp: "p", "p.url != page.url and p.categories contains page.categories[0]" %}
+      {% assign related = same_cat | sample: 3 %}
+      {% if related.size < 3 %}
+        {% assign others = site.posts | where_exp: "p", "p.url != page.url" | sample: 3 %}
+        {% assign related = related | concat: others | uniq | limit: 3 %}
+      {% endif %}
       {% if related.size > 0 %}
       <section class="related-posts" aria-label="Related articles">
         <h3>You might also like</h3>

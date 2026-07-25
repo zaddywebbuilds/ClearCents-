@@ -5,6 +5,7 @@ date: 2026-07-22
 categories: [Investing]
 tags: [index funds, investing, stock market, passive investing, wealth building]
 description: "Index funds are how most ordinary Americans build real wealth — without picking stocks, timing the market, or paying financial advisors. Here's exactly how they work."
+image: "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800&q=80&auto=format&fit=crop"
 ---
 
 Warren Buffett, one of the most successful investors in history, has repeatedly said the same thing for decades: for most people, the best investment is a low-cost S&P 500 index fund. Not individual stocks. Not actively managed funds. An index fund.

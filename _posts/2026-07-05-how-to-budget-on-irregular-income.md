@@ -5,6 +5,7 @@ date: 2026-07-05
 categories: [Budgeting]
 tags: [budgeting, irregular income, freelance, gig economy, self-employed]
 description: "Budgeting on an irregular income feels impossible — but it's actually simpler than budgeting a steady paycheck. Here's the system that works when your income changes every month."
+image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&q=80&auto=format&fit=crop"
 ---
 
 Standard budgeting advice assumes one thing: you know exactly how much money is coming in next month. But if you drive for Uber, freelance, do seasonal work, run a small business, or work on commission, that assumption falls apart completely.

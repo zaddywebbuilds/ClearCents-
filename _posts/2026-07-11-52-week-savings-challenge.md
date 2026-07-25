@@ -5,6 +5,7 @@ date: 2026-07-11
 categories: [Save Money]
 tags: [savings challenge, 52-week challenge, save money, savings goals]
 description: "The 52-week savings challenge helps you save $1,378 in one year by starting small and building up gradually. Here's the full plan plus modified versions for every budget."
+image: "https://images.unsplash.com/photo-1579621970795-87facc2f976d?w=800&q=80&auto=format&fit=crop"
 ---
 
 The 52-week savings challenge is one of the most popular savings methods for one simple reason: it works with human psychology instead of against it.

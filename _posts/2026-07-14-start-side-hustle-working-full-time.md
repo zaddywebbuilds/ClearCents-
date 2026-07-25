@@ -5,6 +5,7 @@ date: 2026-07-14
 categories: [Side Hustles]
 tags: [side hustle, work life balance, extra income, productivity]
 description: "Starting a side hustle while working a full-time job is doable — but only if you protect your energy and set it up right. Here's how to do it without burning out."
+image: "https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?w=800&q=80&auto=format&fit=crop"
 ---
 
 Starting a side hustle while working 40+ hours a week sounds like a recipe for exhaustion. And it can be — if you do it wrong. The people who burn out aren't working too hard; they're working without a system, without boundaries, and on the wrong kind of side hustle for their situation.

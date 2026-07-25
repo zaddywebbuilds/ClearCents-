@@ -5,6 +5,7 @@ date: 2026-07-17
 categories: [Debt Free]
 tags: [credit card debt, debt payoff, debt free, pay off debt]
 description: "Credit card debt is the most expensive debt most Americans carry. Here's a step-by-step plan to pay it off faster — even when your budget feels too tight to make a dent."
+image: "https://images.unsplash.com/photo-1556742044-3c52d6e88c62?w=800&q=80&auto=format&fit=crop"
 ---
 
 Credit card debt is the most expensive financial mistake most Americans live with. The average credit card APR in 2026 sits above 21% — meaning every year you carry a balance, you're paying the card company more than one-fifth of what you owe, just for the privilege of owing it.

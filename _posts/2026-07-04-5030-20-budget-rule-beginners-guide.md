@@ -5,6 +5,7 @@ date: 2026-07-04
 categories: [Budgeting]
 tags: [budgeting, 50/30/20, personal finance, money management]
 description: "The 50/30/20 budget rule is the simplest way to take control of your money. Here's exactly how it works, how to set it up, and how to make it fit your real life."
+image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80&auto=format&fit=crop"
 ---
 
 If you've ever tried to budget and given up within two weeks, the 50/30/20 rule might be exactly what you've been missing. It's not a complicated spreadsheet. It's not a system that requires tracking every coffee purchase. It's a simple percentage breakdown that tells you — before the month starts — where your money should go.

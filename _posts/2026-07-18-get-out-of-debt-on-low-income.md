@@ -5,6 +5,7 @@ date: 2026-07-18
 categories: [Debt Free]
 tags: [debt free, low income, get out of debt, debt payoff]
 description: "Getting out of debt on a low income feels impossible — but it's done every day by people in harder situations than yours. Here's the honest, step-by-step path forward."
+image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&q=80&auto=format&fit=crop"
 ---
 
 The hardest part of debt payoff advice is that most of it assumes you have extra money to throw at debt. "Cut your lattes and invest the difference." Great advice if you're spending $200/month on coffee. Not helpful if you're already eating rice and beans and still coming up short.

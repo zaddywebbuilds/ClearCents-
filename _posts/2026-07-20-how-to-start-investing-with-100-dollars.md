@@ -5,6 +5,7 @@ date: 2026-07-20
 categories: [Investing]
 tags: [investing, beginner investing, stock market, index funds]
 description: "You don't need thousands of dollars to start investing. Here's exactly how to invest your first $100 — and the right accounts and funds to start with as a complete beginner."
+image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=80&auto=format&fit=crop"
 ---
 
 "I'll start investing when I have more money." It's the most expensive sentence in personal finance. Every month you wait to invest, compound growth that could have been working for you isn't. At 7% annual growth, $100 invested today becomes $761 in 30 years — without you touching it again.

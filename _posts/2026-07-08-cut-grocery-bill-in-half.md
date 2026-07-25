@@ -5,6 +5,7 @@ date: 2026-07-08
 categories: [Save Money]
 tags: [save money, groceries, food budget, frugal living]
 description: "You don't need coupons or extreme frugality to slash your grocery bill. These 11 practical strategies can cut your food costs by 30-50% starting this week."
+image: "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80&auto=format&fit=crop"
 ---
 
 The average American household spends $475 a month on groceries according to the USDA. For a single person, it's around $300. For a family of four, it easily climbs past $900. And most of that money isn't going to food you love — it's going to food you forget about, food that expires, and food you bought because it was there.
