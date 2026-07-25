@@ -83,7 +83,7 @@
     "logo": { "@type": "ImageObject", "url": "{{ '/assets/images/logo.png' | absolute_url }}", "width": 200, "height": 60 }
   },
   "description": "{% if page.description %}{{ page.description | strip_html | truncate: 160 | escape }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 | escape }}{% endif %}",
-  "articleSection": "{{ page.categories | first | default: 'Finance' }}",
+  "articleSection": "{% assign _cat = page.categories | first %}{{ site.data.categories[_cat] | default: _cat | default: 'Finance' }}",
   "keywords": "{{ page.tags | join: ', ' }}"
 }
 </script>
@@ -108,7 +108,7 @@
   "@type": "BreadcrumbList",
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}" },
-    { "@type": "ListItem", "position": 2, "name": "{{ page.categories | first | default: 'Blog' }}", "item": "{{ site.url }}/{{ page.categories | first | downcase | default: 'blog' }}/" },
+    { "@type": "ListItem", "position": 2, "name": "{% assign _cat = page.categories | first %}{{ site.data.categories[_cat] | default: _cat | default: 'Blog' }}", "item": "{{ site.url }}/{{ page.categories | first | default: 'blog' }}/" },
     { "@type": "ListItem", "position": 3, "name": "{{ page.title | escape }}", "item": "{{ page.url | absolute_url }}" }
   ]
 }

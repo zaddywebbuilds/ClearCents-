@@ -2,7 +2,7 @@
 layout: post
 title: "How to Make $500 a Month on Fiverr Starting From Zero"
 date: 2026-07-13
-categories: [Side Hustles]
+categories: [side-hustles]
 tags: [fiverr, freelancing, side hustle, make money online]
 description: "Making $500/month on Fiverr as a beginner is realistic if you set up your profile right and choose the right services to offer. Here's the complete beginner's guide."
 image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&q=80&auto=format&fit=crop"

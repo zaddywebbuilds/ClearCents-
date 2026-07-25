@@ -2,7 +2,7 @@
 layout: post
 title: "How to Budget on an Irregular Income (For Freelancers, Gig Workers, and Anyone Paid Inconsistently)"
 date: 2026-07-05
-categories: [Budgeting]
+categories: [budgeting]
 tags: [budgeting, irregular income, freelance, gig economy, self-employed]
 description: "Budgeting on an irregular income feels impossible — but it's actually simpler than budgeting a steady paycheck. Here's the system that works when your income changes every month."
 image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&q=80&auto=format&fit=crop"

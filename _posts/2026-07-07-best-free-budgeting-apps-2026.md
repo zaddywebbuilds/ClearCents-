@@ -2,7 +2,7 @@
 layout: post
 title: "The 7 Best Free Budgeting Apps in 2026 (Tested and Ranked)"
 date: 2026-07-07
-categories: [Budgeting]
+categories: [budgeting]
 tags: [budgeting apps, personal finance apps, free budgeting, money management]
 description: "The best budgeting apps don't have to cost anything. Here are the 7 best free budgeting apps in 2026, ranked by who they work best for."
 image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&q=80&auto=format&fit=crop"

@@ -2,7 +2,7 @@
 layout: post
 title: "Zero-Based Budgeting: How to Give Every Dollar a Job This Month"
 date: 2026-07-06
-categories: [Budgeting]
+categories: [budgeting]
 tags: [budgeting, zero-based budgeting, personal finance, money management]
 description: "Zero-based budgeting means spending every dollar on paper before the month starts. Here's how to set it up, make it stick, and stop wondering where your money went."
 image: "https://images.unsplash.com/photo-1579621970588-a35d0e7ab9b6?w=800&q=80&auto=format&fit=crop"

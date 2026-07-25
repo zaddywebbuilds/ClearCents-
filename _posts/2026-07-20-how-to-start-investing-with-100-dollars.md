@@ -2,7 +2,7 @@
 layout: post
 title: "How to Start Investing With Just $100 (No Experience Needed)"
 date: 2026-07-20
-categories: [Investing]
+categories: [investing]
 tags: [investing, beginner investing, stock market, index funds]
 description: "You don't need thousands of dollars to start investing. Here's exactly how to invest your first $100 — and the right accounts and funds to start with as a complete beginner."
 image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=80&auto=format&fit=crop"

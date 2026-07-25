@@ -2,7 +2,7 @@
 layout: post
 title: "The 30-Day No-Spend Challenge: How to Save $500 This Month"
 date: 2026-07-09
-categories: [Save Money]
+categories: [save-money]
 tags: [no-spend challenge, save money, savings challenge, frugal living]
 description: "A 30-day no-spend challenge can save you $300-$700 in a single month while resetting your spending habits for good. Here's exactly how to do it."
 image: "https://images.unsplash.com/photo-1518458028785-8fbcd101ebb9?w=800&q=80&auto=format&fit=crop"

@@ -78,7 +78,7 @@ layout: default
     <div class="cats-bar" role="navigation" aria-label="Filter by category">
       <a href="{{ '/' | relative_url }}" class="cat-pill active">All</a>
       {% for cat in site.nav_categories %}
-      <a href="{{ cat.name | downcase | replace: ' ', '-' | prepend: '/' | append: '/' | relative_url }}" class="cat-pill">{{ cat.icon }} {{ cat.name }}</a>
+      <a href="{{ cat.slug | prepend: '/' | append: '/' | relative_url }}" class="cat-pill">{{ cat.icon }} {{ cat.name }}</a>
       {% endfor %}
     </div>
 
@@ -90,7 +90,7 @@ layout: default
     <article class="post-featured fade-in">
       <div class="feat-img">
         {% if featured.categories %}
-        <span class="feat-cat-badge">{{ featured.categories | first }}</span>
+        <span class="feat-cat-badge">{{ site.data.categories[featured.categories | first] | default: featured.categories | first }}</span>
         {% endif %}
         <span class="feat-time-badge">{{ feat_read }} min read</span>
         <img src="{{ feat_img | strip }}" alt="{{ featured.title | escape }}" loading="eager" width="600" height="400">
@@ -117,7 +117,7 @@ layout: default
       <article class="post-card fade-in">
         <div class="card-img">
           {% if post.categories %}
-          <span class="card-cat-overlay">{{ post.categories | first }}</span>
+          <span class="card-cat-overlay">{{ site.data.categories[post.categories | first] | default: post.categories | first }}</span>
           {% endif %}
           <span class="card-time-overlay">{{ post_read }} min</span>
           <img src="{{ card_img | strip }}" alt="{{ post.title | escape }}" loading="lazy" width="400" height="267">

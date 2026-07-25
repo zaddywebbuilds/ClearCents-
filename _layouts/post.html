@@ -10,13 +10,13 @@ layout: default
       <a href="{{ '/' | relative_url }}">Home</a>
       <span aria-hidden="true">›</span>
       {% if page.categories %}
-      <a href="{{ page.categories | first | downcase | replace: ' ','-' | prepend: '/' | append: '/' | relative_url }}">{{ page.categories | first }}</a>
+      <a href="{{ page.categories | first | prepend: '/' | append: '/' | relative_url }}">{{ site.data.categories[page.categories | first] | default: page.categories | first }}</a>
       <span aria-hidden="true">›</span>
       {% endif %}
       <span aria-current="page">{{ page.title | truncate: 40 }}</span>
     </nav>
 
-    {% if page.categories %}<span class="post-cat">{{ page.categories | first }}</span>{% endif %}
+    {% if page.categories %}<span class="post-cat">{{ site.data.categories[page.categories | first] | default: page.categories | first }}</span>{% endif %}
     <h1>{{ page.title | escape }}</h1>
 
     <div class="post-hero-meta">
@@ -93,7 +93,7 @@ layout: default
           <article class="post-card">
             <div class="card-img">
               {% if post.categories %}
-              <span class="card-cat-overlay">{{ post.categories | first }}</span>
+              <span class="card-cat-overlay">{{ site.data.categories[post.categories | first] | default: post.categories | first }}</span>
               {% endif %}
               <img src="{{ rel_img | strip }}" alt="{{ post.title | escape }}" loading="lazy" width="400" height="267">
             </div>
@@ -156,9 +156,9 @@ layout: default
         <div class="widget-label">📂 Browse topics</div>
         {% for cat in site.nav_categories %}
         <div class="cat-item">
-          <a href="{{ cat.name | downcase | replace: ' ', '-' | prepend: '/' | append: '/' | relative_url }}">{{ cat.icon }} {{ cat.name }}</a>
+          <a href="{{ cat.slug | prepend: '/' | append: '/' | relative_url }}">{{ cat.icon }} {{ cat.name }}</a>
           <span class="cat-count">
-            {{ site.posts | where: 'categories', cat.name | size }}
+            {{ site.posts | where: 'categories', cat.slug | size }}
           </span>
         </div>
         {% endfor %}

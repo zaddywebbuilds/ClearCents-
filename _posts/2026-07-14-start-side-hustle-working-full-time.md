@@ -2,7 +2,7 @@
 layout: post
 title: "How to Start a Side Hustle While Working Full Time (Without Burning Out)"
 date: 2026-07-14
-categories: [Side Hustles]
+categories: [side-hustles]
 tags: [side hustle, work life balance, extra income, productivity]
 description: "Starting a side hustle while working a full-time job is doable — but only if you protect your energy and set it up right. Here's how to do it without burning out."
 image: "https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?w=800&q=80&auto=format&fit=crop"

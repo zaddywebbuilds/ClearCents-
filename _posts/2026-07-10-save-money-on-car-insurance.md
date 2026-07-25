@@ -2,7 +2,7 @@
 layout: post
 title: "How to Save Money on Car Insurance: 11 Tricks That Actually Work"
 date: 2026-07-10
-categories: [Save Money]
+categories: [save-money]
 tags: [car insurance, save money, auto insurance, insurance savings]
 description: "Car insurance is one of the most overpriced bills most Americans pay. These 11 strategies can cut your premium by $300-$800 a year without sacrificing coverage."
 image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&q=80&auto=format&fit=crop"

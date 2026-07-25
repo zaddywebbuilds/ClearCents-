@@ -2,7 +2,7 @@
 layout: post
 title: "How to Get Out of Debt on a Low Income: A Step-by-Step Plan"
 date: 2026-07-18
-categories: [Debt Free]
+categories: [debt-free]
 tags: [debt free, low income, get out of debt, debt payoff]
 description: "Getting out of debt on a low income feels impossible — but it's done every day by people in harder situations than yours. Here's the honest, step-by-step path forward."
 image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&q=80&auto=format&fit=crop"

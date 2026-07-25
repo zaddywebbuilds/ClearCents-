@@ -2,7 +2,7 @@
 layout: post
 title: "How to Negotiate With Creditors and Collection Agencies to Reduce Your Debt"
 date: 2026-07-19
-categories: [Debt Free]
+categories: [debt-free]
 tags: [debt negotiation, creditors, collections, debt settlement]
 description: "You can negotiate directly with creditors and collection agencies to reduce what you owe. Here's exactly what to say, when to do it, and what to watch out for."
 image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80&auto=format&fit=crop"

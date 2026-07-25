@@ -2,7 +2,7 @@
 layout: post
 title: "Debt Snowball vs Debt Avalanche: Which Method Gets You Debt-Free Faster?"
 date: 2026-07-16
-categories: [Debt Free]
+categories: [debt-free]
 tags: [debt payoff, debt snowball, debt avalanche, get out of debt]
 description: "The debt snowball and debt avalanche are the two most popular debt payoff methods. One saves more money. The other works better for most people. Here's which one to use."
 image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80&auto=format&fit=crop"

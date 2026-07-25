@@ -60,14 +60,19 @@ google_analytics: "G-4SRY59FJ0C"
 # Blog categories shown in navigation
 nav_categories:
   - name: Budgeting
+    slug: budgeting
     icon: "💰"
   - name: Save Money
+    slug: save-money
     icon: "🏦"
   - name: Side Hustles
+    slug: side-hustles
     icon: "⚡"
   - name: Debt Free
+    slug: debt-free
     icon: "✂️"
   - name: Investing
+    slug: investing
     icon: "📈"
 
 # Feed

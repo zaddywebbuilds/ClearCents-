@@ -2,7 +2,7 @@
 layout: post
 title: "How to Save $1,000 in 3 Months (Even on a Tight Budget)"
 description: "A realistic, step-by-step plan to save your first $1,000 in 90 days — even if you feel like you have nothing left at the end of the month."
-categories: [Save Money]
+categories: [save-money]
 tags: [saving, budgeting, emergency fund, beginners]
 date: 2026-07-25
 ---

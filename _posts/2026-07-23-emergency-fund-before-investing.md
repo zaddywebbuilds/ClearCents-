@@ -2,7 +2,7 @@
 layout: post
 title: "How Much Should You Have in Your Emergency Fund Before You Start Investing?"
 date: 2026-07-23
-categories: [Investing]
+categories: [investing]
 tags: [emergency fund, investing, personal finance, financial security]
 description: "Should you invest first or build your emergency fund first? The answer depends on your situation — and getting it wrong is expensive either way. Here's how to think through it."
 image: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=800&q=80&auto=format&fit=crop"

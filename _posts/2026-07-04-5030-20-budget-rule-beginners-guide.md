@@ -2,7 +2,7 @@
 layout: post
 title: "The 50/30/20 Budget Rule: A Beginner's Guide to Making It Work"
 date: 2026-07-04
-categories: [Budgeting]
+categories: [budgeting]
 tags: [budgeting, 50/30/20, personal finance, money management]
 description: "The 50/30/20 budget rule is the simplest way to take control of your money. Here's exactly how it works, how to set it up, and how to make it fit your real life."
 image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80&auto=format&fit=crop"

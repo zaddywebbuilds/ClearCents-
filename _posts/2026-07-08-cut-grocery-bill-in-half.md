@@ -2,7 +2,7 @@
 layout: post
 title: "How to Cut Your Grocery Bill in Half Without Using a Single Coupon"
 date: 2026-07-08
-categories: [Save Money]
+categories: [save-money]
 tags: [save money, groceries, food budget, frugal living]
 description: "You don't need coupons or extreme frugality to slash your grocery bill. These 11 practical strategies can cut your food costs by 30-50% starting this week."
 image: "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80&auto=format&fit=crop"

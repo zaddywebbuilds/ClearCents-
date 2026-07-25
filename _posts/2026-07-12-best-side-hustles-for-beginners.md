@@ -2,7 +2,7 @@
 layout: post
 title: "15 Best Side Hustles for Beginners With No Experience (2026)"
 date: 2026-07-12
-categories: [Side Hustles]
+categories: [side-hustles]
 tags: [side hustles, make money, extra income, beginner side hustles]
 description: "The best side hustles for beginners in 2026 require no degree, no experience, and minimal startup costs. Here are 15 real options ranked by earning potential and ease of entry."
 image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&q=80&auto=format&fit=crop"

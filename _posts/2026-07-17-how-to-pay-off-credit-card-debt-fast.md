@@ -2,7 +2,7 @@
 layout: post
 title: "How to Pay Off Credit Card Debt Fast (Even on a Tight Budget)"
 date: 2026-07-17
-categories: [Debt Free]
+categories: [debt-free]
 tags: [credit card debt, debt payoff, debt free, pay off debt]
 description: "Credit card debt is the most expensive debt most Americans carry. Here's a step-by-step plan to pay it off faster — even when your budget feels too tight to make a dent."
 image: "https://images.unsplash.com/photo-1556742044-3c52d6e88c62?w=800&q=80&auto=format&fit=crop"

@@ -2,7 +2,7 @@
 layout: post
 title: "Index Funds for Beginners: The Simplest Way to Build Wealth"
 date: 2026-07-22
-categories: [Investing]
+categories: [investing]
 tags: [index funds, investing, stock market, passive investing, wealth building]
 description: "Index funds are how most ordinary Americans build real wealth — without picking stocks, timing the market, or paying financial advisors. Here's exactly how they work."
 image: "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800&q=80&auto=format&fit=crop"

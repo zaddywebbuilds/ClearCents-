@@ -2,7 +2,7 @@
 layout: post
 title: "What Is a Roth IRA and Why Every 20-Something Needs One"
 date: 2026-07-21
-categories: [Investing]
+categories: [investing]
 tags: [roth ira, retirement, investing, tax-free]
 description: "A Roth IRA is one of the best financial tools available to Americans — and most young people still don't have one. Here's exactly what it is and how to open one today."
 image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80&auto=format&fit=crop"
