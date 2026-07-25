@@ -66,14 +66,13 @@ def refresh_pinterest_token():
     if resp.ok:
         data = resp.json()
         print(f"[Pinterest] New access token obtained (expires in {data.get('expires_in', '?')}s)")
-        print(f"[Pinterest] Update secret PINTEREST_ACCESS_TOKEN → {data['access_token']}")
         return data['access_token']
     print(f"[Pinterest] Token refresh failed: {resp.status_code} {resp.text}")
     return None
 
 
-def post_to_pinterest(meta, post_url):
-    token = os.environ.get('PINTEREST_ACCESS_TOKEN')
+def post_to_pinterest(meta, post_url, _token=None):
+    token = _token or os.environ.get('PINTEREST_ACCESS_TOKEN')
     if not token:
         print("[Pinterest] No access token — skipping")
         return
@@ -119,11 +118,11 @@ def post_to_pinterest(meta, post_url):
     if resp.status_code in (200, 201):
         pin_id = resp.json().get('id', '?')
         print(f"[Pinterest] ✅ Pin created: {pin_id}")
-    elif resp.status_code == 401:
+    elif resp.status_code == 401 and _token is None:
         print("[Pinterest] Token expired — attempting refresh...")
         new_token = refresh_pinterest_token()
         if new_token:
-            print("[Pinterest] Retry with new token (update the Secret manually then re-run)")
+            post_to_pinterest(meta, post_url, _token=new_token)
     else:
         print(f"[Pinterest] ❌ {resp.status_code}: {resp.text}")
 
