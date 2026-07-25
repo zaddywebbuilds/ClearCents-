@@ -120,7 +120,7 @@
   /* ---------- Newsletter form — async POST to Google Apps Script ---------- */
   const nlForm = document.getElementById('nlForm');
   if (nlForm) {
-    const SCRIPT_URL = 'PASTE_YOUR_APPS_SCRIPT_URL_HERE';
+    const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxFaLYjkSvY7O6crghxGAY_d9lAzHymOd6TuB2CA8HDn11mS6diEaYGTSTxLR7Kb81D/exec';
     nlForm.addEventListener('submit', (e) => {
       e.preventDefault();
       const email = document.getElementById('nlEmail').value.trim();
