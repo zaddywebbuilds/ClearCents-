@@ -140,8 +140,8 @@ layout: default
       <!-- Popular posts -->
       <div class="widget">
         <div class="widget-label">🔥 Popular right now</div>
-        {% assign popular = site.posts | sort: 'date' | reverse | first: 5 %}
-        {% for post in popular %}
+        {% assign popular = site.posts | sort: 'date' | reverse %}
+        {% for post in popular limit:5 %}
         <div class="popular-item">
           <span class="pop-num">0{{ forloop.index }}</span>
           <div class="pop-title">
