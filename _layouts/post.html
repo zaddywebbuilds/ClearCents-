@@ -63,6 +63,9 @@ layout: default
       </div>
       {% endif %}
 
+      <!-- Author bio (E-E-A-T signal for YMYL) -->
+      {% include author-bio.html %}
+
       <!-- Share box -->
       <div class="share-box">
         <p class="share-label">Found this helpful? Share it</p>
@@ -83,7 +86,12 @@ layout: default
       </div>
 
       <!-- Related posts -->
-      {% assign related = site.posts | where_exp: "p", "p.url != page.url" | sample: 3 %}
+      {% assign same_cat = site.posts | where_exp: "p", "p.categories contains page.categories[0]" | where_exp: "p", "p.url != page.url" %}
+      {% if same_cat.size > 0 %}
+        {% assign related = same_cat | sample: 3 %}
+      {% else %}
+        {% assign related = site.posts | where_exp: "p", "p.url != page.url" | sample: 3 %}
+      {% endif %}
       {% if related.size > 0 %}
       <section class="related-posts" aria-label="Related articles">
         <h3>You might also like</h3>
