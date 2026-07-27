@@ -6,6 +6,15 @@ categories: [investing]
 tags: [roth ira, retirement, investing, tax-free]
 description: "A Roth IRA is one of the best financial tools available to Americans — and most young people still don't have one. Here's exactly what it is and how to open one today."
 image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80&auto=format&fit=crop"
+faq:
+  - q: "What is a Roth IRA and how does it work?"
+    a: "A Roth IRA is an individual retirement account funded with after-tax money. Your investments grow tax-free inside the account, and you pay zero taxes when you withdraw in retirement. You can also withdraw your original contributions at any time with no penalty."
+  - q: "What is the Roth IRA contribution limit for 2026?"
+    a: "The 2026 limit is $7,000 per year ($8,000 if you're 50 or older). You can contribute the full amount if your income is below $146,000 (single) or $230,000 (married filing jointly). Contributions phase out above those thresholds."
+  - q: "Should I open a Roth IRA or a 401(k) first?"
+    a: "Do both if possible, but in this order: contribute to your 401(k) up to the full employer match (free money), then max your Roth IRA, then return to your 401(k) with any remaining savings. For most people under 40, the Roth IRA's tax-free growth is exceptionally valuable."
+  - q: "Can I withdraw money from a Roth IRA before retirement?"
+    a: "You can withdraw your contributions (not earnings) at any time with no taxes or penalties. Earnings withdrawals before age 59½ typically trigger a 10% penalty and taxes, with exceptions for a first home purchase (up to $10,000), disability, and health insurance while unemployed."
 ---
 
 If there's one financial account you should open before 35, it's a Roth IRA. Not a side hustle. Not a robo-advisor app. Not a crypto wallet. A Roth IRA — because it offers something no other account in the US tax code offers: **tax-free growth on your investments, forever.**
@@ -63,7 +72,7 @@ Common legitimate Roth withdrawal scenarios before retirement:
 - **Disability:** Withdrawals are penalty-free if you become disabled
 - **Health insurance premiums while unemployed:** Penalty-free
 
-The 5-year rule matters: your account must have been open for at least 5 years before earnings withdrawals are fully tax-free in retirement. Another reason to open it as early as possible even if you only put in $100 to start — the clock starts ticking on the 5-year rule on the date you open the account.
+The 5-year rule matters: your account must have been open for at least 5 years before earnings withdrawals are fully tax-free in retirement. Another reason to open it as early as possible even if you only put in $100 to start — the clock starts ticking on the 5-year rule on the date you open the account. Once it's open, read the [guide to starting investing with $100](/investing/how-to-start-investing-with-100-dollars/) for which fund to buy first and how to set up automatic contributions.
 
 ## What to Invest in Inside Your Roth IRA
 
@@ -107,4 +116,4 @@ Every year you wait, you give up the most powerful years of compounding. A 22-ye
 5. Go to "Invest" and choose your fund (FZROX at Fidelity is the cleanest starting point)
 6. Set up a monthly automatic contribution
 
-You're done. You've done something more valuable with 15 minutes than most people do in years of reading about money. Next step: learn [what to put inside it — starting with index funds](/investing/index-funds-for-beginners/).
+You're done. You've done something more valuable with 15 minutes than most people do in years of reading about money. Next step: learn [what to put inside it — starting with index funds](/investing/index-funds-for-beginners/). If you're wondering how to fund the account while also building an emergency fund, the [emergency fund vs. investing guide](/investing/emergency-fund-before-investing/) explains the right order and when to do both simultaneously.

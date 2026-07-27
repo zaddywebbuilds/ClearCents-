@@ -6,12 +6,21 @@ categories: [debt-free]
 tags: [debt negotiation, creditors, collections, debt settlement]
 description: "You can negotiate directly with creditors and collection agencies to reduce what you owe. Here's exactly what to say, when to do it, and what to watch out for."
 image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80&auto=format&fit=crop"
+faq:
+  - q: "Can you really negotiate down your debt with creditors?"
+    a: "Yes — creditors and collection agencies negotiate debt every day. Original creditors may reduce your interest rate or accept 40–70 cents on the dollar for a lump-sum settlement. Collection agencies, which bought your debt for 3–15 cents on the dollar, often settle for 25–50 cents. Getting partial payment is better for them than getting nothing."
+  - q: "What should I say when calling to negotiate my credit card debt?"
+    a: "For hardship programs, say: 'I'm experiencing a financial hardship and I'm concerned about my ability to keep making payments. I want to resolve this account but I need help. Do you have a hardship program I can enroll in?' For settlement, say: 'I want to resolve this account but I can't pay the full balance. I have [amount] available right now. Would you accept that as full settlement?'"
+  - q: "Does settling debt hurt your credit score?"
+    a: "Yes. A settled account typically shows as 'settled for less than full amount,' which is better than 'unpaid collection' but worse than 'paid in full.' However, if the account is already in collections, your credit is already damaged — the additional impact of settlement is often modest relative to what has already happened."
+  - q: "How long does a debt settlement stay on your credit report?"
+    a: "Negative items stay on your credit report for 7 years from the original date of delinquency — not from the date you settled. A 4-year-old collection you settle today will fall off your report 3 years after settlement, not 7 years from now."
 permalink: /debt-free/how-to-negotiate-with-creditors/
 ---
 
 Most people assume debt is fixed — you owe what you owe, and you pay it all back. That's not how it works. Creditors and collection agencies negotiate debt every single day. They do it because getting partial payment is better than getting nothing, and they know many borrowers can't pay the full balance.
 
-You have more leverage than you think. Here's how to use it. (If you're still deciding which debts to attack first, read our [debt snowball vs. debt avalanche guide](/debt-free/debt-snowball-vs-debt-avalanche/) before negotiating.)
+You have more leverage than you think. Here's how to use it. (If you're still deciding which debts to attack first, read our [debt snowball vs. debt avalanche guide](/debt-free/debt-snowball-vs-debt-avalanche/) before negotiating. For people on tight budgets, the [guide to getting out of debt on a low income](/debt-free/get-out-of-debt-on-low-income/) covers which debt types to tackle first and how to access hardship programs.)
 
 ## Understanding Who You're Dealing With
 
@@ -116,4 +125,4 @@ Before settling, always ask: "If I pay this in full (or for this settlement amou
 
 Many collectors will agree to "pay for delete" — especially for smaller amounts — though this technically violates credit bureau guidelines. Get any pay-for-delete agreement in writing before paying.
 
-Not all collectors will agree. But the worst they can say is no, and asking costs nothing.
+Not all collectors will agree. But the worst they can say is no, and asking costs nothing. After settling or reducing your debts, use the [50/30/20 budget rule](/budgeting/5030-20-budget-rule-beginners-guide/) to rebuild a sustainable spending structure so you don't end up back in debt.

@@ -6,6 +6,15 @@ categories: [debt-free]
 tags: [debt free, low income, get out of debt, debt payoff]
 description: "Getting out of debt on a low income feels impossible — but it's done every day by people in harder situations than yours. Here's the honest, step-by-step path forward."
 image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&q=80&auto=format&fit=crop"
+faq:
+  - q: "How do you pay off debt when you're barely making ends meet?"
+    a: "Start by building a survival budget that covers food, housing, utilities, and minimum debt payments before anything else. Then attack the most dangerous debts first — payday loans and utility arrears — because the consequences of default are worse than interest costs. Even $50–100/month extra makes a real difference over time."
+  - q: "Can you get out of debt on a $30,000 salary?"
+    a: "Yes — it takes longer, but millions of people have done it on similar or lower incomes. The key is a strict survival budget, eliminating high-rate debt first, and adding any income you can through side work. A $5,000 debt at 20% APR can be paid off in under 2 years even on a tight budget with focused extra payments."
+  - q: "How can I get help paying off debt if I have no extra money?"
+    a: "Contact your lenders directly about hardship programs, which can temporarily reduce your interest rate to 0–9%. For medical debt, most hospitals have charity care programs that can forgive 50–100% for low-income patients. The National Foundation for Credit Counseling (NFCC) also offers free debt counseling and can negotiate with creditors on your behalf."
+  - q: "What should I prioritize when I can barely pay my bills?"
+    a: "In order: food, rent (eviction is devastating), utilities (shutoffs cost more to restore), and minimum debt payments to avoid collections. Everything else — streaming, dining out, subscriptions — gets cut. This is a temporary survival mode, not a permanent way of life."
 permalink: /debt-free/how-to-get-out-of-debt-on-a-low-income/
 ---
 
@@ -50,7 +59,7 @@ Before worrying about debt payoff, make sure your basic needs are covered. A [ze
 
 Everything else — cable, streaming, dining out, gym, subscriptions — gets evaluated ruthlessly. On a low income, you're operating a survival budget, not a comfortable budget. This isn't permanent, but it's where you are right now.
 
-A survival budget is not a punishment. It's a temporary tool. You can revisit it as income grows.
+A survival budget is not a punishment. It's a temporary tool. You can revisit it as income grows. For practical side income options you can start quickly, see the [best side hustles for beginners](/side-hustles/best-side-hustles-for-beginners/) — many can generate an extra $200–400/month with no upfront cost.
 
 ## Step 3: Tackle the Most Dangerous Debts First
 
@@ -116,4 +125,4 @@ The psychological aspect of debt payoff is real. People who acknowledge progress
 
 ---
 
-Low income does not mean no path forward. It means a slower path, a more careful one, and one that uses every available tool. Millions of people have gotten out of debt from harder situations. The plan above is how they did it — step by step, month by month, without giving up.
+Low income does not mean no path forward. It means a slower path, a more careful one, and one that uses every available tool. Millions of people have gotten out of debt from harder situations. The plan above is how they did it — step by step, month by month, without giving up. Once high-rate debts are cleared, the [debt snowball vs. avalanche guide](/debt-free/debt-snowball-vs-debt-avalanche/) helps you build a systematic payoff plan for any remaining balances.

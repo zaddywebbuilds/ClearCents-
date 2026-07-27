@@ -6,6 +6,15 @@ categories: [budgeting]
 tags: [budgeting, irregular income, freelance, gig economy, self-employed]
 description: "Budgeting on an irregular income feels impossible — but it's actually simpler than budgeting a steady paycheck. Here's the system that works when your income changes every month."
 image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&q=80&auto=format&fit=crop"
+faq:
+  - q: "How do you budget when your income changes every month?"
+    a: "Build your budget around your baseline — the average of your three lowest-earning months — rather than your average or best month. In good months, the extra money builds a buffer; in slow months, you draw from that buffer to maintain a consistent lifestyle."
+  - q: "What is a baseline income for budgeting purposes?"
+    a: "Your baseline is the floor of what you can reasonably expect to earn in a bad month, calculated by averaging your three lowest-income months over the past year. Budget every month against this number, not your average or projected earnings."
+  - q: "How do freelancers and gig workers save for taxes?"
+    a: "Set aside 25–30% of every payment into a dedicated tax savings account the moment it arrives. Pay quarterly estimated taxes to the IRS (due April 15, June 15, September 15, and January 15) to avoid penalties at year end."
+  - q: "What is an income holding account and how does it work?"
+    a: "An income holding account is a separate checking account where all your payments land first. On the 1st of each month, you transfer your baseline amount to your main spending account. This smooths out feast-or-famine cycles and creates a stable, predictable budget."
 ---
 
 Standard budgeting advice assumes one thing: you know exactly how much money is coming in next month. But if you drive for Uber, freelance, do seasonal work, run a small business, or work on commission, that assumption falls apart completely.
@@ -14,7 +23,7 @@ Here's the thing: budgeting on a variable income isn't harder — it's just **di
 
 ## Why Regular Budgets Fail Variable-Income Earners
 
-Most budget systems tell you to allocate percentages of your income. The problem: your income changes. So every month you'd have to rebuild your budget from scratch, which most people don't do — so they abandon the budget entirely.
+Most budget systems tell you to allocate percentages of your income. The problem: your income changes. So every month you'd have to rebuild your budget from scratch, which most people don't do — so they abandon the budget entirely. Methods like the [50/30/20 rule](/budgeting/5030-20-budget-rule-beginners-guide/) assume a steady paycheck, which is why variable earners need a different foundation.
 
 The fix is to stop budgeting based on this month's income and start budgeting based on a **baseline**.
 
@@ -65,7 +74,7 @@ As your holding account builds up, you start having "overflow" — money beyond 
 
 **Overflow priority order:**
 1. **Tax reserve** — if you're self-employed, 25–30% of all income needs to go to federal and state taxes. Do this first, automatically. Set up a dedicated savings account labeled "Taxes." Every deposit, move that percentage out immediately.
-2. **Emergency fund** — 3–6 months of your baseline expenses, kept separate
+2. **Emergency fund** — 3–6 months of your baseline expenses, kept in a [high-yield savings account](/save-money/what-is-a-high-yield-savings-account/) so it earns interest while you build it
 3. **Irregular bill fund** — annual subscriptions, car registration, quarterly insurance premiums
 4. **Retirement** — SEP-IRA or solo 401(k) if self-employed; [Roth or traditional IRA](/investing/what-is-a-roth-ira/) if employed elsewhere
 5. **Goals** — vacation, equipment, business investment, whatever is next

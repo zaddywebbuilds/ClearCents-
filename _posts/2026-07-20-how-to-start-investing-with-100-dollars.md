@@ -6,10 +6,19 @@ categories: [investing]
 tags: [investing, beginner investing, stock market, index funds]
 description: "You don't need thousands of dollars to start investing. Here's exactly how to invest your first $100 — and the right accounts and funds to start with as a complete beginner."
 image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=80&auto=format&fit=crop"
+faq:
+  - q: "How do I start investing with only $100?"
+    a: "Open a Roth IRA at Fidelity, Schwab, or Vanguard — all have no minimum balance and no trading commissions. Buy a total market or S&P 500 index fund (Fidelity's FZROX charges 0% in fees). Set up a $50–100/month automatic contribution and leave it alone. That's the complete strategy."
+  - q: "Should I pay off debt or invest first?"
+    a: "Always capture your 401(k) employer match first (it's an instant 50–100% return). Then build a $1,000 emergency fund. Then pay off high-interest debt (above 7–10% APR) before investing aggressively — credit card interest at 20%+ is a guaranteed loss that investments rarely outpace."
+  - q: "What is the best investment for a beginner with little money?"
+    a: "A low-cost S&P 500 or total market index fund inside a Roth IRA. Index funds automatically diversify across hundreds of companies, have minimal fees (as low as 0%), and historically outperform the majority of actively managed funds over 15–20 year periods."
+  - q: "Is $100 enough to start investing in the stock market?"
+    a: "Yes — with fractional shares and zero-minimum brokerages, $100 can buy you a piece of every company in the S&P 500. The amount matters less than starting the habit and setting up automatic contributions. $100/month at 7% annual return grows to over $120,000 in 30 years."
 permalink: /investing/how-to-start-investing/
 ---
 
-"I'll start investing when I have more money." It's the most expensive sentence in personal finance. Every month you wait to invest, compound growth that could have been working for you isn't. At 7% annual growth, $100 invested today becomes $761 in 30 years — without you touching it again.
+"I'll start investing when I have more money." It's the most expensive sentence in personal finance. Every month you wait to invest, compound growth that could have been working for you isn't. At 7% annual growth, $100 invested today becomes $761 in 30 years — without you touching it again. Before you invest, make sure you have a starter emergency fund — read [how to save $1,000 in 3 months](/save-money/how-to-save-1000-dollars-in-3-months/) if you're not there yet.
 
 You have $100. Here's where to put it.
 
@@ -118,4 +127,4 @@ For anything beyond $1,000 invested, a real brokerage (Fidelity, Schwab, Vanguar
 
 ---
 
-The best investment you'll ever make is the first one — not because $100 will make you rich, but because it starts the habit, removes the fear, and gives you a reason to learn more. Open the account today. Pick the index fund. Set up the automatic transfer. Everything else comes after.
+The best investment you'll ever make is the first one — not because $100 will make you rich, but because it starts the habit, removes the fear, and gives you a reason to learn more. Open the account today. Pick the index fund. Set up the automatic transfer. Everything else comes after. Not sure how much to keep liquid before investing? The guide on [building your emergency fund before investing](/investing/emergency-fund-before-investing/) walks through the right sequencing.

@@ -6,6 +6,15 @@ categories: [budgeting]
 tags: [budgeting, zero-based budgeting, personal finance, money management]
 description: "Zero-based budgeting means spending every dollar on paper before the month starts. Here's how to set it up, make it stick, and stop wondering where your money went."
 image: "https://images.unsplash.com/photo-1579621970588-a35d0e7ab9b6?w=800&q=80&auto=format&fit=crop"
+faq:
+  - q: "What is zero-based budgeting and how does it work?"
+    a: "Zero-based budgeting means assigning every dollar of your income to a specific category before the month starts, so income minus all expenses and savings equals zero. The zero doesn't mean you spend everything — it means every dollar has a purposeful destination."
+  - q: "Is zero-based budgeting better than the 50/30/20 rule?"
+    a: "Zero-based budgeting gives you a more detailed spending map with specific amounts per category, while the 50/30/20 rule offers a simpler three-bucket framework. Zero-based works better for people who want full control; the 50/30/20 rule works better for people who want a low-maintenance system."
+  - q: "What app is best for zero-based budgeting?"
+    a: "YNAB (You Need a Budget) is the gold standard for zero-based budgeting, with real-time category tracking and bank syncing. EveryDollar is a free alternative that uses the same method with a simpler interface."
+  - q: "How do sinking funds work in a zero-based budget?"
+    a: "A sinking fund is a category where you save a small amount each month for a known future expense — like $15/month for your October car registration. When the expense arrives, the money is already there. Sinking funds prevent irregular expenses from blowing up your monthly budget."
 ---
 
 At the end of most months, there's a question that haunts people who don't budget: where did it all go? You made decent money. You didn't do anything crazy. And somehow there's $47 left and it's only the 22nd.
@@ -72,6 +81,8 @@ Organize expenses into categories:
 - Holidays and gifts
 - Back-to-school, seasonal costs
 
+If your income varies month to month, see the [guide to budgeting on irregular income](/budgeting/how-to-budget-on-irregular-income/) for a system built specifically for freelancers and gig workers.
+
 **Savings and debt:**
 - Emergency fund contribution
 - Retirement contribution
@@ -100,7 +111,7 @@ A zero-based budget you write once and ignore doesn't help. You need to track sp
 
 ## The Categories That Always Need Adjustment
 
-**Groceries:** Almost everyone underestimates this. Track your grocery spending for one month before budgeting it. Most families of two spend $400–600/month even when trying to be careful.
+**Groceries:** Almost everyone underestimates this. Track your grocery spending for one month before budgeting it. Most families of two spend $400–600/month even when trying to be careful. For practical strategies to reduce this category, see [how to cut your grocery bill in half](/save-money/cut-grocery-bill-in-half/).
 
 **Gas:** Volatile. Check current prices and estimate based on your actual miles, not last year's prices.
 

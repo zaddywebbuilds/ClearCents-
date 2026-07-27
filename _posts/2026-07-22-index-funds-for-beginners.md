@@ -6,11 +6,20 @@ categories: [investing]
 tags: [index funds, investing, stock market, passive investing, wealth building]
 description: "Index funds are how most ordinary Americans build real wealth — without picking stocks, timing the market, or paying financial advisors. Here's exactly how they work."
 image: "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800&q=80&auto=format&fit=crop"
+faq:
+  - q: "What is an index fund and how does it work?"
+    a: "An index fund automatically tracks a market index — like the S&P 500 — by owning a small piece of every company in it. Instead of a fund manager picking stocks, the fund passively mirrors the index. When the 500 largest US companies collectively grow, your investment grows."
+  - q: "Are index funds safe for beginners?"
+    a: "Index funds are one of the safest long-term investments for beginners because they're diversified across hundreds of companies. They will drop in value during market downturns, but over 15–20 year periods, broadly diversified index funds have always recovered and grown. The risk is volatility, not permanent loss."
+  - q: "What is the best index fund for a beginner investor?"
+    a: "For beginners at Fidelity, FZROX (total market, 0% expense ratio) or FNILX (S&P 500, 0% expense ratio) are excellent starting points with no minimums. At Vanguard, VTI (total market ETF) is the classic choice. Any of these held long-term inside a Roth IRA is a proven wealth-building strategy."
+  - q: "How much money do I need to start investing in index funds?"
+    a: "As little as $1 at Fidelity or Schwab, which have zero-minimum index funds and support fractional shares. Vanguard's mutual funds require $3,000 minimums, but their ETF versions (like VTI) can be bought for the price of one share. You don't need thousands to start."
 ---
 
 Warren Buffett, one of the most successful investors in history, has repeatedly said the same thing for decades: for most people, the best investment is a low-cost S&P 500 index fund. Not individual stocks. Not actively managed funds. An index fund.
 
-If Buffett's advice is good enough for most investors, it's worth understanding what exactly he's talking about.
+If Buffett's advice is good enough for most investors, it's worth understanding what exactly he's talking about. If you're new to investing entirely, [start with how to invest your first $100](/investing/how-to-start-investing-with-100-dollars/) — it covers which account to open and how to make the first purchase step by step.
 
 ## What Is an Index Fund?
 
@@ -148,4 +157,4 @@ Strategies that help:
 
 Index funds aren't exciting. They don't have stories. They don't have genius fund managers. They just quietly compound, year after year, owning the growth of the American and global economy. That's enough — and for most investors, it's more than enough.
 
-Open the account. Buy the fund. Set up the automatic contribution. Then get back to your life.
+Open the account. Buy the fund. Set up the automatic contribution. Then get back to your life. To accelerate how much you can invest each month, the [52-week savings challenge](/save-money/52-week-savings-challenge/) builds a strong savings habit that feeds directly into your contribution amount over time.

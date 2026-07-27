@@ -6,6 +6,15 @@ categories: [side-hustles]
 tags: [passive income, side hustle, make money, residual income]
 description: "Most passive income advice is either a scam or requires a huge upfront investment. These 7 ideas are genuinely accessible and actually generate recurring income in 2026."
 image: "https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=800&q=80&auto=format&fit=crop"
+faq:
+  - q: "What are realistic passive income ideas that actually work?"
+    a: "High-yield savings accounts, dividend index funds, digital product sales, and print-on-demand stores are the most accessible options with real income potential. Each requires either upfront capital, upfront creation time, or ongoing light maintenance — true 'zero effort' passive income essentially doesn't exist."
+  - q: "How much money do you need to make passive income from investments?"
+    a: "Even small amounts can start generating returns. A high-yield savings account pays 4–5% on any balance. Dividend index funds return 1.5–4% annually. The income grows as the balance grows — $10,000 invested generates meaningful passive income, and the compounding effect accelerates over time."
+  - q: "How do you make passive income selling digital products?"
+    a: "Create a product once — an ebook, template, spreadsheet, or printable — then sell it on Etsy, Gumroad, or your own website indefinitely. There are no inventory or shipping costs, so every sale is nearly pure margin. The upfront work is real, but the income can continue for years."
+  - q: "Is affiliate marketing a good passive income strategy?"
+    a: "Yes, but it requires 12–24 months of consistent content creation before meaningful income appears. Once you have 50–100 posts or videos ranking in search, the income continues without active daily effort. Finance, health, and tech niches pay the highest affiliate commissions."
 permalink: /side-hustles/passive-income-ideas/
 ---
 
@@ -29,7 +38,7 @@ With that calibrated expectation, here are the seven best options in 2026.
 
 This one gets overlooked because people want exciting passive income ideas. But a high-yield savings account (HYSA) paying 4–5% APY on $50,000 generates $2,000–2,500 per year — completely passively, FDIC insured, no skill required.
 
-You don't need $50k to start. Even $5,000 in an Ally or Marcus savings account generates $200–250/year with zero risk and zero effort. As you [build savings](/save-money/how-to-save-1000-dollars-in-3-months/), this income grows automatically.
+You don't need $50k to start. Even $5,000 in an Ally or Marcus savings account generates $200–250/year with zero risk and zero effort. As you [build savings](/save-money/how-to-save-1000-dollars-in-3-months/), this income grows automatically. See the [full guide to high-yield savings accounts](/save-money/what-is-a-high-yield-savings-account/) to find the best current rates and understand how to open one.
 
 For money you need soon (3–12 months), also consider I-Bonds (inflation-protected, purchased at TreasuryDirect.gov) and short-term Treasury bills (available via TreasuryDirect or your brokerage).
 
@@ -127,4 +136,4 @@ If you take good photos or make music, you can upload your work to stock sites a
 - **Have assets?** → rent them out
 - **Willing to create content for 12+ months?** → affiliate marketing
 
-Pick one. Start this week — if you're still exploring options, our [guide to 15 side hustles for beginners](/side-hustles/best-side-hustles-for-beginners/) covers active income streams you can start immediately.
+Pick one. Start this week — if you're still exploring options, our [guide to 15 side hustles for beginners](/side-hustles/best-side-hustles-for-beginners/) covers active income streams you can start immediately. And if you want to run a passive income stream alongside a full-time job, [this guide to side hustling while employed full-time](/side-hustles/start-side-hustle-working-full-time/) covers how to do it without burning out.

@@ -1,0 +1,30 @@
+<svg viewBox="0 0 1200 450" xmlns="http://www.w3.org/2000/svg" width="1200" height="450">
+  <defs>
+    <radialGradient id="bg" cx="75%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#0E1C35"/>
+      <stop offset="100%" stop-color="#050810"/>
+    </radialGradient>
+    <clipPath id="clip">
+      <rect width="1200" height="450"/>
+    </clipPath>
+  </defs>
+  <rect width="1200" height="450" fill="url(#bg)"/>
+  <text x="1010" y="440"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="580" font-weight="200" fill="#FFFFFF" opacity="0.04"
+        text-anchor="middle" clip-path="url(#clip)">¢</text>
+  <rect x="88" y="110" width="2" height="230" fill="#22C55E" opacity="0.6" rx="1"/>
+  <text x="116" y="200"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="78" font-weight="700" fill="#FFFFFF" letter-spacing="-1">ClearCents</text>
+  <text x="118" y="255"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="22" font-weight="400" fill="#94A3B8" letter-spacing="0.5">Practical money tips for real life — no fluff, just results.</text>
+  <rect x="118" y="288" width="340" height="1.5" fill="#22C55E" rx="1"/>
+  <text x="118" y="325"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="15" font-weight="600" fill="#22C55E" letter-spacing="3">BUDGETING · SAVING · SIDE HUSTLES · INVESTING</text>
+  <text x="118" y="368"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="17" font-weight="500" fill="#FFFFFF" opacity="0.45" letter-spacing="1">clearcentslife.com</text>
+</svg>

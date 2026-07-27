@@ -6,6 +6,15 @@ categories: [side-hustles]
 tags: [fiverr, freelancing, side hustle, make money online]
 description: "Making $500/month on Fiverr as a beginner is realistic if you set up your profile right and choose the right services to offer. Here's the complete beginner's guide."
 image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&q=80&auto=format&fit=crop"
+faq:
+  - q: "How long does it take to make money on Fiverr as a beginner?"
+    a: "Most beginners earn their first dollar within 2–4 weeks of setting up a well-optimized gig. Months 1–2 are typically slow while you collect reviews; by month 3, consistent orders become more realistic. $500/month is achievable by month 3–6 in many categories."
+  - q: "What are the best services to sell on Fiverr for beginners?"
+    a: "Logo design, video editing, voiceover, transcription, social media graphics, and proofreading are all beginner-accessible and consistently in demand. Choose something you already know how to do — the learning curve on a new skill while also learning the platform is too steep."
+  - q: "How do I get my first order on Fiverr with no reviews?"
+    a: "Price your services 20–40% below the market median to attract buyers willing to try a new seller. Set up a complete profile with a real headshot, an optimized gig description, and strong portfolio images. Message buyers in 'Buyer Requests' proactively rather than waiting for orders to come in."
+  - q: "What percentage does Fiverr take from sellers?"
+    a: "Fiverr takes 20% of every order as a service fee. If you charge $100 for a gig, you receive $80. Factor this into your pricing from the start — price your services at what you want to net after the 20% cut, not what you want to gross."
 ---
 
 Fiverr has over 4 million active buyers placing orders every day. The platform works. The question isn't whether people make money on Fiverr — they clearly do — it's whether you can position yourself to be one of them starting from scratch.
@@ -20,7 +29,7 @@ Fiverr is a marketplace where freelancers offer services — called "gigs" — s
 
 What Fiverr is: a platform to find clients for freelance services without cold emailing or networking.
 
-What Fiverr isn't: [passive income](/side-hustles/passive-income-ideas/), fast money, or a place where simply signing up generates orders. You need to show up with a real service and a professional presentation.
+What Fiverr isn't: [passive income](/side-hustles/passive-income-ideas-that-work/), fast money, or a place where simply signing up generates orders. You need to show up with a real service and a professional presentation.
 
 ## Step 1: Choose the Right Service to Offer
 
@@ -110,4 +119,4 @@ Update your gig based on what you learn. Add FAQ answers to your description. Ad
 
 $500/month by month 3 is achievable in many categories. It requires real work — treating Fiverr as a business, not a lottery ticket.
 
-The sellers who fail on Fiverr set up a gig, get no orders in the first two weeks, and quit. The sellers who succeed treat those first two months as an investment and push through. Pick your service, build your profile today, and commit to 90 days before you evaluate whether it's working. Once income is flowing consistently, [starting a side hustle around your day job](/side-hustles/how-to-start-a-side-hustle/) is the next step to scaling without burning out.
+The sellers who fail on Fiverr set up a gig, get no orders in the first two weeks, and quit. The sellers who succeed treat those first two months as an investment and push through. Pick your service, build your profile today, and commit to 90 days before you evaluate whether it's working. Once income is flowing consistently, [starting a side hustle around your day job](/side-hustles/start-side-hustle-working-full-time/) is the next step to scaling without burning out. And since Fiverr income fluctuates month to month, the [guide to budgeting on irregular income](/budgeting/how-to-budget-on-irregular-income/) will help you manage the variable cash flow without overspending in good months.

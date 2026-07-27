@@ -5,6 +5,16 @@ description: "A realistic, step-by-step plan to save your first $1,000 in 90 day
 categories: [save-money]
 tags: [saving, budgeting, emergency fund, beginners]
 date: 2026-07-25
+image: "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=800&q=80&auto=format&fit=crop"
+faq:
+  - q: "How can I save $1,000 fast when I'm living paycheck to paycheck?"
+    a: "Audit your last 30 days of spending to find $78/week (the weekly target). Cancel forgotten subscriptions, cut one food delivery per week, and switch to store brands on groceries — that alone often frees $100–200/month. Immediately set up an automatic transfer to a separate savings account so the money can't be spent."
+  - q: "How long does it take to save $1,000 on a minimum wage income?"
+    a: "At minimum wage ($7.25–$15/hour depending on state), saving $78/week is difficult but possible. Start with a lower target — $50/week gets you $650 in 3 months, still a life-changing cushion. Cut one major expense, add a small side income stream, and automate whatever you can afford."
+  - q: "Where should I keep my first $1,000 in savings?"
+    a: "In a separate high-yield savings account at a different bank than your checking account. The physical separation prevents impulse spending. A high-yield account at Ally, Marcus, or SoFi also earns 4–5% interest while you build toward your goal."
+  - q: "What should I do after I save my first $1,000?"
+    a: "Keep the automatic transfer running and build toward 3 months of essential expenses. Once you hit that milestone, split the transfer — half continues to savings, half goes to paying extra on your highest-interest debt or your first Roth IRA contribution."
 ---
 
 Saving $1,000 feels impossible when your bank account hits zero before the next paycheck. I know — I've been there.
@@ -31,7 +41,7 @@ That's your target. Under $80 a week. Let's find it.
 
 This is not optional. Your savings need to live somewhere you can't easily touch it.
 
-Open a free high-yield savings account at a different bank than your checking. Marcus by Goldman Sachs, Ally Bank, and SoFi all offer free accounts with no minimum balance and rates around 4–5% APY right now.
+Open a free [high-yield savings account](/save-money/what-is-a-high-yield-savings-account/) at a different bank than your checking. Marcus by Goldman Sachs, Ally Bank, and SoFi all offer free accounts with no minimum balance and rates around 4–5% APY right now.
 
 The physical separation matters more than the interest rate at this stage. Out of sight, out of mind.
 
@@ -93,7 +103,7 @@ Don't stop. You've built the habit — now scale it.
 
 Month 4: keep the automatic transfer running and aim for $2,000 (three months of minimum expenses).
 
-Month 7: once you have three months of expenses saved, redirect half of the weekly transfer toward [paying off your highest-interest debt](/debt-free/debt-snowball-vs-debt-avalanche/) or [investing](/investing/how-to-start-investing/).
+Month 7: once you have three months of expenses saved, redirect half of the weekly transfer toward [paying off your highest-interest debt](/debt-free/debt-snowball-vs-debt-avalanche/) or [investing](/investing/how-to-start-investing-with-100-dollars/). The [52-week savings challenge](/save-money/52-week-savings-challenge/) is another framework to layer on top of this system to save an additional $1,378 in the same year.
 
 But that's a problem for a future version of you. Right now, your only job is the first $1,000.
 

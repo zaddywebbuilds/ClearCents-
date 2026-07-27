@@ -6,6 +6,15 @@ categories: [investing]
 tags: [emergency fund, investing, personal finance, financial security]
 description: "Should you invest first or build your emergency fund first? The answer depends on your situation — and getting it wrong is expensive either way. Here's how to think through it."
 image: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=800&q=80&auto=format&fit=crop"
+faq:
+  - q: "How much should I have in an emergency fund before investing?"
+    a: "Start with $1,000 as a starter fund — this covers most single emergencies without going into debt. Then capture any 401(k) employer match. Then build to 3–6 months of essential expenses before investing beyond the match. The exact amount depends on your job stability and income consistency."
+  - q: "Is 3 months or 6 months the right emergency fund size?"
+    a: "Three months is sufficient for people with stable, in-demand employment. Six months or more is better for freelancers, contractors, commission workers, or anyone in a volatile industry. The goal is to cover a realistic worst-case period — job loss plus a major expense — without going into debt."
+  - q: "Should I build an emergency fund or pay off debt first?"
+    a: "Build a $1,000 starter emergency fund first, then pay off high-interest debt (above 7–10% APR), then build the full 3–6 month fund. Without that initial $1,000 buffer, any unexpected expense forces you onto a credit card, which undoes your debt payoff progress."
+  - q: "Where should I keep my emergency fund?"
+    a: "In a high-yield savings account (HYSA) at an online bank like Ally, Marcus, or SoFi. These accounts pay 4–5% APY with no minimums or fees, and your money is FDIC-insured. Never keep your emergency fund in a brokerage account — market drops could reduce it exactly when you need it most."
 permalink: /investing/how-much-emergency-fund/
 ---
 
@@ -33,7 +42,7 @@ If your essential monthly expenses are $2,400:
 - 3-month emergency fund = $7,200
 - 6-month emergency fund = $14,400
 
-This money lives in a **high-yield savings account (HYSA)** — not a brokerage account, not a Roth IRA, not a CD with penalties for early withdrawal. It needs to be accessible within 1–2 business days without any losses.
+This money lives in a **high-yield savings account (HYSA)** — not a brokerage account, not a Roth IRA, not a CD with penalties for early withdrawal. It needs to be accessible within 1–2 business days without any losses. For a full breakdown of what to look for and where to open one, read the [complete guide to high-yield savings accounts](/save-money/what-is-a-high-yield-savings-account/).
 
 **Where to keep an emergency fund in 2026:**
 - Marcus by Goldman Sachs
@@ -140,4 +149,4 @@ Most people are somewhere in steps 1–4. The key insight: these steps aren't st
 
 Don't invest in individual stocks or speculation with no emergency fund. Don't delay investing for years while you slowly build a 6-month fund. The [52-week savings challenge](/save-money/52-week-savings-challenge/) is a simple way to build that cushion without feeling it. Find the balance that protects you from crisis without sacrificing years of compounding.
 
-The math works best when you're doing both — a growing emergency fund and growing investments — not waiting for one to be "done" before starting the other.
+The math works best when you're doing both — a growing emergency fund and growing investments — not waiting for one to be "done" before starting the other. The [guide to starting investing with $100](/investing/how-to-start-investing-with-100-dollars/) shows how to begin investing even while you're still building your emergency fund.

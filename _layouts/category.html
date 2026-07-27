@@ -17,6 +17,15 @@ layout: default
 
 <section class="section">
   <div class="container">
+
+    <!-- Category filter pills (active = current category) -->
+    <div class="cats-bar" role="navigation" aria-label="Filter by category">
+      <a href="{{ '/' | relative_url }}" class="cat-pill">All</a>
+      {% for cat in site.nav_categories %}
+      <a href="{{ cat.slug | prepend: '/' | append: '/' | relative_url }}" class="cat-pill{% if cat.slug == page.category %} active{% endif %}">{{ cat.icon }} {{ cat.name }}</a>
+      {% endfor %}
+    </div>
+
     {% assign cat_posts = site.posts | where_exp: "post", "post.categories contains page.category" %}
     {% if cat_posts.size > 0 %}
     <p class="cat-count-line">{{ cat_posts.size }} article{% if cat_posts.size != 1 %}s{% endif %} in this category</p>

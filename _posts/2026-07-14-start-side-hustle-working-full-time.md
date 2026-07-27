@@ -6,6 +6,15 @@ categories: [side-hustles]
 tags: [side hustle, work life balance, extra income, productivity]
 description: "Starting a side hustle while working a full-time job is doable — but only if you protect your energy and set it up right. Here's how to do it without burning out."
 image: "https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?w=800&q=80&auto=format&fit=crop"
+faq:
+  - q: "How do I start a side hustle while working a full-time job?"
+    a: "Choose a hustle that fits your energy level after work, not just your schedule. Block 3–4 focused evenings per week rather than working every spare moment. Set a hard end time each workday, take one full day off per week, and protect your rest to avoid burning out."
+  - q: "How many hours a week should I spend on a side hustle?"
+    a: "Eight to twelve hours per week is sustainable for most people with a full-time job — enough to build real income without destroying your health or relationships. Three evening blocks of 90 minutes plus a lunch break adds up without feeling overwhelming."
+  - q: "Can I lose my job for having a side hustle?"
+    a: "Possibly, if you have a non-compete or moonlighting clause in your employment contract. Review your contract before starting. Avoid using employer equipment, working on your side hustle during work hours, or competing directly with your employer's business."
+  - q: "What side hustles work best alongside a full-time job?"
+    a: "Asynchronous work is best — freelance writing, graphic design, video editing, transcription, and selling digital products all let you work on your own schedule without needing to be immediately available to clients. Avoid hustles that require fixed real-time slots that might conflict with your day job."
 permalink: /side-hustles/how-to-start-a-side-hustle/
 ---
 
@@ -21,7 +30,7 @@ A night shift nurse has 10 free hours on days off but may be too physically and 
 
 Before picking a side hustle, honestly assess where your energy goes and what you have left at the end of the day.
 
-**High-energy-cost day jobs** (healthcare, teaching, social work, management): choose side hustles that are low-social and low-mental-effort. [Delivery driving, pet sitting, selling physical items](/side-hustles/best-side-hustles-for-beginners/), cleaning — things where you can show up without being "on."
+**High-energy-cost day jobs** (healthcare, teaching, social work, management): choose side hustles that are low-social and low-mental-effort. [Delivery driving, pet sitting, selling physical items](/side-hustles/best-side-hustles-for-beginners/), cleaning — things where you can show up without being "on." For people interested in earning without active hourly presence, [passive income ideas](/side-hustles/passive-income-ideas-that-work/) can layer on top of whatever active hustle you start.
 
 **Low-energy day jobs** (data entry, warehouse, administrative work): you may have more mental energy left over. Freelance writing, tutoring, virtual assistance, and graphic design can work well.
 
@@ -86,6 +95,7 @@ Open a separate checking account just for side hustle income and expenses. This 
 Key financial facts for side hustlers earning above $400:
 - Self-employment tax is 15.3% on net profit (this is on top of income tax)
 - Set aside 25–30% of every side hustle payment for taxes
+- See the [guide to budgeting on irregular income](/budgeting/how-to-budget-on-irregular-income/) for a system built specifically around variable side hustle cash flow
 - Track all business expenses (software, equipment, home office, mileage) — these reduce your taxable profit
 - File a Schedule C with your federal return; pay quarterly estimated taxes to avoid penalties
 
