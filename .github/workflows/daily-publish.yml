@@ -1,0 +1,20 @@
+name: Daily Post Publisher
+
+on:
+  schedule:
+    # 7:00 AM EST = 11:00 AM UTC (adjusts for EDT in summer: 7 AM EDT = 11:00 UTC)
+    - cron: '0 11 * * *'
+  workflow_dispatch: # allow manual trigger from GitHub Actions tab
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Trigger daily rebuild
+        run: |
+          git config user.email "action@github.com"
+          git config user.name "ClearCents Scheduler"
+          git commit --allow-empty -m "Scheduled publish: $(date +'%Y-%m-%d')"
+          git push
