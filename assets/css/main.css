@@ -787,7 +787,7 @@ ul, ol { padding-left: 1.5rem; }
 
 /* AdSense */
 .ad-slot { border-radius: var(--radius-md); overflow: hidden; min-height: 250px; }
-.ad-slot-banner { border-radius: var(--radius-md); overflow: hidden; min-height: 90px; margin: 2rem 0; }
+.ad-slot-banner { border-radius: var(--radius-md); overflow: hidden; margin: 2rem 0; }
 
 /* ============================================
    SINGLE POST
