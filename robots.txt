@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://clearcentslife.com/sitemap.xml
+Sitemap: https://clearcentslife.com/sitemap-images.xml

@@ -1,0 +1,27 @@
+{
+  "name": "ClearCents",
+  "short_name": "ClearCents",
+  "description": "Practical budgeting, saving strategies, and side hustle tips for real people living on real salaries.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#050810",
+  "theme_color": "#050810",
+  "lang": "en-US",
+  "categories": ["finance", "education", "lifestyle"],
+  "icons": [
+    {
+      "src": "/assets/images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/images/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

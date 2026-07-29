@@ -1,6 +1,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="color-scheme" content="light dark">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="ClearCents">
+<meta name="format-detection" content="telephone=no">
 
 <!-- Title -->
 <title>{% if page.title %}{{ page.title | escape }} | {{ site.title }}{% else %}{{ site.title }} — {{ site.tagline }}{% endif %}</title>
@@ -22,7 +27,7 @@
 <link rel="canonical" href="{{ page.url | absolute_url }}">
 
 <!-- Robots -->
-<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
 
 <!-- Open Graph -->
 <meta property="og:site_name" content="{{ site.title }}">
@@ -86,7 +91,8 @@
   },
   "description": "{% if page.description %}{{ page.description | strip_html | truncate: 160 | escape }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 | escape }}{% endif %}",
   "articleSection": "{% assign _cat = page.categories | first %}{{ site.data.categories[_cat] | default: _cat | default: 'Finance' }}",
-  "keywords": "{{ page.tags | join: ', ' }}"
+  "keywords": "{{ page.tags | join: ', ' }}",
+  "wordCount": {{ page.content | number_of_words }}
 }
 </script>
 {% else %}
@@ -138,28 +144,38 @@
 </script>
 {% endif %}
 
-<!-- Favicon -->
+<!-- Favicon & PWA -->
 <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | relative_url }}">
 <link rel="alternate icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}">
+<link rel="manifest" href="{{ '/manifest.json' | relative_url }}">
 <meta name="theme-color" content="#050810">
 
-<!-- Fonts -->
+<!-- LCP preload: fetch the hero image before render starts -->
+{% if page.image %}<link rel="preload" as="image" href="{{ page.image }}" fetchpriority="high">{% endif %}
+
+<!-- Fonts (non-render-blocking) -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700&display=swap"></noscript>
 
 <!-- Main CSS -->
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
-<!-- Google Analytics -->
+<!-- Google Analytics (deferred — loads after page to avoid render-blocking) -->
 {% if site.google_analytics and site.google_analytics != "G-XXXXXXXXXX" %}
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', '{{ site.google_analytics }}', { page_path: window.location.pathname });
+  window.addEventListener('load', function() {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}';
+    s.async = true;
+    document.head.appendChild(s);
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ site.google_analytics }}', { page_path: window.location.pathname });
+  });
 </script>
 {% endif %}
 
