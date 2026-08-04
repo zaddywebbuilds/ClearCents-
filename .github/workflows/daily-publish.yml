@@ -29,14 +29,14 @@ jobs:
           curl -s "https://www.bing.com/ping?sitemap=https://clearcentslife.com/sitemap.xml" || true
           echo "Sitemap pings sent"
 
-      - name: Submit today's post to IndexNow
+      - name: Submit today's posts to IndexNow
         run: |
           INDEXNOW_KEY="93c8ff94ac37c4d1c470988fe1540a64"
           TODAY=$(date +'%Y-%m-%d')
           URL_LIST='"https://clearcentslife.com/"'
 
-          POST_FILE=$(ls _posts/${TODAY}-*.md 2>/dev/null | head -1)
-          if [ -n "$POST_FILE" ]; then
+          for POST_FILE in _posts/${TODAY}-*.md; do
+            [ -f "$POST_FILE" ] || continue
             PERMALINK=$(grep -m1 "^permalink:" "$POST_FILE" | sed 's/^permalink:[[:space:]]*//' | tr -d '"' | tr -d "'" | tr -d ' ')
             if [ -n "$PERMALINK" ]; then
               POST_URL="https://clearcentslife.com${PERMALINK}"
@@ -46,7 +46,8 @@ jobs:
               POST_URL="https://clearcentslife.com/${CATEGORY}/${SLUG}/"
             fi
             URL_LIST="${URL_LIST}, \"${POST_URL}\""
-          fi
+            echo "Queued: ${POST_URL}"
+          done
 
           curl -s -X POST "https://api.indexnow.org/indexnow" \
             -H "Content-Type: application/json; charset=utf-8" \
@@ -56,3 +57,4 @@ jobs:
               \"keyLocation\": \"https://clearcentslife.com/${INDEXNOW_KEY}.txt\",
               \"urlList\": [${URL_LIST}]
             }"
+          echo "IndexNow submission complete"
