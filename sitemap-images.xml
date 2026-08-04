@@ -8,7 +8,7 @@ layout: null
   <url>
     <loc>{{ post.url | absolute_url }}</loc>
     <image:image>
-      <image:loc>{{ post.image }}</image:loc>
+      <image:loc>{{ post.image | escape }}</image:loc>
       <image:title>{{ post.title | escape }}</image:title>
       {% if post.description %}<image:caption>{{ post.description | escape }}</image:caption>{% endif %}
     </image:image>
