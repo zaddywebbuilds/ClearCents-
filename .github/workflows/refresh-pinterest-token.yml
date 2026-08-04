@@ -1,0 +1,59 @@
+name: Refresh Pinterest Token
+
+on:
+  schedule:
+    - cron: '0 10 */20 * *'
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Refresh access token and update secrets
+        env:
+          REFRESH_TOKEN: ${{ secrets.PINTEREST_REFRESH_TOKEN }}
+          CLIENT_SECRET: ${{ secrets.PINTEREST_CLIENT_SECRET }}
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          pip install -q PyNaCl requests
+
+          RESPONSE=$(curl -s -X POST "https://api.pinterest.com/v5/oauth/token" \
+            -u "1594243:${CLIENT_SECRET}" \
+            -H "Content-Type: application/x-www-form-urlencoded" \
+            -d "grant_type=refresh_token&refresh_token=${REFRESH_TOKEN}&scope=boards:read,boards:write,pins:read,pins:write")
+
+          echo "Pinterest API response: $RESPONSE"
+          export PINTEREST_RESPONSE="$RESPONSE"
+
+          python3 - <<'PYEOF'
+import os, base64, json, requests
+from nacl import encoding, public
+
+response    = json.loads(os.environ["PINTEREST_RESPONSE"])
+new_access  = response["access_token"]
+new_refresh = response.get("refresh_token", os.environ["REFRESH_TOKEN"])
+pat         = os.environ["GH_PAT"]
+repo        = "zaddywebbuilds/ClearCents-"
+
+headers = {"Authorization": f"token {pat}", "Accept": "application/vnd.github+json"}
+
+def encrypt_secret(pub_key_str, secret_value):
+    pk  = public.PublicKey(pub_key_str.encode("utf-8"), encoding.Base64Encoder())
+    box = public.SealedBox(pk)
+    return base64.b64encode(box.encrypt(secret_value.encode("utf-8"))).decode("utf-8")
+
+key_data = requests.get(
+    f"https://api.github.com/repos/{repo}/actions/secrets/public-key",
+    headers=headers
+).json()
+key_id, key_val = key_data["key_id"], key_data["key"]
+
+for name, value in [("PINTEREST_ACCESS_TOKEN", new_access), ("PINTEREST_REFRESH_TOKEN", new_refresh)]:
+    encrypted = encrypt_secret(key_val, value)
+    r = requests.put(
+        f"https://api.github.com/repos/{repo}/actions/secrets/{name}",
+        headers=headers,
+        json={"encrypted_value": encrypted, "key_id": key_id}
+    )
+    print(f"Updated {name}: HTTP {r.status_code}")
+PYEOF
