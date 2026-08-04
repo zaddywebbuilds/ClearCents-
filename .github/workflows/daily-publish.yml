@@ -2,9 +2,8 @@ name: Daily Post Publisher
 
 on:
   schedule:
-    # 7:00 AM EST = 11:00 AM UTC (adjusts for EDT in summer: 7 AM EDT = 11:00 UTC)
     - cron: '0 11 * * *'
-  workflow_dispatch: # allow manual trigger from GitHub Actions tab
+  workflow_dispatch:
 
 jobs:
   publish:
@@ -18,3 +17,40 @@ jobs:
           git config user.name "ClearCents Scheduler"
           git commit --allow-empty -m "Scheduled publish: $(date +'%Y-%m-%d')"
           git push
+
+      - name: Wait for GitHub Pages to rebuild
+        run: sleep 90
+
+      - name: Ping Google & Bing sitemaps
+        run: |
+          curl -s "https://www.google.com/ping?sitemap=https://clearcentslife.com/sitemap.xml" || true
+          curl -s "https://www.bing.com/ping?sitemap=https://clearcentslife.com/sitemap.xml" || true
+          echo "Sitemap pings sent"
+
+      - name: Submit today's post to IndexNow
+        run: |
+          INDEXNOW_KEY="93c8ff94ac37c4d1c470988fe1540a64"
+          TODAY=$(date +'%Y-%m-%d')
+          URL_LIST='"https://clearcentslife.com/"'
+
+          POST_FILE=$(ls _posts/${TODAY}-*.md 2>/dev/null | head -1)
+          if [ -n "$POST_FILE" ]; then
+            PERMALINK=$(grep -m1 "^permalink:" "$POST_FILE" | sed 's/^permalink:[[:space:]]*//' | tr -d '"' | tr -d "'" | tr -d ' ')
+            if [ -n "$PERMALINK" ]; then
+              POST_URL="https://clearcentslife.com${PERMALINK}"
+            else
+              CATEGORY=$(grep -m1 "^categories:" "$POST_FILE" | sed 's/^categories:[[:space:]]*//' | tr -d '[]' | awk '{print $1}')
+              SLUG=$(basename "$POST_FILE" .md | sed 's/^[0-9-]*-//')
+              POST_URL="https://clearcentslife.com/${CATEGORY}/${SLUG}/"
+            fi
+            URL_LIST="${URL_LIST}, \"${POST_URL}\""
+          fi
+
+          curl -s -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d "{
+              \"host\": \"clearcentslife.com\",
+              \"key\": \"${INDEXNOW_KEY}\",
+              \"keyLocation\": \"https://clearcentslife.com/${INDEXNOW_KEY}.txt\",
+              \"urlList\": [${URL_LIST}]
+            }"
