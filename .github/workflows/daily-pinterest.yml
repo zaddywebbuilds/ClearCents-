@@ -1,0 +1,118 @@
+name: Daily Pinterest Publisher
+
+on:
+  schedule:
+    - cron: '3 11 * * *'
+  workflow_dispatch:
+
+jobs:
+  pin:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install Pillow requests
+
+      - name: Find today's posts
+        id: find_posts
+        run: |
+          TODAY=$(date +'%Y-%m-%d')
+          FILES=$(ls _posts/${TODAY}-*.md 2>/dev/null || true)
+          echo "files=${FILES}" >> $GITHUB_OUTPUT
+          echo "today=${TODAY}" >> $GITHUB_OUTPUT
+          if [ -z "$FILES" ]; then
+            echo "found=false" >> $GITHUB_OUTPUT
+            echo "No posts found for $TODAY"
+          else
+            echo "found=true" >> $GITHUB_OUTPUT
+            echo "Found: $FILES"
+          fi
+
+      - name: Generate Pinterest images
+        if: steps.find_posts.outputs.found == 'true'
+        run: |
+          mkdir -p assets/pinterest
+          for POST in ${{ steps.find_posts.outputs.files }}; do
+            SLUG=$(basename "$POST" .md)
+            python3 scripts/generate_pinterest_image.py "$SLUG"
+          done
+
+      - name: Commit Pinterest images
+        if: steps.find_posts.outputs.found == 'true'
+        run: |
+          git config user.email "action@github.com"
+          git config user.name "ClearCents Bot"
+          git add assets/pinterest/
+          git diff --staged --quiet || git commit -m "Add Pinterest images for $(date +'%Y-%m-%d') posts"
+          git push || git pull --rebase && git push
+
+      - name: Wait for GitHub Pages to serve new images
+        if: steps.find_posts.outputs.found == 'true'
+        run: sleep 60
+
+      - name: Pin today's posts to Pinterest
+        if: steps.find_posts.outputs.found == 'true'
+        env:
+          PINTEREST_TOKEN: ${{ secrets.PINTEREST_ACCESS_TOKEN }}
+          BOARD_BUDGETING:    ${{ secrets.PINTEREST_BOARD_BUDGETING }}
+          BOARD_SAVE_MONEY:   ${{ secrets.PINTEREST_BOARD_SAVE_MONEY }}
+          BOARD_DEBT_FREE:    ${{ secrets.PINTEREST_BOARD_DEBT_FREE }}
+          BOARD_INVESTING:    ${{ secrets.PINTEREST_BOARD_INVESTING }}
+          BOARD_SIDE_HUSTLES: ${{ secrets.PINTEREST_BOARD_SIDE_HUSTLES }}
+        run: |
+          for POST in ${{ steps.find_posts.outputs.files }}; do
+            SLUG=$(basename "$POST" .md)
+
+            TITLE=$(grep -m1 "^title:" "$POST" | sed 's/^title:[[:space:]]*//' | tr -d '"')
+            DESC=$(grep -m1 "^description:" "$POST" | sed 's/^description:[[:space:]]*//' | tr -d '"')
+            PERMALINK=$(grep -m1 "^permalink:" "$POST" | sed 's/^permalink:[[:space:]]*//' | tr -d '"' | tr -d "'")
+            CATEGORY=$(grep -m1 "^categories:" "$POST" | sed 's/^categories:[[:space:]]*//' | tr -d '[]' | awk '{print $1}')
+
+            if [ -n "$PERMALINK" ]; then
+              POST_URL="https://clearcentslife.com${PERMALINK}"
+            else
+              POST_URL="https://clearcentslife.com/"
+            fi
+
+            case "$CATEGORY" in
+              budgeting)    BOARD_ID="$BOARD_BUDGETING" ;;
+              save-money)   BOARD_ID="$BOARD_SAVE_MONEY" ;;
+              debt-free)    BOARD_ID="$BOARD_DEBT_FREE" ;;
+              investing)    BOARD_ID="$BOARD_INVESTING" ;;
+              side-hustles) BOARD_ID="$BOARD_SIDE_HUSTLES" ;;
+              *)            BOARD_ID="$BOARD_BUDGETING" ;;
+            esac
+
+            IMAGE_URL="https://clearcentslife.com/assets/pinterest/${SLUG}.jpg"
+
+            echo "Pinning: $TITLE → Board $BOARD_ID"
+
+            RESPONSE=$(curl -s -o /tmp/pin_response.json -w "%{http_code}" \
+              -X POST "https://api.pinterest.com/v5/pins" \
+              -H "Authorization: Bearer ${PINTEREST_TOKEN}" \
+              -H "Content-Type: application/json" \
+              -d "{
+                \"link\": \"${POST_URL}\",
+                \"title\": \"${TITLE}\",
+                \"description\": \"${DESC} | ClearCents\",
+                \"board_id\": \"${BOARD_ID}\",
+                \"media_source\": {
+                  \"source_type\": \"image_url\",
+                  \"url\": \"${IMAGE_URL}\"
+                }
+              }")
+
+            echo "HTTP $RESPONSE"
+            cat /tmp/pin_response.json
+
+            sleep 12
+          done
