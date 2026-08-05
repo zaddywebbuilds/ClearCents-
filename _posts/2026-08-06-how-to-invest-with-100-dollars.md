@@ -110,6 +110,7 @@ The money you didn't invest grows nothing. The money you invested is working eve
 3. **Max your Roth IRA** — work toward contributing the full $7,000/year ($583/month) over time
 4. **Learn the basics of your 401(k)** — once your Roth IRA is on autopilot, optimize your employer-sponsored plan
 5. **Don't complicate it** — one or two index funds is genuinely all most people need for their entire investing life
+6. **Track your net worth for free** — [Empower](https://empower.com) connects all your accounts (bank, brokerage, 401k, debt) into one dashboard and shows your real net worth updated daily. It's free and takes under 5 minutes to set up. Seeing the number grow is one of the most effective motivators to keep investing consistently.
 
 The investing advice industry has a financial incentive to make this seem complicated. It isn't. A single low-cost index fund in a Roth IRA, funded consistently, has outperformed the majority of actively managed funds over every long-term measurement period.
 

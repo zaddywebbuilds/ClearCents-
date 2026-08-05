@@ -77,7 +77,7 @@ The snowball converts long-term progress into short-term wins. For people who ha
 ## Setting Up Either Method in 4 Steps
 
 **1. List all debts**  
-Write down every debt: balance, interest rate, minimum payment, and lender.
+Write down every debt: balance, interest rate, minimum payment, and lender. If you're not sure of your balances or current interest rates, [Credit Karma](https://creditkarma.com) shows all your accounts, credit score, and debt summary for free — no credit card required.
 
 **2. Choose your order**  
 Snowball: sort by balance, smallest to largest.  

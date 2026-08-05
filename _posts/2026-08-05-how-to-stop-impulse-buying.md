@@ -56,6 +56,8 @@ Delete your saved payment methods from:
 
 This one change adds enough friction to prevent the lowest-consideration purchases from completing. The items you genuinely want and plan to buy, you'll enter your card for. The impulses won't survive the inconvenience.
 
+One exception worth keeping: install [Rakuten](https://rakuten.com) as a browser extension. It activates automatically when you're on a retailer's site and applies coupons or gives you cash back at 3,500+ stores. It doesn't make you spend more — it just means the purchases you'd make anyway cost you less. Rakuten has paid out over $3.5 billion in cash back to members.
+
 ## Strategy 3: Unsubscribe from Retail Emails
 
 Promotional emails are engineered to create urgency. "48-hour flash sale." "Your cart is waiting." "Only 3 left at this price." Each subject line is designed to make you feel you're losing something if you don't click.
