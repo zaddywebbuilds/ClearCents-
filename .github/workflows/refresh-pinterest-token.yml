@@ -18,22 +18,22 @@ jobs:
           pip install -q requests
 
           python3 -c "
-import os, json, requests
-r = requests.post(
-    'https://api.pinterest.com/v5/oauth/token',
-    data={
-        'grant_type': 'refresh_token',
-        'refresh_token': os.environ['REFRESH_TOKEN'],
-        'scope': 'boards:read,boards:write,pins:read,pins:write'
-    },
-    auth=('1594243', os.environ['CLIENT_SECRET'])
-)
-d = r.json()
-print('Status:', d.get('status', 'ok'))
-open('/tmp/new_access.txt', 'w').write(d['access_token'])
-open('/tmp/new_refresh.txt', 'w').write(d.get('refresh_token', os.environ['REFRESH_TOKEN']))
-"
+          import os, json, requests
+          r = requests.post(
+              'https://api.pinterest.com/v5/oauth/token',
+              data={
+                  'grant_type': 'refresh_token',
+                  'refresh_token': os.environ['REFRESH_TOKEN'],
+                  'scope': 'boards:read,boards:write,pins:read,pins:write'
+              },
+              auth=('1594243', os.environ['CLIENT_SECRET'])
+          )
+          d = r.json()
+          print('Response:', json.dumps(d, indent=2))
+          open('/tmp/new_access.txt', 'w').write(d['access_token'])
+          open('/tmp/new_refresh.txt', 'w').write(d.get('refresh_token', os.environ['REFRESH_TOKEN']))
+          "
 
           gh secret set PINTEREST_ACCESS_TOKEN -R zaddywebbuilds/ClearCents- < /tmp/new_access.txt
           gh secret set PINTEREST_REFRESH_TOKEN -R zaddywebbuilds/ClearCents- < /tmp/new_refresh.txt
-          echo "Tokens refreshed"
+          echo "Tokens refreshed successfully"
