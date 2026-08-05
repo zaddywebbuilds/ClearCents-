@@ -67,6 +67,6 @@ If you answered yes to all three, consolidation is likely to help. If you're uns
 
 ## Consolidation Is a Tool, Not a Fix
 
-The people who benefit most from debt consolidation are the ones who treat it as one part of a bigger plan — alongside a real budget and a payoff strategy — not a standalone solution. If you haven't picked a payoff method yet, [debt snowball vs. debt avalanche](/debt-free/debt-avalanche-vs-snowball/) breaks down which approach gets you to zero fastest for your situation. And if the debt built up because of no spending plan at all, a [zero-based budget](/budgeting/zero-based-budgeting-guide/) gives every dollar a job so the balances don't creep back up after consolidation clears them.
+The people who benefit most from debt consolidation are the ones who treat it as one part of a bigger plan — alongside a real budget and a payoff strategy — not a standalone solution. If you haven't picked a payoff method yet, [debt snowball vs. debt avalanche](/debt-free/debt-snowball-vs-debt-avalanche/) breaks down which approach gets you to zero fastest for your situation. And if the debt built up because of no spending plan at all, a [zero-based budget](/budgeting/zero-based-budgeting-guide/) gives every dollar a job so the balances don't creep back up after consolidation clears them.
 
 Consolidation can absolutely be the right move. Just make sure you're solving the actual problem — not just rearranging it.

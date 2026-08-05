@@ -72,7 +72,7 @@ Common legitimate Roth withdrawal scenarios before retirement:
 - **Disability:** Withdrawals are penalty-free if you become disabled
 - **Health insurance premiums while unemployed:** Penalty-free
 
-The 5-year rule matters: your account must have been open for at least 5 years before earnings withdrawals are fully tax-free in retirement. Another reason to open it as early as possible even if you only put in $100 to start — the clock starts ticking on the 5-year rule on the date you open the account. Once it's open, read the [guide to starting investing with $100](/investing/how-to-start-investing-with-100-dollars/) for which fund to buy first and how to set up automatic contributions.
+The 5-year rule matters: your account must have been open for at least 5 years before earnings withdrawals are fully tax-free in retirement. Another reason to open it as early as possible even if you only put in $100 to start — the clock starts ticking on the 5-year rule on the date you open the account. Once it's open, read the [guide to starting investing with $100](/investing/how-to-start-investing/) for which fund to buy first and how to set up automatic contributions.
 
 ## What to Invest in Inside Your Roth IRA
 

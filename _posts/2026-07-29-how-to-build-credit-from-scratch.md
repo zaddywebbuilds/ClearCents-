@@ -137,7 +137,7 @@ The progress isn't linear. Some months nothing moves; then a utilization drop or
 
 Once you're above 700, you can begin the longer game: getting approved for rewards credit cards, refinancing any high-rate debt at better terms, and eventually qualifying for the best mortgage rates.
 
-The goal isn't a perfect score — it's a score high enough that credit stops being an obstacle. Once you've cleared 700, [investing even small amounts](/investing/how-to-start-investing-with-100-dollars/) and [building an emergency fund](/save-money/how-to-save-1000-dollars-in-3-months/) become far easier because your options for credit are no longer limited to predatory terms.
+The goal isn't a perfect score — it's a score high enough that credit stops being an obstacle. Once you've cleared 700, [investing even small amounts](/investing/how-to-start-investing/) and [building an emergency fund](/save-money/how-to-save-1000-dollars-in-3-months/) become far easier because your options for credit are no longer limited to predatory terms.
 
 Good credit doesn't make you wealthy. But bad credit actively makes it harder to build wealth — through higher rates, denied applications, and the stress of financial fragility. Building it is one of the highest-return investments you can make in your financial life.
 

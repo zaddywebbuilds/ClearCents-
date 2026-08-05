@@ -103,7 +103,7 @@ Don't stop. You've built the habit — now scale it.
 
 Month 4: keep the automatic transfer running and aim for $2,000 (three months of minimum expenses).
 
-Month 7: once you have three months of expenses saved, redirect half of the weekly transfer toward [paying off your highest-interest debt](/debt-free/debt-snowball-vs-debt-avalanche/) or [investing](/investing/how-to-start-investing-with-100-dollars/). The [52-week savings challenge](/save-money/52-week-savings-challenge/) is another framework to layer on top of this system to save an additional $1,378 in the same year.
+Month 7: once you have three months of expenses saved, redirect half of the weekly transfer toward [paying off your highest-interest debt](/debt-free/debt-snowball-vs-debt-avalanche/) or [investing](/investing/how-to-start-investing/). The [52-week savings challenge](/save-money/52-week-savings-challenge/) is another framework to layer on top of this system to save an additional $1,378 in the same year.
 
 But that's a problem for a future version of you. Right now, your only job is the first $1,000.
 

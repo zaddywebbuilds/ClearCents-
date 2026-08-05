@@ -19,7 +19,7 @@ faq:
 
 Warren Buffett, one of the most successful investors in history, has repeatedly said the same thing for decades: for most people, the best investment is a low-cost S&P 500 index fund. Not individual stocks. Not actively managed funds. An index fund.
 
-If Buffett's advice is good enough for most investors, it's worth understanding what exactly he's talking about. If you're new to investing entirely, [start with how to invest your first $100](/investing/how-to-start-investing-with-100-dollars/) — it covers which account to open and how to make the first purchase step by step.
+If Buffett's advice is good enough for most investors, it's worth understanding what exactly he's talking about. If you're new to investing entirely, [start with how to invest your first $100](/investing/how-to-start-investing/) — it covers which account to open and how to make the first purchase step by step.
 
 ## What Is an Index Fund?
 

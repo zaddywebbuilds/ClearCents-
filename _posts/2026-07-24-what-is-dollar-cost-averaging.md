@@ -86,7 +86,7 @@ Done. The investments happen automatically every month without you lifting a fin
 
 DCA is a strategy, not an investment. You still need to choose what to buy.
 
-For most beginners starting out — as covered in the [how to start investing with $100 guide](/investing/how-to-start-investing-with-100-dollars/) — the right choice is a **broad market index fund**:
+For most beginners starting out — as covered in the [how to start investing with $100 guide](/investing/how-to-start-investing/) — the right choice is a **broad market index fund**:
 
 - **VTI** (Vanguard Total Market ETF) — entire US stock market, 0.03% annual fee
 - **VOO** (Vanguard S&P 500 ETF) — 500 largest US companies, 0.03% annual fee

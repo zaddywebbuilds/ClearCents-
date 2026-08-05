@@ -149,4 +149,4 @@ Most people are somewhere in steps 1–4. The key insight: these steps aren't st
 
 Don't invest in individual stocks or speculation with no emergency fund. Don't delay investing for years while you slowly build a 6-month fund. The [52-week savings challenge](/save-money/52-week-savings-challenge/) is a simple way to build that cushion without feeling it. Find the balance that protects you from crisis without sacrificing years of compounding.
 
-The math works best when you're doing both — a growing emergency fund and growing investments — not waiting for one to be "done" before starting the other. The [guide to starting investing with $100](/investing/how-to-start-investing-with-100-dollars/) shows how to begin investing even while you're still building your emergency fund.
+The math works best when you're doing both — a growing emergency fund and growing investments — not waiting for one to be "done" before starting the other. The [guide to starting investing with $100](/investing/how-to-start-investing/) shows how to begin investing even while you're still building your emergency fund.

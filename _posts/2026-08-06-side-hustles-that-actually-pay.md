@@ -146,7 +146,7 @@ Most people who try a side hustle and quit did one of three things:
 2. **Underpriced themselves** and burned out for $10–$12/hour when the market would have paid $30+
 3. **Treated it as passive** — side hustles are not passive. They're a part-time job you manage yourself.
 
-Pick one from this list. Start this week, not when conditions are perfect. The $400–$1,200/month in extra income — routed directly to your [debt payoff plan](/debt-free/debt-avalanche-vs-snowball/) or investment accounts — can cut your debt-free timeline by years and your retirement timeline by a decade.
+Pick one from this list. Start this week, not when conditions are perfect. The $400–$1,200/month in extra income — routed directly to your [debt payoff plan](/debt-free/debt-snowball-vs-debt-avalanche/) or investment accounts — can cut your debt-free timeline by years and your retirement timeline by a decade.
 
 The time you spend researching additional side hustles is time you could spend working the one you already have.
 
