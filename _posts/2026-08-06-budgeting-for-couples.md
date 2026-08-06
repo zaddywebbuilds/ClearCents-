@@ -64,7 +64,7 @@ Once the account structure is set, build the budget in the same room, at the sam
 
 Cover, together:
 - Fixed shared expenses (rent/mortgage, utilities, insurance)
-- Joint savings goals (emergency fund, house down payment, vacation)
+- Joint savings goals — if you don't have a shared emergency fund yet, [saving your first $1,000 together in three months](/save-money/how-to-save-1000-dollars-in-3-months/) is a good first target before a house down payment or vacation fund
 - Individual discretionary spending amounts
 - A "no questions asked" threshold for personal account spending
 - A dollar amount above which a purchase needs a conversation first, even from personal accounts if it affects shared goals

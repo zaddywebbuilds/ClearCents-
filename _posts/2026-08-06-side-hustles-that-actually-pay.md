@@ -148,6 +148,8 @@ Most people who try a side hustle and quit did one of three things:
 
 Pick one from this list. Start this week, not when conditions are perfect. The $400–$1,200/month in extra income — routed directly to your [debt payoff plan](/debt-free/debt-snowball-vs-debt-avalanche/) or investment accounts — can cut your debt-free timeline by years and your retirement timeline by a decade.
 
-The time you spend researching additional side hustles is time you could spend working the one you already have.
+If you don't have an emergency fund yet, side hustle income is also the fastest way to [save your first $1,000 in three months](/save-money/how-to-save-1000-dollars-in-3-months/) — a dedicated side income stream, even part-time, gets you there faster than trimming an already-tight budget alone.
+
+The time you spend researching additional side hustles is time you could spend working the one you already have. Once the extra income starts landing, give it a job with a [zero-based budget](/budgeting/zero-based-budgeting-guide/) — otherwise it tends to quietly disappear into regular spending instead of building toward a goal.
 
 **One tool worth using regardless of which hustle you pick:** [Empower](https://empower.com) lets you track side hustle income separately from your salary, watch your net worth climb in real time, and see exactly how your extra income is compounding over time. It's free and takes 5 minutes to set up — seeing the number move is one of the best motivators to keep going.

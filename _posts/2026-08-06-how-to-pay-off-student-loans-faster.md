@@ -18,7 +18,7 @@ faq:
     a: "Public Service Loan Forgiveness (PSLF) forgives remaining federal loan balances after 120 qualifying monthly payments while working full-time for a qualifying government or nonprofit employer. Income-driven repayment plans also forgive remaining balances after 20–25 years of payments. Both require federal loans specifically — refinancing into a private loan makes you permanently ineligible for either."
 ---
 
-Student loan debt is different from most other debt: the amounts are often larger, the terms are longer, and federal loans come with protections — forgiveness programs, income-driven repayment, deferment — that most other debt doesn't have. That makes the payoff strategy a little different too.
+Student loan debt is different from most other debt: the amounts are often larger, the terms are longer, and federal loans come with protections — forgiveness programs, income-driven repayment, deferment — that most other debt doesn't have. That makes the payoff strategy a little different from, say, [paying off credit card debt](/debt-free/how-to-pay-off-credit-card-debt/), where the answer is almost always "as fast as possible."
 
 The goal isn't just "pay it off as fast as possible" the way you might approach a credit card. It's paying it off faster *without* accidentally giving up protections you might need later.
 
@@ -69,6 +69,8 @@ Refinancing replaces your loan (federal or private) with a new private loan, ide
 - You don't have an emergency fund covering at least 3 months of expenses
 
 Shop multiple lenders (Splash, SoFi, Earnest, and others) since rates vary meaningfully based on credit score and income, and most offer rate checks with a soft credit pull that doesn't affect your score.
+
+Not sure where the extra $100/month is going to come from? Running a [zero-based budget](/budgeting/zero-based-budgeting-guide/) for one month — giving every dollar a job before you spend it — is usually the fastest way to find money you're already earning but not directing anywhere specific.
 
 ## Strategy 5: Round Up Every Payment
 
