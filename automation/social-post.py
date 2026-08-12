@@ -1,239 +1,126 @@
+#!/usr/bin/env python3
 """
-Auto-post new ClearCents blog posts to Pinterest and Reddit.
-Triggered by GitHub Actions when new files are added to _posts/.
+Auto-post new ClearCents blog posts to Pinterest.
+Runs via GitHub Actions on every new _posts/*.md push.
 """
 
 import os
 import sys
-import json
 import time
 import requests
 import frontmatter
-from pathlib import Path
 
-SITE_URL = os.environ.get('SITE_URL', 'https://clearcentslife.com')
+SITE_URL        = os.environ.get('SITE_URL', 'https://clearcentslife.com').rstrip('/')
+NEW_POST_FILES  = os.environ.get('NEW_POST_FILES', '').strip()
+BATCH_POST_ALL  = os.environ.get('BATCH_POST_ALL', 'false').lower() == 'true'
 
-# Category slug → subreddits (ordered by relevance; posts to the first one only)
-SUBREDDIT_MAP = {
-    'budgeting':     ['ynab', 'personalfinance', 'Frugal'],
-    'save-money':    ['Frugal', 'povertyfinance', 'personalfinance'],
-    'side-hustles':  ['beermoney', 'SideHustle', 'WorkOnline'],
-    'debt-free':     ['debtfree', 'povertyfinance', 'personalfinance'],
-    'investing':     ['Bogleheads', 'personalfinance', 'investing'],
+PINTEREST_ACCESS_TOKEN  = os.environ.get('PINTEREST_ACCESS_TOKEN', '')
+PINTEREST_REFRESH_TOKEN = os.environ.get('PINTEREST_REFRESH_TOKEN', '')
+PINTEREST_CLIENT_ID     = os.environ.get('PINTEREST_CLIENT_ID', '')
+PINTEREST_CLIENT_SECRET = os.environ.get('PINTEREST_CLIENT_SECRET', '')
+PINTEREST_BOARD_IDS     = os.environ.get('PINTEREST_BOARD_IDS', '')
+
+CATEGORY_HASHTAGS = {
+    'budgeting':    '#budgeting #budgettips #moneytips #personalfinance #savemoney',
+    'save-money':   '#savemoney #frugalliving #moneysavingtips #personalfinance #budgeting',
+    'side-hustles': '#sidehustle #makemoney #extraincome #sideincome #personalfinance',
+    'debt-free':    '#debtfree #debtpayoff #financialfreedom #getoutofdebt #personalfinance',
+    'investing':    '#investing #stockmarket #wealthbuilding #financialfreedom #personalfinance',
 }
 
-# ─────────────────────────────────────────────────────────────
-# Helpers
-# ─────────────────────────────────────────────────────────────
 
-def build_post_url(meta, file_path):
-    """Reconstruct the Jekyll permalink /:category/:slug/ from front matter + filename."""
-    cats = meta.get('categories', [])
-    category_slug = cats[0].lower().replace(' ', '-') if cats else 'blog'
-    stem = Path(file_path).stem                     # 2026-07-25-my-post-title
-    parts = stem.split('-')
-    if len(parts) > 3:
-        slug = '-'.join(parts[3:])                  # strip YYYY-MM-DD- prefix
-    else:
-        slug = stem
-    return f"{SITE_URL}/{category_slug}/{slug}/"
-
-
-def category_slug(meta):
-    cats = meta.get('categories', [])
-    return cats[0].lower().replace(' ', '-') if cats else ''
-
-
-# ─────────────────────────────────────────────────────────────
-# Pinterest  (API v5)
-# ─────────────────────────────────────────────────────────────
-
-def refresh_pinterest_token():
-    """Exchange refresh token for a new access token and print it for Secret rotation."""
-    refresh_token = os.environ.get('PINTEREST_REFRESH_TOKEN')
-    client_id     = os.environ.get('PINTEREST_CLIENT_ID')
-    client_secret = os.environ.get('PINTEREST_CLIENT_SECRET')
-    if not all([refresh_token, client_id, client_secret]):
-        return None
+def refresh_token():
+    if not (PINTEREST_REFRESH_TOKEN and PINTEREST_CLIENT_ID and PINTEREST_CLIENT_SECRET):
+        return PINTEREST_ACCESS_TOKEN
     resp = requests.post(
         'https://api.pinterest.com/v5/oauth/token',
-        data={
-            'grant_type':    'refresh_token',
-            'refresh_token': refresh_token,
-        },
-        auth=(client_id, client_secret),
+        data={'grant_type': 'refresh_token', 'refresh_token': PINTEREST_REFRESH_TOKEN},
+        auth=(PINTEREST_CLIENT_ID, PINTEREST_CLIENT_SECRET),
+        timeout=15,
     )
     if resp.ok:
-        data = resp.json()
-        print(f"[Pinterest] New access token obtained (expires in {data.get('expires_in', '?')}s)")
-        return data['access_token']
-    print(f"[Pinterest] Token refresh failed: {resp.status_code} {resp.text}")
-    return None
+        new_token = resp.json().get('access_token', '')
+        if new_token:
+            print("Pinterest token refreshed.")
+            return new_token
+    print(f"Token refresh failed ({resp.status_code}), using existing token.")
+    return PINTEREST_ACCESS_TOKEN
 
 
-def post_to_pinterest(meta, post_url, _token=None):
-    token = _token or os.environ.get('PINTEREST_ACCESS_TOKEN')
-    if not token:
-        print("[Pinterest] No access token — skipping")
-        return
+def build_description(meta):
+    categories = meta.get('categories', [])
+    cat = categories[0] if categories else ''
+    tags = meta.get('tags', [])
+    base_desc = meta.get('description', meta.get('title', ''))
+    tag_hashtags = ' '.join('#' + t.replace(' ', '').replace('-', '') for t in tags[:5])
+    cat_hashtags = CATEGORY_HASHTAGS.get(cat, '#personalfinance #moneytips')
+    return f"{base_desc}\n\n{cat_hashtags} {tag_hashtags}".strip()[:500]
 
-    # Board IDs stored as JSON: {"budgeting":"123","save-money":"456",...}
-    raw_boards = os.environ.get('PINTEREST_BOARD_IDS', '{}')
-    try:
-        board_ids = json.loads(raw_boards)
-    except json.JSONDecodeError:
-        print("[Pinterest] PINTEREST_BOARD_IDS is not valid JSON — skipping")
-        return
 
-    cat = category_slug(meta)
-    board_id = board_ids.get(cat) or board_ids.get('default')
-    if not board_id:
-        print(f"[Pinterest] No board ID for category '{cat}' — skipping")
-        return
+def get_post_url(meta, filepath):
+    permalink = meta.get('permalink', '')
+    if permalink:
+        return SITE_URL + '/' + permalink.strip('/') + '/'
+    categories = meta.get('categories', [])
+    cat = categories[0] if categories else 'blog'
+    slug = os.path.basename(filepath).replace('.md', '')
+    slug = '-'.join(slug.split('-')[3:])
+    return f"{SITE_URL}/{cat}/{slug}/"
 
+
+def pin_to_pinterest(meta, post_url, token, board_ids):
+    headers = {'Authorization': f'Bearer {token}', 'Content-Type': 'application/json'}
+    title = meta.get('title', '')[:100]
+    description = build_description(meta)
     image_url = meta.get('image', '')
     if not image_url:
-        image_url = f"{SITE_URL}/assets/images/defaults/{cat}.jpg"
-
-    pin = {
-        'link':        post_url,
-        'title':       meta.get('title', '')[:100],
-        'description': meta.get('description', '')[:500],
-        'board_id':    board_id,
-        'media_source': {
-            'source_type': 'image_url',
-            'url':         image_url,
-        },
-    }
-
-    resp = requests.post(
-        'https://api.pinterest.com/v5/pins',
-        json=pin,
-        headers={
-            'Authorization': f'Bearer {token}',
-            'Content-Type':  'application/json',
-        },
-    )
-
-    if resp.status_code in (200, 201):
-        pin_id = resp.json().get('id', '?')
-        print(f"[Pinterest] ✅ Pin created: {pin_id}")
-    elif resp.status_code == 401 and _token is None:
-        print("[Pinterest] Token expired — attempting refresh...")
-        new_token = refresh_pinterest_token()
-        if new_token:
-            post_to_pinterest(meta, post_url, _token=new_token)
-    else:
-        print(f"[Pinterest] ❌ {resp.status_code}: {resp.text}")
-
-
-# ─────────────────────────────────────────────────────────────
-# Reddit  (via REST API — no extra library needed)
-# ─────────────────────────────────────────────────────────────
-
-def get_reddit_token():
-    client_id     = os.environ.get('REDDIT_CLIENT_ID')
-    client_secret = os.environ.get('REDDIT_CLIENT_SECRET')
-    username      = os.environ.get('REDDIT_USERNAME')
-    password      = os.environ.get('REDDIT_PASSWORD')
-    if not all([client_id, client_secret, username, password]):
-        return None, None
-    resp = requests.post(
-        'https://www.reddit.com/api/v1/access_token',
-        auth=(client_id, client_secret),
-        data={'grant_type': 'password', 'username': username, 'password': password},
-        headers={'User-Agent': f'ClearCents/1.0 by {username}'},
-    )
-    if resp.ok:
-        return resp.json().get('access_token'), username
-    print(f"[Reddit] Auth failed: {resp.status_code} {resp.text}")
-    return None, None
-
-
-def post_to_reddit(meta, post_url):
-    token, username = get_reddit_token()
-    if not token:
-        print("[Reddit] No credentials — skipping")
+        print("No image in post — skipping pin.")
         return
-
-    cat = category_slug(meta)
-    subreddits = SUBREDDIT_MAP.get(cat, ['personalfinance'])
-    title = meta.get('title', '')
-
-    headers = {
-        'Authorization': f'bearer {token}',
-        'User-Agent':    f'ClearCents/1.0 by {username}',
-        'Content-Type':  'application/x-www-form-urlencoded',
-    }
-
-    posted = False
-    for sub in subreddits:
-        data = {
-            'kind':    'link',
-            'sr':      sub,
-            'title':   title,
-            'url':     post_url,
-            'resubmit': False,
-            'nsfw':    False,
+    for board_id in board_ids:
+        payload = {
+            'board_id': board_id,
+            'title': title,
+            'description': description,
+            'link': post_url,
+            'media_source': {'source_type': 'image_url', 'url': image_url},
         }
-        resp = requests.post(
-            'https://oauth.reddit.com/api/submit',
-            headers=headers,
-            data=data,
-        )
-        body = resp.json()
-        # Reddit wraps responses in jquery array
-        errors = body.get('json', {}).get('errors', [])
-        if resp.ok and not errors:
-            permalink = body.get('json', {}).get('data', {}).get('url', '')
-            print(f"[Reddit] ✅ Posted to r/{sub}: {permalink}")
-            posted = True
-            break
+        resp = requests.post('https://api.pinterest.com/v5/pins', headers=headers, json=payload, timeout=20)
+        if resp.ok:
+            print(f"Pin created (id={resp.json().get('id')}) on board {board_id}")
         else:
-            reason = errors[0] if errors else resp.text[:200]
-            print(f"[Reddit] ⚠️  r/{sub} rejected: {reason} — trying next subreddit")
-            time.sleep(2)
+            print(f"Pinterest error (board={board_id}): {resp.status_code} {resp.text[:200]}")
+        time.sleep(2)
 
-    if not posted:
-        print(f"[Reddit] ❌ Could not post to any subreddit for category '{cat}'")
-
-
-# ─────────────────────────────────────────────────────────────
-# Main
-# ─────────────────────────────────────────────────────────────
 
 def main():
-    raw = os.environ.get('NEW_POST_FILES', '').strip()
-    if not raw:
-        print("No new post files detected.")
-        sys.exit(0)
-
-    files = [f for f in raw.split('\n') if f.startswith('_posts/') and f.endswith('.md')]
-    if not files:
-        print("No new .md files in _posts/ — nothing to post.")
-        sys.exit(0)
-
-    batch_all = os.environ.get('BATCH_POST_ALL', '').lower() == 'true'
-    targets = sorted(files) if batch_all else [sorted(files)[-1]]
-
-    for i, target in enumerate(targets):
-        print(f"\n📢 Posting ({i+1}/{len(targets)}): {target}")
-        try:
-            post = frontmatter.load(target)
-            meta = post.metadata
-            url  = build_post_url(meta, target)
-            print(f"   Title : {meta.get('title')}")
-            print(f"   URL   : {url}")
-            print(f"   Cat   : {category_slug(meta)}")
-        except Exception as e:
-            print(f"Failed to parse {target}: {e}")
+    if not NEW_POST_FILES:
+        print("No new post files. Nothing to post.")
+        return
+    post_files = [f.strip() for f in NEW_POST_FILES.splitlines() if f.strip()]
+    if not BATCH_POST_ALL:
+        post_files = post_files[-1:]
+    print(f"Posts to process: {post_files}")
+    token = refresh_token()
+    board_ids = [b.strip() for b in PINTEREST_BOARD_IDS.split(',') if b.strip()]
+    if not token:
+        print("No Pinterest access token. Set PINTEREST_ACCESS_TOKEN secret.")
+        sys.exit(1)
+    if not board_ids:
+        print("No board IDs. Set PINTEREST_BOARD_IDS secret.")
+        sys.exit(1)
+    for filepath in post_files:
+        if not os.path.exists(filepath):
+            print(f"File not found: {filepath} — skipping.")
             continue
-
-        post_to_pinterest(meta, url)
+        with open(filepath, 'r', encoding='utf-8') as fh:
+            post = frontmatter.load(fh)
+        meta = post.metadata
+        post_url = get_post_url(meta, filepath)
+        print(f"\nTitle : {meta.get('title', '')}")
+        print(f"URL   : {post_url}")
+        pin_to_pinterest(meta, post_url, token, board_ids)
         time.sleep(3)
-        post_to_reddit(meta, url)
-        if i < len(targets) - 1:
-            time.sleep(5)
+    print("\nDone.")
 
 
 if __name__ == '__main__':
