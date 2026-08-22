@@ -7,7 +7,13 @@
      data-ad-slot="{{ include.slot | default: 'auto' }}"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+<script>
+(function(){
+  var push = function(){ (window.adsbygoogle = window.adsbygoogle || []).push({}); };
+  if (document.readyState === 'complete') { push(); }
+  else { window.addEventListener('load', push); }
+})();
+</script>
 {% elsif include.type == "in-article" %}
 <!-- In-Article Ad -->
 <ins class="adsbygoogle"
@@ -16,7 +22,13 @@
      data-ad-format="fluid"
      data-ad-client="{{ site.adsense_publisher_id }}"
      data-ad-slot="{{ include.slot | default: 'auto' }}"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+<script>
+(function(){
+  var push = function(){ (window.adsbygoogle = window.adsbygoogle || []).push({}); };
+  if (document.readyState === 'complete') { push(); }
+  else { window.addEventListener('load', push); }
+})();
+</script>
 {% elsif include.type == "banner" %}
 <!-- Banner Ad -->
 <ins class="adsbygoogle"
@@ -25,7 +37,13 @@
      data-ad-slot="{{ include.slot | default: 'auto' }}"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+<script>
+(function(){
+  var push = function(){ (window.adsbygoogle = window.adsbygoogle || []).push({}); };
+  if (document.readyState === 'complete') { push(); }
+  else { window.addEventListener('load', push); }
+})();
+</script>
 {% else %}
 <!-- Auto Ad -->
 <ins class="adsbygoogle"
@@ -33,6 +51,12 @@
      data-ad-client="{{ site.adsense_publisher_id }}"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+<script>
+(function(){
+  var push = function(){ (window.adsbygoogle = window.adsbygoogle || []).push({}); };
+  if (document.readyState === 'complete') { push(); }
+  else { window.addEventListener('load', push); }
+})();
+</script>
 {% endif %}
 {% endif %}
