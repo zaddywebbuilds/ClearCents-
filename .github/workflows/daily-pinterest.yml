@@ -70,6 +70,7 @@ jobs:
           BOARD_INVESTING:    ${{ secrets.PINTEREST_BOARD_INVESTING }}
           BOARD_SIDE_HUSTLES: ${{ secrets.PINTEREST_BOARD_SIDE_HUSTLES }}
         run: |
+          FAILED=0
           for POST in ${{ steps.find_posts.outputs.files }}; do
             SLUG=$(basename "$POST" .md)
 
@@ -114,6 +115,17 @@ jobs:
 
             echo "HTTP $RESPONSE"
             cat /tmp/pin_response.json
+            echo ""
+
+            if [ "$RESPONSE" -lt 200 ] || [ "$RESPONSE" -ge 300 ]; then
+              echo "::error::Pinterest pin failed for ${SLUG} (HTTP ${RESPONSE}): $(cat /tmp/pin_response.json)"
+              FAILED=1
+            fi
 
             sleep 12
           done
+
+          if [ "$FAILED" -eq 1 ]; then
+            echo "::error::One or more Pinterest pins failed to publish -- see errors above"
+            exit 1
+          fi
