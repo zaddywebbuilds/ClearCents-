@@ -27,7 +27,11 @@ jobs:
         run: |
           TODAY=$(date +'%Y-%m-%d')
           FILES=$(ls _posts/${TODAY}-*.md 2>/dev/null || true)
-          echo "files=${FILES}" >> $GITHUB_OUTPUT
+          {
+            echo "files<<PINEOF"
+            echo "$FILES"
+            echo "PINEOF"
+          } >> "$GITHUB_OUTPUT"
           echo "today=${TODAY}" >> $GITHUB_OUTPUT
           if [ -z "$FILES" ]; then
             echo "found=false" >> $GITHUB_OUTPUT
