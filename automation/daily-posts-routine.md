@@ -8,10 +8,11 @@ or repoint the scheduled task at this path.
 
 **Last pipeline change:** 2026-09-03 — replaced blind category topic-picking with a
 Google-search competitor-gap research pipeline (steps 2a–2d) and a "beat the page to
-beat" instruction in step 4. DataForSEO was evaluated and dropped (API returned 403);
-the pipeline uses free WebSearch/WebFetch instead. Step 2a (own striking-distance
-keywords) needs a manual GSC export at `_data/gsc-latest.csv` and is skipped when
-that file is absent.
+beat" instruction in step 4. The live WebSearch pass (2b + 2d) is mandatory on every
+run and must happen before any post is written. DataForSEO was evaluated and dropped
+(API returned 403); the pipeline uses free WebSearch/WebFetch instead. Step 2a (own
+striking-distance keywords) needs a manual GSC export at `_data/gsc-latest.csv` and
+is the only sub-step that may be skipped, and only when that file is absent.
 
 ---
 
@@ -29,10 +30,18 @@ Write and push 4 new blog posts for today's date.
 
 Steps:
 1. Check today's date: run PowerShell `Get-Date -Format 'yyyy-MM-dd'`
-2. Pick 4 topics using the RESEARCH PIPELINE below (not a blind category grab-bag).
-   Still spread the 4 across: budgeting, save-money, debt-free, investing, side-hustles.
+2. RUN THE RESEARCH PIPELINE BELOW EVERY DAY, BEFORE WRITING ANYTHING.
+   Do not draft, outline, or create any _posts/ file until steps 2b and 2d are done.
+   The live WebSearch research pass is mandatory on every run — never skipped,
+   never done from memory. Only 2a may be skipped, and only when
+   _data/gsc-latest.csv is absent (note it in the output when you do).
+   Before step 3, print a short "Research pass" summary: candidates considered,
+   the WebSearch verdict for each finalist, the 4 topics chosen, and the
+   page-to-beat URL for each.
 
-   --- TOPIC RESEARCH PIPELINE (do this before writing anything) ---
+   Pick 4 topics, spread across: budgeting, save-money, debt-free, investing, side-hustles.
+
+   --- TOPIC RESEARCH PIPELINE (mandatory, before any writing) ---
 
    2a. STRIKING-DISTANCE CHECK (manual — no API access).
        If a fresh Google Search Console export is pasted into this run or saved at
@@ -42,10 +51,10 @@ Steps:
        If no GSC data is available, skip 2a and rely on 2b/2c, and note in the
        output that 2a was skipped.
 
-   2b. COMPETITOR-GAP DISCOVERY (Google search via WebSearch).
+   2b. COMPETITOR-GAP DISCOVERY (Google search via WebSearch) — REQUIRED EVERY RUN.
        Brainstorm ~10 candidate topics NOT already covered in _posts/ (check step 5
-       first). For each finalist, run a WebSearch for the head query and read the
-       first page of results:
+       first). You MUST run a live WebSearch for the head query of every finalist
+       (minimum 6 searches per run) and read the first page of results:
          - Who ranks? If page 1 is ALL big finance brands (NerdWallet, Ramsey,
            Fidelity, Bankrate, Investopedia, CNBC, SoFi, government sites) → HARD,
            drop it or find a longer-tail angle.
@@ -59,10 +68,11 @@ Steps:
        ranked by: feeds an existing GSC priority (2a) > extends a ranking cluster >
        fresh winnable SERP. Hold the rest for a future run.
 
-   2d. GET THE PAGE TO BEAT. For each of the 4, WebSearch the query, take the
-       top organic non-brand result, and WebFetch it for: word count, H2 outline,
-       whether it has an FAQ, and any obvious gaps or outdated figures. Pass this
-       into step 4.
+   2d. GET THE PAGE TO BEAT — REQUIRED EVERY RUN. For each of the 4 chosen topics,
+       WebSearch the query, take the top organic non-brand result, and WebFetch it
+       for: word count, H2 outline, whether it has an FAQ, and any obvious gaps or
+       outdated figures. Pass this into step 4. Do not start writing a post before
+       its page-to-beat has been fetched.
 
    --- END PIPELINE ---
 
