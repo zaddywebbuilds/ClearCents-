@@ -21,11 +21,12 @@ permalink: /free-budget-template/
   <div class="budget-page">
 
     <div class="budget-intro">
-      <p>No email required. No app to download. Just a straightforward monthly budget you can use right now. Print it, copy it to a spreadsheet, or fill it in on screen.</p>
+      <p>No email required. No app to download. Just a straightforward monthly budget you can use right now. Print it, download it as a spreadsheet, or fill it in on screen.</p>
       <div class="budget-actions">
         <button class="btn btn-gold" onclick="window.print()">Print this template</button>
-        <a href="https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgVE2upms/copy" target="_blank" rel="noopener" class="btn btn-outline">Copy to Google Sheets</a>
+        <a href="{{ '/assets/clearcents-monthly-budget-template.csv' | relative_url }}" download class="btn btn-outline">Download spreadsheet (CSV)</a>
       </div>
+      <p class="budget-note">The download opens in Google Sheets, Excel, or Numbers, and the section totals and difference columns calculate themselves.</p>
     </div>
 
     <div class="budget-template" id="budgetTemplate">

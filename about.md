@@ -34,7 +34,7 @@ permalink: /about/
     </ul>
 
     <h2>Who's behind this</h2>
-    <p>ClearCents is run and edited by <strong>John O</strong>. He isn't a certified financial planner, an advisor, or a former banker, and this site doesn't pretend otherwise — it's written for people managing ordinary salaries, by someone doing the same thing.</p>
+    <p>ClearCents is run and edited by <strong>John O</strong>, who has worked in the financial services industry. He is not a licensed financial advisor or certified planner, and this site doesn't pretend otherwise — it's written for people managing ordinary salaries, in plain language, without assuming you already have money set aside.</p>
     <p>What that means in practice: no advice here depends on you having money you don't have, and nothing gets published because it sounds impressive. If a strategy only works at a six-figure income, it says so.</p>
 
     <h2>How these guides are researched</h2>

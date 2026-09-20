@@ -1,0 +1,49 @@
+ClearCents Monthly Budget Template,,,
+Month:,,Year:,
+,,,
+INCOME,Budgeted,Actual,Difference
+Primary job (take-home),,,=C5-B5
+Side hustle / freelance,,,=C6-B6
+Other income,,,=C7-B7
+Total Income,=SUM(B5:B7),=SUM(C5:C7),=C8-B8
+,,,
+FIXED EXPENSES,Budgeted,Actual,Difference
+Rent / Mortgage,,,=B11-C11
+Car payment,,,=B12-C12
+Car insurance,,,=B13-C13
+Health insurance,,,=B14-C14
+Internet / phone,,,=B15-C15
+Subscriptions,,,=B16-C16
+Student loans,,,=B17-C17
+Other fixed,,,=B18-C18
+Total Fixed Expenses,=SUM(B11:B18),=SUM(C11:C18),=B19-C19
+,,,
+VARIABLE EXPENSES,Budgeted,Actual,Difference
+Groceries,,,=B22-C22
+Gas / transportation,,,=B23-C23
+"Utilities (electric, water, gas)",,,=B24-C24
+Dining out / takeout,,,=B25-C25
+Entertainment,,,=B26-C26
+Clothing,,,=B27-C27
+Personal care,,,=B28-C28
+Medical / copays,,,=B29-C29
+Household / home,,,=B30-C30
+Kids / pet expenses,,,=B31-C31
+Miscellaneous,,,=B32-C32
+Total Variable Expenses,=SUM(B22:B32),=SUM(C22:C32),=B33-C33
+,,,
+SAVINGS & DEBT PAYOFF,Budgeted,Actual,Difference
+Emergency fund,,,=C36-B36
+Retirement (401k / IRA),,,=C37-B37
+Extra debt payment,,,=C38-B38
+Sinking funds / goals,,,=C39-B39
+Total Savings & Debt Payoff,=SUM(B36:B39),=SUM(C36:C39),=C40-B40
+,,,
+SUMMARY,Budgeted,Actual,
+Total income,=B8,=C8,
+Total outgoing (fixed + variable + savings),=B19+B33+B40,=C19+C33+C40,
+Left to assign,=B43-B44,=C43-C44,
+,,,
+"How to use this: fill in the Budgeted column before the month starts, then fill in Actual as you go.",,,
+"On expense rows a positive Difference means you came in under budget. On income and savings rows it means you came in ahead.",,,
+"In a zero-based budget, Left to assign should reach 0 - every dollar has a job.",,,
