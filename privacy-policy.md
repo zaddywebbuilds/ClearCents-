@@ -71,7 +71,7 @@ permalink: /privacy-policy/
       <li>The right to opt out of data processing for advertising</li>
       <li>The right to unsubscribe from our newsletter at any time</li>
     </ul>
-    <p>To exercise any of these rights, contact us at <a href="mailto:hello@clearcents.com">hello@clearcents.com</a>.</p>
+    <p>To exercise any of these rights, contact us at <a href="mailto:hello@clearcentslife.com">hello@clearcentslife.com</a>.</p>
 
     <h2>7. Children's Privacy</h2>
     <p>This Site is not directed at children under 13. We do not knowingly collect personal information from children. If you believe a child has submitted personal information, contact us and we will delete it promptly.</p>
@@ -80,7 +80,7 @@ permalink: /privacy-policy/
     <p>We may update this Privacy Policy from time to time. The "Last updated" date at the top of this page reflects the most recent revision. Continued use of the Site after changes constitutes acceptance of the updated policy.</p>
 
     <h2>9. Contact</h2>
-    <p>Questions about this Privacy Policy? Email us at <a href="mailto:hello@clearcents.com">hello@clearcents.com</a>.</p>
+    <p>Questions about this Privacy Policy? Email us at <a href="mailto:hello@clearcentslife.com">hello@clearcentslife.com</a>.</p>
 
   </div>
 </div>

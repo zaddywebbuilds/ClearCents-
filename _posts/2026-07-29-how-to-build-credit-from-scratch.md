@@ -143,4 +143,4 @@ Good credit doesn't make you wealthy. But bad credit actively makes it harder to
 
 ---
 
-*Questions about your specific credit situation? Email us at hello@clearcents.com — we answer every one.*
+*Questions about your specific credit situation? Email us at hello@clearcentslife.com — we answer every one.*

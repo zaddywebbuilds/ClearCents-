@@ -33,12 +33,28 @@ permalink: /about/
       <li><strong>Beginner investing basics</strong> explained in plain English</li>
     </ul>
 
-    <h2>The ClearCents promise</h2>
-    <p>Every article on this site is written to be useful in under 10 minutes of reading. No filler, no "step 1: want more money" nonsense. If a tip doesn't work on a median US salary, it doesn't belong here.</p>
-    <p>New posts go up daily. Subscribe to the newsletter at the bottom of any article to get the best ones delivered straight to your inbox — free, always.</p>
+    <h2>Who's behind this</h2>
+    <p>ClearCents is run and edited by <strong>John O</strong>. He isn't a certified financial planner, an advisor, or a former banker, and this site doesn't pretend otherwise — it's written for people managing ordinary salaries, by someone doing the same thing.</p>
+    <p>What that means in practice: no advice here depends on you having money you don't have, and nothing gets published because it sounds impressive. If a strategy only works at a six-figure income, it says so.</p>
+
+    <h2>How these guides are researched</h2>
+    <p>Every guide follows the same standard:</p>
+    <ul>
+      <li><strong>Numbers are checked before publishing.</strong> Interest calculations, payoff timelines, contribution limits, and pay rates are verified against current figures — not repeated from other blogs.</li>
+      <li><strong>Sources are the primary ones</strong> where it matters: the IRS for tax and retirement rules, the CFPB for consumer credit, and the platforms themselves for gig-work pay.</li>
+      <li><strong>Costs are stated honestly.</strong> If a side hustle nets far less than its advertised rate, or a payoff method costs more than the alternative, that's in the article rather than buried.</li>
+      <li><strong>Overlapping guides get merged, not multiplied.</strong> One thorough page beats five thin ones covering the same ground.</li>
+    </ul>
+
+    <h2>Corrections</h2>
+    <p>When something here is wrong, it gets fixed and the page is updated — not quietly deleted or left standing. In September 2026 a set of debt-payoff articles was found to be understating total interest costs; those figures were recalculated and the guides consolidated into one corrected page.</p>
+    <p>If you spot an error, please say so and it will be corrected.</p>
+
+    <h2>This isn't financial advice</h2>
+    <p>ClearCents publishes general educational information, not personalized financial, tax, investment, or legal advice. Your situation has details this site can't know about. For decisions with real consequences — retirement accounts, debt settlement, taxes — talk to a qualified professional who can look at your actual numbers.</p>
 
     <h2>Questions or suggestions?</h2>
-    <p>Got a money topic you'd like covered? Reach out at <a href="mailto:hello@clearcents.com">hello@clearcents.com</a> — every message gets a real reply.</p>
+    <p>Got a money topic you'd like covered, or found a mistake? Reach out at <a href="mailto:hello@clearcentslife.com">hello@clearcentslife.com</a>.</p>
 
   </div>
 </div>

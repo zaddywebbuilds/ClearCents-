@@ -147,4 +147,4 @@ The [passive income guide](/side-hustles/passive-income-ideas/) covers how to la
 
 ---
 
-*Have a question about getting started with reselling? Email hello@clearcents.com — we read everything.*
+*Have a question about getting started with reselling? Email hello@clearcentslife.com — we read everything.*

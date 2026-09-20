@@ -111,4 +111,4 @@ But that's a problem for a future version of you. Right now, your only job is th
 
 ---
 
-*Have a question about this savings plan? Drop it in the comments or email us at hello@clearcents.com — we read every one.*
+*Have a question about this savings plan? Drop it in the comments or email us at hello@clearcentslife.com — we read every one.*
