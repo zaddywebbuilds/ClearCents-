@@ -15,6 +15,10 @@ faq:
     a: "Yes — research by the Harvard Business Review found that people using the debt snowball are significantly more likely to complete their debt payoff than those using mathematically optimized approaches. The quick wins from eliminating smaller balances first keep people motivated and on track."
   - q: "Should I use debt snowball or avalanche if my smallest debt has the highest interest rate?"
     a: "If your smallest balance also has the highest rate, both methods give you the same first target — making this an easy decision. The methods only diverge when your smallest balance has a lower rate than other debts. In that case, run the numbers to see how much extra interest the snowball costs."
+permalink: /debt-free/debt-snowball-vs-debt-avalanche/
+redirect_from:
+  - /debt-free/debt-snowball-vs-avalanche/
+  - /debt-free/debt-avalanche-vs-debt-snowball/
 ---
 
 If you have multiple debts — credit cards, student loans, car payments, medical bills — you need a strategy. Paying random minimums indefinitely is the most expensive and slowest path to freedom. The debt snowball and debt avalanche are the two proven strategies that actually eliminate debt, and choosing between them comes down to understanding one key difference: math vs. psychology.
@@ -105,4 +109,4 @@ Even $100–200 per month extra accelerates payoff dramatically. A $5,000 credit
 
 Open a spreadsheet or a piece of paper right now. List every debt you have: balance, interest rate, minimum payment. Order them either by balance (snowball) or rate (avalanche). Calculate how much you can add above minimums this month.
 
-That list is your debt payoff plan. Start attacking the first debt on it this month. The method matters much less than the commitment to start. If you're starting from a very tight budget, the [guide to getting out of debt on a low income](/debt-free/get-out-of-debt-on-low-income/) covers strategies for people who feel like there's no extra money to work with.
+That list is your debt payoff plan. Start attacking the first debt on it this month. The method matters much less than the commitment to start. If you're starting from a very tight budget, the [guide to getting out of debt on a low income](/debt-free/how-to-get-out-of-debt-on-a-low-income/) covers strategies for people who feel like there's no extra money to work with.

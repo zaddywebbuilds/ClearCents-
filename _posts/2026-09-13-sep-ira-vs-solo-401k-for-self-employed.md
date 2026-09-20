@@ -107,7 +107,7 @@ Whether you choose a SEP IRA or Solo 401(k), the priority order matters. Before 
 
 1. Contribute enough to any employer-sponsored 401(k) from a day job to capture the full match
 2. Pay off high-interest debt (credit cards above 10% APR)
-3. Build a three-to-six-month emergency fund in a [high-yield savings account](/investing/what-is-a-high-yield-savings-account/)
+3. Build a three-to-six-month emergency fund in a [high-yield savings account](/save-money/what-is-a-high-yield-savings-account/)
 
 Once those are handled, maxing your Solo 401(k) is one of the best tax moves available to a self-employed person. Pair it with the [index funds for beginners guide](/investing/index-funds-for-beginners/) to decide what to invest those contributions in once the account is open.
 

@@ -52,7 +52,7 @@ Spreading purchases out also spreads the cash outflow, so it's less likely to hi
 
 ## Step 5: Cut Costs Where It Won't Matter to Your Kid
 
-Not every school expense needs full price. Facebook Marketplace and local parent groups are full of gently-used uniforms, backpacks, and even graphing calculators from families whose kids graduated a grade. Combine that with a broader look at where your monthly spending can flex during August — our guide on [cutting your grocery bill](/save-money/how-to-cut-your-grocery-bill/) has tactics that free up cash exactly when you need it most.
+Not every school expense needs full price. Facebook Marketplace and local parent groups are full of gently-used uniforms, backpacks, and even graphing calculators from families whose kids graduated a grade. Combine that with a broader look at where your monthly spending can flex during August — our guide on [cutting your grocery bill](/save-money/cut-grocery-bill-in-half/) has tactics that free up cash exactly when you need it most.
 
 ## What to Do If You're Already Behind This Year
 

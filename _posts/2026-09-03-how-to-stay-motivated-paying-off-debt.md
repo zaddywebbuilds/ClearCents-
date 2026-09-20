@@ -44,7 +44,7 @@ The **debt avalanche** targets the highest interest rate first. It is mathematic
 
 The **debt snowball** targets the smallest balance first, regardless of rate. You clear whole accounts quickly, which produces frequent, concrete wins.
 
-If you have started and abandoned payoff plans before, choose the snowball. The extra interest you pay is usually modest, and closing an account entirely in the first couple of months gives you a real milestone to point to. Our full comparison of the [debt snowball versus avalanche](/debt-free/debt-snowball-vs-avalanche/) walks through the trade-off with numbers.
+If you have started and abandoned payoff plans before, choose the snowball. The extra interest you pay is usually modest, and closing an account entirely in the first couple of months gives you a real milestone to point to. Our full comparison of the [debt snowball versus avalanche](/debt-free/debt-snowball-vs-debt-avalanche/) walks through the trade-off with numbers.
 
 ## Make Progress Impossible to Ignore
 

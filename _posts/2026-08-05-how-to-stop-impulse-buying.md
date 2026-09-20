@@ -108,7 +108,7 @@ The counter: never shop without a list, and commit to only buying what's on it.
 
 This applies to Target, Costco, Amazon, and every other store where you routinely spend more than you planned. Make the list before you go, stick to it, and leave any unplanned items as additions to your wish list for consideration later.
 
-For groceries specifically, shopping once a week with a meal plan eliminates both unplanned grocery spending and the expensive "I don't know what to make" takeout orders. See our [guide to cutting your grocery bill](/save-money/how-to-cut-your-grocery-bill/) for the full system.
+For groceries specifically, shopping once a week with a meal plan eliminates both unplanned grocery spending and the expensive "I don't know what to make" takeout orders. See our [guide to cutting your grocery bill](/save-money/cut-grocery-bill-in-half/) for the full system.
 
 ## Strategy 8: Avoid Shopping as Entertainment
 

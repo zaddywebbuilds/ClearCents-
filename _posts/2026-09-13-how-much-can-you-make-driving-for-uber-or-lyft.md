@@ -90,7 +90,7 @@ For flexible, fast cash with zero startup cost, yes. You can be approved and ear
 
 For a long-term primary income, the math is harder. After expenses, many full-time drivers net $25,000 to $40,000 annually before health insurance, retirement savings, or any paid time off — and the car depreciates on your dime.
 
-The smart move is to treat it as a targeted tool. Earn for a specific goal — [a debt payoff](/debt-free/how-to-pay-off-credit-card-debt/), an emergency fund, a down payment — then stop or scale back once you hit it. Compare your options in [how much you can make with DoorDash](/side-hustles/how-much-can-you-make-with-doordash/) if you prefer delivery over passengers. Whatever you earn, [give every dollar a job](/budgeting/zero-based-budgeting-guide/) so the extra income actually moves you forward instead of disappearing into daily spending.
+The smart move is to treat it as a targeted tool. Earn for a specific goal — [a debt payoff](/debt-free/how-to-pay-off-credit-card-debt/), an emergency fund, a down payment — then stop or scale back once you hit it. Compare your options in [how much you can make with DoorDash](/side-hustles/delivery-driving-side-hustle/) if you prefer delivery over passengers. Whatever you earn, [give every dollar a job](/budgeting/zero-based-budgeting-guide/) so the extra income actually moves you forward instead of disappearing into daily spending.
 
 ## The bottom line
 

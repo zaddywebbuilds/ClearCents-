@@ -67,4 +67,4 @@ For people who need extra income with lower time commitment, other side hustles 
 
 ---
 
-*Related reading: [Save Your First $1,000 in 3 Months](/save-money/how-to-save-1000-dollars-in-3-months/) and [Passive Income Ideas That Work](/side-hustles/passive-income-ideas-that-work/).*
+*Related reading: [Save Your First $1,000 in 3 Months](/save-money/how-to-save-1000-dollars-in-3-months/) and [Passive Income Ideas That Work](/side-hustles/passive-income-ideas/).*

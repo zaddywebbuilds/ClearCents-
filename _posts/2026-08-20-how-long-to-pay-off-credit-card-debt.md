@@ -69,4 +69,4 @@ The minimum payment trap is real: it's mathematically designed to keep you in de
 
 ---
 
-*Related reading: [How to Pay Off Credit Card Debt](/debt-free/how-to-pay-off-credit-card-debt/) and [Debt Snowball vs. Debt Avalanche](/debt-free/debt-snowball-vs-avalanche/).*
+*Related reading: [How to Pay Off Credit Card Debt](/debt-free/how-to-pay-off-credit-card-debt/) and [Debt Snowball vs. Debt Avalanche](/debt-free/debt-snowball-vs-debt-avalanche/).*

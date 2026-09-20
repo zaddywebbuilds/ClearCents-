@@ -7,6 +7,8 @@ tags: [side hustle, pet sitting, dog walking, extra income, gig economy]
 description: "Pet sitting and dog walking apps have turned a favor for the neighbors into a real side income. Here's what it actually pays, what it costs to get started, and how to land your first clients."
 image: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800&q=80&auto=format&fit=crop"
 permalink: /side-hustles/pet-sitting-dog-walking-side-hustle/
+redirect_from:
+  - /side-hustles/pet-sitting-side-hustle/
 faq:
   - q: "How much can you actually make pet sitting or dog walking?"
     a: "Dog walkers typically earn $15–25 for a 20–30 minute walk, and pet sitters earn $25–75 per overnight stay depending on the city and number of pets. Active sitters running it as a real side hustle, with 3–5 bookings a week, commonly bring in $400–1,200 a month; top-rated sitters in expensive metro areas can earn more."

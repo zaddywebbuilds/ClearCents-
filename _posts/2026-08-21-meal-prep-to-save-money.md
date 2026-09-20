@@ -80,4 +80,4 @@ Meal prepping works for food budgets the same way automation works for savings: 
 
 ---
 
-*Related reading: [How to Save $1,000 in 3 Months](/save-money/how-to-save-1000-dollars-in-3-months/) and [How to Cut Your Grocery Bill](/save-money/how-to-cut-your-grocery-bill/).*
+*Related reading: [How to Save $1,000 in 3 Months](/save-money/how-to-save-1000-dollars-in-3-months/) and [How to Cut Your Grocery Bill](/save-money/cut-grocery-bill-in-half/).*

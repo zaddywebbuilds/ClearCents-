@@ -42,14 +42,14 @@ Run a [zero-based budget](/budgeting/zero-based-budgeting-guide/) for one month 
 
 ### Source 1: Spending cuts (target $300 a month)
 
-- **Groceries:** switching to a plan and store brands saves many households $100-$150 a month. See [how to cut your grocery bill](/save-money/how-to-cut-your-grocery-bill/).
+- **Groceries:** switching to a plan and store brands saves many households $100-$150 a month. See [how to cut your grocery bill](/save-money/cut-grocery-bill-in-half/).
 - **Subscriptions:** cancel what you haven't used in 30 days, which often frees $30-$60. Use our [subscription audit](/save-money/cancel-unused-subscriptions/).
 - **Dining out:** cutting half of it typically returns $75-$150.
 - **Bills:** call your internet, phone, and insurance providers. See [how to lower monthly bills](/save-money/how-to-lower-monthly-bills/) and [save on car insurance](/save-money/save-money-on-car-insurance/).
 
 ### Source 2: Extra income (target $300 a month)
 
-Ten hours a month of extra work at $30 an hour is $300. Options include delivery driving (see [what you can make with DoorDash](/side-hustles/how-much-can-you-make-with-doordash/)), pet sitting, or freelance tasks. Everything you earn goes straight to the savings account, before you can spend it.
+Ten hours a month of extra work at $30 an hour is $300. Options include delivery driving (see [what you can make with DoorDash](/side-hustles/delivery-driving-side-hustle/)), pet sitting, or freelance tasks. Everything you earn goes straight to the savings account, before you can spend it.
 
 ### Source 3: One-time cash (target $1,400 total)
 
@@ -72,7 +72,7 @@ This covers about $233 a month across six months.
 
 ## Step 5: Put it where you won't touch it
 
-Open a separate [high-yield savings account](/investing/what-is-a-high-yield-savings-account/) at a different bank than your checking. Set an automatic transfer for payday. Rename the account something like "$5K Goal." Friction between you and the money is the best defense against spending it. At a 4% APY, a balance that grows toward $5,000 over six months earns roughly $50-$60 in interest on top of your deposits — a nice bonus, but not the engine driving the goal.
+Open a separate [high-yield savings account](/save-money/what-is-a-high-yield-savings-account/) at a different bank than your checking. Set an automatic transfer for payday. Rename the account something like "$5K Goal." Friction between you and the money is the best defense against spending it. At a 4% APY, a balance that grows toward $5,000 over six months earns roughly $50-$60 in interest on top of your deposits — a nice bonus, but not the engine driving the goal.
 
 ## If you fall behind
 
@@ -91,7 +91,7 @@ Life happens, and most six-month plans hit at least one rough month. Instead of 
 
 ## What to do with the $5,000
 
-Decide before you reach it. A [six-month emergency fund](/save-money/how-to-build-six-month-emergency-fund/) is the classic choice, a [down payment fund](/save-money/how-to-save-for-a-house-down-payment/) is another, and if you carry high-interest debt, part of it may be better spent [paying off credit card debt](/debt-free/how-to-pay-off-credit-card-debt/).
+Decide before you reach it. A [six-month emergency fund](/budgeting/how-to-build-six-month-emergency-fund/) is the classic choice, a [down payment fund](/save-money/how-to-save-for-a-house-down-payment/) is another, and if you carry high-interest debt, part of it may be better spent [paying off credit card debt](/debt-free/how-to-pay-off-credit-card-debt/).
 
 ## The bottom line
 

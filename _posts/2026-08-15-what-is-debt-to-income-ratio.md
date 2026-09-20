@@ -68,7 +68,7 @@ DTI isn't just a mortgage-application formality. It directly affects:
 
 ## How to Lower Your DTI
 
-**Pay off one balance completely, not several partially.** Lenders count minimum payments, not balances. Paying $500 each toward three different credit cards leaves all three minimum payments intact on your DTI. Paying $1,500 toward one card until it hits zero removes that entire payment from the calculation. This is the core logic behind the debt snowball method — see our full comparison of the [debt snowball vs. debt avalanche](/debt-free/debt-snowball-vs-avalanche/) approaches for which fits your situation.
+**Pay off one balance completely, not several partially.** Lenders count minimum payments, not balances. Paying $500 each toward three different credit cards leaves all three minimum payments intact on your DTI. Paying $1,500 toward one card until it hits zero removes that entire payment from the calculation. This is the core logic behind the debt snowball method — see our full comparison of the [debt snowball vs. debt avalanche](/debt-free/debt-snowball-vs-debt-avalanche/) approaches for which fits your situation.
 
 **Attack high-interest debt first if a card is dragging your ratio.** Credit card minimums are often disproportionately high relative to the balance because of the interest baked in. Our guide to [paying off credit card debt](/debt-free/how-to-pay-off-credit-card-debt/) covers the fastest ways to bring that balance — and its minimum payment — down.
 
@@ -88,4 +88,4 @@ Your debt-to-income ratio is one of the few numbers that quietly gatekeeps almos
 
 ---
 
-*Related reading: [Debt Snowball vs. Debt Avalanche](/debt-free/debt-snowball-vs-avalanche/) and [How to Negotiate with Creditors](/debt-free/how-to-negotiate-with-creditors/).*
+*Related reading: [Debt Snowball vs. Debt Avalanche](/debt-free/debt-snowball-vs-debt-avalanche/) and [How to Negotiate with Creditors](/debt-free/how-to-negotiate-with-creditors/).*

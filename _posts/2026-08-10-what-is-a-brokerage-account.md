@@ -45,7 +45,7 @@ If you haven't maxed out tax-advantaged accounts yet — see our guide on [what 
 
 No — investing and emergency savings solve different problems, and a brokerage account isn't a substitute for either. Money in a brokerage account is subject to market swings; if you need it during a downturn, you could be forced to sell at a loss. Our guide on [how much emergency fund to build before investing](/investing/how-much-emergency-fund/) covers the right order of operations, but the short version is: build a starter emergency fund first — our guide to [saving your first $1,000 in three months](/save-money/how-to-save-1000-dollars-in-3-months/) is a good place to start that fund — then invest.
 
-If you're also carrying high-interest credit card debt, paying that down typically beats investing on a pure math basis — a 22% guaranteed "return" from eliminating debt interest is hard for any investment to reliably beat. Get that under control first using a plan like [debt snowball vs. avalanche](/debt-free/debt-snowball-vs-avalanche/) before directing extra money into a brokerage account.
+If you're also carrying high-interest credit card debt, paying that down typically beats investing on a pure math basis — a 22% guaranteed "return" from eliminating debt interest is hard for any investment to reliably beat. Get that under control first using a plan like [debt snowball vs. avalanche](/debt-free/debt-snowball-vs-debt-avalanche/) before directing extra money into a brokerage account.
 
 ## What It Costs to Open One
 

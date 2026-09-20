@@ -90,4 +90,4 @@ Bookkeeping is a professional service in consistent demand that pays well per ho
 
 ---
 
-*Related reading: [Save Your First $1,000 in 3 Months](/save-money/how-to-save-1000-dollars-in-3-months/) and [How to Start a Side Hustle While Working Full-Time](/side-hustles/start-side-hustle-working-full-time/).*
+*Related reading: [Save Your First $1,000 in 3 Months](/save-money/how-to-save-1000-dollars-in-3-months/) and [How to Start a Side Hustle While Working Full-Time](/side-hustles/how-to-start-a-side-hustle/).*

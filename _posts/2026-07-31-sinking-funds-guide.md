@@ -7,6 +7,8 @@ tags: [sinking fund, budgeting, saving, financial planning, irregular expenses]
 description: "A sinking fund saves a little each month for big, predictable expenses so they never feel like emergencies. Here's how to set one up and which categories to start with."
 image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80&auto=format&fit=crop"
 permalink: /budgeting/sinking-funds-guide/
+redirect_from:
+  - /budgeting/what-are-sinking-funds/
 faq:
   - q: "What is a sinking fund?"
     a: "A sinking fund is money you set aside each month for a specific future expense you know is coming — car insurance, Christmas gifts, a vacation, home repairs. Instead of scrambling when the bill arrives, you've already saved for it. The name comes from accounting terminology for funds 'sunk' into future obligations."
@@ -90,7 +92,7 @@ Create a bucket for each sinking fund with the exact name of the expense. "Car I
 
 **Step 4: Add the transfers to your budget**
 
-In your [zero-based budget](/budgeting/zero-based-budgeting-guide/) or [50/30/20 budget](/budgeting/5030-20-budget-rule-beginners-guide/), line-item each sinking fund contribution the same way you'd line-item rent or groceries. It's a monthly expense — it just gets saved instead of spent immediately.
+In your [zero-based budget](/budgeting/zero-based-budgeting-guide/) or [50/30/20 budget](/budgeting/50-30-20-budget-rule/), line-item each sinking fund contribution the same way you'd line-item rent or groceries. It's a monthly expense — it just gets saved instead of spent immediately.
 
 Set up automatic transfers on payday so the money moves before you can spend it.
 

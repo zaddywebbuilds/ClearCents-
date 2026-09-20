@@ -7,6 +7,8 @@ tags: [balance transfer, credit card debt, debt payoff, 0 apr, debt-free]
 description: "A balance transfer card can move high-interest debt to a 0% APR offer and buy you 12-21 months interest-free. Here's how the math actually works, the fees to watch for, and when it's a smart move versus a trap."
 image: "https://images.unsplash.com/photo-1580519542036-c47de6196ba5?w=800&q=80&auto=format&fit=crop"
 permalink: /debt-free/balance-transfer-credit-cards/
+redirect_from:
+  - /debt-free/balance-transfer-card-to-pay-off-debt/
 faq:
   - q: "How does a balance transfer credit card work?"
     a: "You apply for a new credit card offering a promotional 0% (or low) APR on transferred balances, typically for 12-21 months. You move your existing high-interest debt onto that card, pay a one-time transfer fee (usually 3-5% of the balance), and then make payments during the promotional period without new interest accruing — as long as you pay off the balance before the promo ends."

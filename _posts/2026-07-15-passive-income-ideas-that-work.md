@@ -136,4 +136,4 @@ If you take good photos or make music, you can upload your work to stock sites a
 - **Have assets?** → rent them out
 - **Willing to create content for 12+ months?** → affiliate marketing
 
-Pick one. Start this week — if you're still exploring options, our [guide to 15 side hustles for beginners](/side-hustles/best-side-hustles-for-beginners/) covers active income streams you can start immediately. And if you want to run a passive income stream alongside a full-time job, [this guide to side hustling while employed full-time](/side-hustles/start-side-hustle-working-full-time/) covers how to do it without burning out.
+Pick one. Start this week — if you're still exploring options, our [guide to 15 side hustles for beginners](/side-hustles/best-side-hustles-for-beginners/) covers active income streams you can start immediately. And if you want to run a passive income stream alongside a full-time job, [this guide to side hustling while employed full-time](/side-hustles/how-to-start-a-side-hustle/) covers how to do it without burning out.

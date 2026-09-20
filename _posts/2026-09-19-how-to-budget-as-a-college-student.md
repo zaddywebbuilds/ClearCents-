@@ -54,7 +54,7 @@ Fill in your actual numbers using bank statements. Guessing is how budgets break
 
 Try [zero-based budgeting](/budgeting/zero-based-budgeting-guide/): income minus expenses should equal zero, with savings counted as an expense. If your monthly income is $1,000 and your bills are $850, the extra $150 needs a job, like a $100 emergency fund contribution and $50 for fun.
 
-The [50/30/20 rule](/budgeting/budget-rule-explained/) can be unrealistic when rent alone eats half your income, so start with needs first and adjust from there.
+The [50/30/20 rule](/budgeting/50-30-20-budget-rule/) can be unrealistic when rent alone eats half your income, so start with needs first and adjust from there.
 
 ## Step 4: Handle the two big student traps
 
@@ -64,7 +64,7 @@ The [50/30/20 rule](/budgeting/budget-rule-explained/) can be unrealistic when r
 
 ## Step 5: Cut costs where students overspend
 
-- **Food:** Meal prep and cooking basics cuts food costs sharply. See [meal prep to save money](/save-money/meal-prep-to-save-money/) and [how to cut your grocery bill](/save-money/how-to-cut-your-grocery-bill/).
+- **Food:** Meal prep and cooking basics cuts food costs sharply. See [meal prep to save money](/save-money/meal-prep-to-save-money/) and [how to cut your grocery bill](/save-money/cut-grocery-bill-in-half/).
 - **Textbooks:** Check your library, rent, or buy used before buying new.
 - **Subscriptions:** Split family plans or use student discounts. See [how to save on streaming](/save-money/save-money-on-streaming-services/).
 - **Phone bill:** A prepaid plan often costs $15-$30 a month. See [how to lower your phone bill](/save-money/save-money-on-your-phone-bill/).

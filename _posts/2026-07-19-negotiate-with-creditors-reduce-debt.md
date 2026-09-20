@@ -20,7 +20,7 @@ permalink: /debt-free/how-to-negotiate-with-creditors/
 
 Most people assume debt is fixed — you owe what you owe, and you pay it all back. That's not how it works. Creditors and collection agencies negotiate debt every single day. They do it because getting partial payment is better than getting nothing, and they know many borrowers can't pay the full balance.
 
-You have more leverage than you think. Here's how to use it. (If you're still deciding which debts to attack first, read our [debt snowball vs. debt avalanche guide](/debt-free/debt-snowball-vs-debt-avalanche/) before negotiating. For people on tight budgets, the [guide to getting out of debt on a low income](/debt-free/get-out-of-debt-on-low-income/) covers which debt types to tackle first and how to access hardship programs.)
+You have more leverage than you think. Here's how to use it. (If you're still deciding which debts to attack first, read our [debt snowball vs. debt avalanche guide](/debt-free/debt-snowball-vs-debt-avalanche/) before negotiating. For people on tight budgets, the [guide to getting out of debt on a low income](/debt-free/how-to-get-out-of-debt-on-a-low-income/) covers which debt types to tackle first and how to access hardship programs.)
 
 ## Understanding Who You're Dealing With
 
@@ -125,4 +125,4 @@ Before settling, always ask: "If I pay this in full (or for this settlement amou
 
 Many collectors will agree to "pay for delete" — especially for smaller amounts — though this technically violates credit bureau guidelines. Get any pay-for-delete agreement in writing before paying.
 
-Not all collectors will agree. But the worst they can say is no, and asking costs nothing. After settling or reducing your debts, use the [50/30/20 budget rule](/budgeting/5030-20-budget-rule-beginners-guide/) to rebuild a sustainable spending structure so you don't end up back in debt.
+Not all collectors will agree. But the worst they can say is no, and asking costs nothing. After settling or reducing your debts, use the [50/30/20 budget rule](/budgeting/50-30-20-budget-rule/) to rebuild a sustainable spending structure so you don't end up back in debt.

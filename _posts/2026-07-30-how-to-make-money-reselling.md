@@ -135,7 +135,7 @@ The difference is systems. Successful resellers batch their work:
 - **One photo/listing session** (Sunday afternoon — photograph and list everything at once)
 - **Daily shipping** (print labels in the morning, drop at the post office or schedule pickup)
 
-A $500/month reselling income typically requires listing 20–40 items per month at $15–$30 average profit. That's 5–10 sourcing hours and 10–15 listing/shipping hours. Realistic for someone doing this on evenings and weekends alongside a full-time job — like what the [start-a-side-hustle-while-working guide](/side-hustles/start-side-hustle-while-working-full-time/) covers in detail.
+A $500/month reselling income typically requires listing 20–40 items per month at $15–$30 average profit. That's 5–10 sourcing hours and 10–15 listing/shipping hours. Realistic for someone doing this on evenings and weekends alongside a full-time job — like what the [start-a-side-hustle-while-working guide](/side-hustles/how-to-start-a-side-hustle/) covers in detail.
 
 ## What to Do With the Money
 
@@ -143,7 +143,7 @@ Don't spend your reselling income as fast as it comes in. The most successful re
 
 Once you're consistently making $300–$500/month, consider whether to scale into a niche you know well — vintage clothing, tools, or electronics — or keep the variety that protects you when one category slows down.
 
-The [passive income guide](/side-hustles/passive-income-ideas-that-work/) covers how to layer reselling income with more scalable income streams once you've built the initial cash flow. For now, the goal is simple: source good items, price them right, ship them fast, repeat.
+The [passive income guide](/side-hustles/passive-income-ideas/) covers how to layer reselling income with more scalable income streams once you've built the initial cash flow. For now, the goal is simple: source good items, price them right, ship them fast, repeat.
 
 ---
 

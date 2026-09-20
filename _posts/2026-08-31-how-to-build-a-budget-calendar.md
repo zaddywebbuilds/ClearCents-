@@ -52,7 +52,7 @@ If some amounts vary, like a utility bill, use the highest of the last three mon
 
 Add every income deposit for the next 30 to 60 days on the day it actually clears, using your take-home amount. If your pay is irregular, use a conservative low estimate — the smallest recent paycheck, not the average. Planning around the best month is how the calendar breaks.
 
-If you have side income, only include it once it's reliably shown up for several months. A guide to handling variable pay is in [how to budget on an irregular income](/budgeting/how-to-budget-on-an-irregular-income/).
+If you have side income, only include it once it's reliably shown up for several months. A guide to handling variable pay is in [how to budget on an irregular income](/budgeting/how-to-budget-on-irregular-income/).
 
 ## Step 3: Assign Every Bill to a Paycheck
 

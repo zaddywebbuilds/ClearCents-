@@ -15,6 +15,9 @@ faq:
     a: "Set aside 25–30% of every payment into a dedicated tax savings account the moment it arrives. Pay quarterly estimated taxes to the IRS (due April 15, June 15, September 15, and January 15) to avoid penalties at year end."
   - q: "What is an income holding account and how does it work?"
     a: "An income holding account is a separate checking account where all your payments land first. On the 1st of each month, you transfer your baseline amount to your main spending account. This smooths out feast-or-famine cycles and creates a stable, predictable budget."
+permalink: /budgeting/how-to-budget-on-irregular-income/
+redirect_from:
+  - /budgeting/how-to-budget-on-an-irregular-income/
 ---
 
 Standard budgeting advice assumes one thing: you know exactly how much money is coming in next month. But if you drive for Uber, freelance, do seasonal work, run a small business, or work on commission, that assumption falls apart completely.
@@ -23,7 +26,7 @@ Here's the thing: budgeting on a variable income isn't harder — it's just **di
 
 ## Why Regular Budgets Fail Variable-Income Earners
 
-Most budget systems tell you to allocate percentages of your income. The problem: your income changes. So every month you'd have to rebuild your budget from scratch, which most people don't do — so they abandon the budget entirely. Methods like the [50/30/20 rule](/budgeting/5030-20-budget-rule-beginners-guide/) assume a steady paycheck, which is why variable earners need a different foundation.
+Most budget systems tell you to allocate percentages of your income. The problem: your income changes. So every month you'd have to rebuild your budget from scratch, which most people don't do — so they abandon the budget entirely. Methods like the [50/30/20 rule](/budgeting/50-30-20-budget-rule/) assume a steady paycheck, which is why variable earners need a different foundation.
 
 The fix is to stop budgeting based on this month's income and start budgeting based on a **baseline**.
 

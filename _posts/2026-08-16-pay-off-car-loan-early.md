@@ -7,6 +7,8 @@ tags: [car loan, auto loan, debt payoff, interest savings, debt-free]
 description: "Paying off a car loan early can save hundreds or thousands in interest — but only if you do it the right way. Here's how to pay down your auto loan faster without triggering fees."
 image: "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=800&q=80&auto=format&fit=crop"
 permalink: /debt-free/pay-off-car-loan-early/
+redirect_from:
+  - /debt-free/how-to-pay-off-your-car-loan-early/
 faq:
   - q: "Does paying off a car loan early actually save money?"
     a: "Yes, because auto loans use simple interest calculated on your remaining balance — every extra dollar applied to principal reduces the interest charged on every future payment. Paying off a $20,000 loan at 7% two years early can easily save $600-$1,200 in interest, depending on the original term."

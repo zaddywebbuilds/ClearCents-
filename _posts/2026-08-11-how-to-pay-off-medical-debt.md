@@ -49,7 +49,7 @@ It's tempting to pay off medical debt with a card to "make it go away," but this
 
 ## Build a Payoff Order If You're Carrying Multiple Debts
 
-If medical debt is one of several balances you're working through alongside credit cards or loans, decide your payoff order deliberately rather than paying whichever bill feels most urgent. Our comparison of the [debt snowball vs. debt avalanche](/debt-free/debt-snowball-vs-avalanche/) methods walks through both approaches — medical debt, once negotiated down and on an interest-free plan, often belongs lower in priority than high-interest credit card debt specifically because it isn't accruing interest against you.
+If medical debt is one of several balances you're working through alongside credit cards or loans, decide your payoff order deliberately rather than paying whichever bill feels most urgent. Our comparison of the [debt snowball vs. debt avalanche](/debt-free/debt-snowball-vs-debt-avalanche/) methods walks through both approaches — medical debt, once negotiated down and on an interest-free plan, often belongs lower in priority than high-interest credit card debt specifically because it isn't accruing interest against you.
 
 ## When to Involve a Medical Billing Advocate
 
@@ -61,4 +61,4 @@ While you're negotiating a bill down, keep building the cushion that prevents th
 
 Medical debt responds to a completely different playbook than consumer debt: verify the bill, apply for financial assistance before assuming you don't qualify, negotiate the balance directly, and use the reporting grace period to your advantage instead of rushing to pay it off with high-interest credit. If you've already negotiated a bill down to a manageable payment plan, our guide on [negotiating with creditors](/debt-free/how-to-negotiate-with-creditors/) covers the same tactics applied more broadly across other debt types.
 
-*Related: [Debt Settlement vs. Debt Consolidation](/debt-free/debt-settlement-vs-debt-consolidation/), [How to Negotiate With Creditors](/debt-free/how-to-negotiate-with-creditors/), and [Debt Snowball vs. Debt Avalanche](/debt-free/debt-snowball-vs-avalanche/).*
+*Related: [Debt Settlement vs. Debt Consolidation](/debt-free/debt-settlement-vs-debt-consolidation/), [How to Negotiate With Creditors](/debt-free/how-to-negotiate-with-creditors/), and [Debt Snowball vs. Debt Avalanche](/debt-free/debt-snowball-vs-debt-avalanche/).*

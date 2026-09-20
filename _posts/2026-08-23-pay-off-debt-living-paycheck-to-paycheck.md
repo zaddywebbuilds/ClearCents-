@@ -53,7 +53,7 @@ Once you have money to direct at debt, you need a system. Two dominate:
 
 **Debt avalanche:** Same structure, but you target the highest-interest debt first instead of the smallest balance.
 
-The avalanche method saves more money in interest over time. But when you're on a tight budget, the snowball's fast psychological wins — eliminating an entire account, freeing up a whole minimum payment — tend to keep people going longer. If you're unsure which fits your situation, our full comparison of the [debt snowball vs. debt avalanche method](/debt-free/debt-snowball-vs-avalanche/) can help you decide.
+The avalanche method saves more money in interest over time. But when you're on a tight budget, the snowball's fast psychological wins — eliminating an entire account, freeing up a whole minimum payment — tend to keep people going longer. If you're unsure which fits your situation, our full comparison of the [debt snowball vs. debt avalanche method](/debt-free/debt-snowball-vs-debt-avalanche/) can help you decide.
 
 ## Don't Ignore the Option to Negotiate
 
@@ -76,4 +76,4 @@ Paying off debt on a paycheck-to-paycheck income isn't about finding extra incom
 
 ---
 
-*Related reading: [Zero-Based Budgeting Guide](/budgeting/zero-based-budgeting-guide/), [How to Pay Off Credit Card Debt](/debt-free/how-to-pay-off-credit-card-debt/), and [Debt Snowball vs. Debt Avalanche](/debt-free/debt-snowball-vs-avalanche/).*
+*Related reading: [Zero-Based Budgeting Guide](/budgeting/zero-based-budgeting-guide/), [How to Pay Off Credit Card Debt](/debt-free/how-to-pay-off-credit-card-debt/), and [Debt Snowball vs. Debt Avalanche](/debt-free/debt-snowball-vs-debt-avalanche/).*

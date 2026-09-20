@@ -177,4 +177,4 @@ Residential and commercial cleaning is one of the most consistently in-demand se
 
 ---
 
-**Bottom line:** pick one. The biggest mistake with side hustles is spending weeks researching all options instead of spending one week starting one. Start with whatever on this list matches your schedule, skills, and interests — then actually [start it this week](/side-hustles/start-side-hustle-working-full-time/). Once income starts flowing, explore [passive income ideas](/side-hustles/passive-income-ideas-that-work/) that can layer on top of what you're already doing.
+**Bottom line:** pick one. The biggest mistake with side hustles is spending weeks researching all options instead of spending one week starting one. Start with whatever on this list matches your schedule, skills, and interests — then actually [start it this week](/side-hustles/how-to-start-a-side-hustle/). Once income starts flowing, explore [passive income ideas](/side-hustles/passive-income-ideas/) that can layer on top of what you're already doing.

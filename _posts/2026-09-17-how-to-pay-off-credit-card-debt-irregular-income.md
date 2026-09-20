@@ -73,7 +73,7 @@ A freelance designer earning between $2,200 and $5,800 a month, carrying $6,000 
 
 This system pays the card off faster than a fixed monthly number *and* survives the inevitable slow months without a single missed payment or new charge.
 
-If irregular income debt is part of a bigger cash flow problem, pair this with a system for [budgeting on irregular income](/budgeting/how-to-budget-on-an-irregular-income/) so your baseline and percentages are grounded in a full monthly plan, not just the debt piece. And if you're building your first cash cushion from scratch, start with the plan to [save your first $1,000 in 3 months](/save-money/how-to-save-1000-dollars-in-3-months/) — that's the exact buffer size this system depends on. If a card issuer won't budge on your rate during a slow stretch, it's also worth learning [how to negotiate with creditors](/debt-free/how-to-negotiate-with-creditors/) directly instead of assuming the posted APR is fixed.
+If irregular income debt is part of a bigger cash flow problem, pair this with a system for [budgeting on irregular income](/budgeting/how-to-budget-on-irregular-income/) so your baseline and percentages are grounded in a full monthly plan, not just the debt piece. And if you're building your first cash cushion from scratch, start with the plan to [save your first $1,000 in 3 months](/save-money/how-to-save-1000-dollars-in-3-months/) — that's the exact buffer size this system depends on. If a card issuer won't budge on your rate during a slow stretch, it's also worth learning [how to negotiate with creditors](/debt-free/how-to-negotiate-with-creditors/) directly instead of assuming the posted APR is fixed.
 
 ## The takeaway
 

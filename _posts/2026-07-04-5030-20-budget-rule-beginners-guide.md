@@ -15,6 +15,10 @@ faq:
     a: "Yes — it's one of the most beginner-friendly budgets available because you only manage three categories. No spreadsheet or app is required, just your take-home pay and three simple percentages."
   - q: "Should savings come before wants in the 50/30/20 rule?"
     a: "Yes. Automate your 20% savings transfer on payday before you can spend it. If savings is the last category you fund, it rarely gets funded — treating it like a fixed bill ensures it actually happens."
+permalink: /budgeting/50-30-20-budget-rule/
+redirect_from:
+  - /budgeting/5030-20-budget-rule-beginners-guide/
+  - /budgeting/50-30-20-budget-rule-explained/
 ---
 
 If you've ever tried to budget and given up within two weeks, the 50/30/20 rule might be exactly what you've been missing. It's not a complicated spreadsheet. It's not a system that requires tracking every coffee purchase. It's a simple percentage breakdown that tells you — before the month starts — where your money should go.

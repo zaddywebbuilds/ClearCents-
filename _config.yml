@@ -33,6 +33,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll-redirect-from
 
 # Pagination
 paginate: 9

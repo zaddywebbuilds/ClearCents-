@@ -61,7 +61,7 @@ If your area has spread-out trick-or-treating, carpool with another family inste
 
 ## Put a number on it before you shop
 
-The biggest overspending risk isn't any single purchase — it's not having a total in mind. Set a Halloween number for the season ($30, $50, whatever fits) before you buy the first item, the same way you would for any other [sinking fund](/save-money/what-are-sinking-funds/) expense. If you're building your budgeting system from scratch, a [zero-based budget](/budgeting/zero-based-budgeting-guide/) makes it easy to give this category its own line instead of letting it bleed into "miscellaneous" spending you don't notice until the statement arrives.
+The biggest overspending risk isn't any single purchase — it's not having a total in mind. Set a Halloween number for the season ($30, $50, whatever fits) before you buy the first item, the same way you would for any other [sinking fund](/budgeting/sinking-funds-guide/) expense. If you're building your budgeting system from scratch, a [zero-based budget](/budgeting/zero-based-budgeting-guide/) makes it easy to give this category its own line instead of letting it bleed into "miscellaneous" spending you don't notice until the statement arrives.
 
 ## Start next year's savings today
 

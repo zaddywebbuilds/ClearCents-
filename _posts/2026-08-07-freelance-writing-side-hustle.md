@@ -7,6 +7,8 @@ tags: [freelance writing, side hustle, make money online, writing jobs, side inc
 description: "Freelance writing is one of the few side hustles you can start with zero startup cost and no portfolio — if you know how to actually land the first few clients. Here's the real path, not the vague advice."
 image: "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&q=80&auto=format&fit=crop"
 permalink: /side-hustles/freelance-writing-side-hustle/
+redirect_from:
+  - /side-hustles/how-to-make-money-freelance-writing/
 faq:
   - q: "Can I start freelance writing with no experience or portfolio?"
     a: "Yes — write 2-3 sample articles on topics you understand well (even unpaid, for your own blog or a free platform like Medium) to serve as portfolio pieces. Most beginner clients care more about clear, readable writing on their specific topic than formal credentials. Your first few paid gigs, even at lower rates, become the real portfolio that gets you better ones."

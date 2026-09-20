@@ -93,7 +93,7 @@ That is the entire system.
 
 While your side hustle chips away at the balance, check these options in parallel — they reduce the interest you are fighting:
 
-**Balance transfer card:** Many credit cards offer 0% APR on transferred balances for 12 to 21 months. A 3 to 5 percent transfer fee is almost always worth it if it eliminates 20%+ interest for over a year. You need decent credit to qualify. Read [how to use a balance transfer card to pay off debt](/debt-free/balance-transfer-card-to-pay-off-debt/).
+**Balance transfer card:** Many credit cards offer 0% APR on transferred balances for 12 to 21 months. A 3 to 5 percent transfer fee is almost always worth it if it eliminates 20%+ interest for over a year. You need decent credit to qualify. Read [how to use a balance transfer card to pay off debt](/debt-free/balance-transfer-credit-cards/).
 
 **Call and ask for a rate reduction:** This works more often than people expect. If you have been a customer for several years and have a history of on-time payments, call the number on the back of your card and ask for a lower APR. Success rates are higher if you mention a competing offer. You can also work with a nonprofit credit counselor — they can sometimes negotiate rates to the 8 to 10 percent range. Read [how to negotiate with creditors](/debt-free/how-to-negotiate-with-creditors/) for the exact script.
 

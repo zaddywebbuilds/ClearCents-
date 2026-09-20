@@ -15,6 +15,10 @@ faq:
     a: "Eggs, canned tuna, dried lentils, dried beans, and peanut butter are all significantly cheaper per gram of protein than chicken or beef. Replacing two or three meat-based dinners per week with bean or egg dishes can save a family $50–100/month."
   - q: "Is buying in bulk at Costco actually cheaper?"
     a: "For items you use consistently — meat, paper products, cooking oils, cheese — yes, significantly. The key is buying only what you'll use before it expires. Buying perishables in bulk and freezing them is usually where the biggest savings come from."
+permalink: /save-money/cut-grocery-bill-in-half/
+redirect_from:
+  - /save-money/how-to-cut-your-grocery-bill/
+  - /save-money/save-money-on-groceries-without-coupons/
 ---
 
 The average American household spends $475 a month on groceries according to the USDA. For a single person, it's around $300. For a family of four, it easily climbs past $900. And most of that money isn't going to food you love — it's going to food you forget about, food that expires, and food you bought because it was there.

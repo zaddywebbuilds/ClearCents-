@@ -7,6 +7,8 @@ tags: [cash stuffing, budgeting, cash envelope, saving money, budgeting methods]
 description: "Cash stuffing turned budgeting into a satisfying, visual routine — but does dividing your paycheck into physical envelopes actually help you save more? Here's how it works and who it's really for."
 image: "https://images.unsplash.com/photo-1620714223084-8fcacc6dfd8d?w=800&q=80&auto=format&fit=crop"
 permalink: /budgeting/cash-stuffing-budgeting-method/
+redirect_from:
+  - /budgeting/cash-envelope-system-explained/
 faq:
   - q: "What is cash stuffing?"
     a: "Cash stuffing is a budgeting method where you withdraw your paycheck (or a portion of it) in cash and physically divide it into labeled envelopes or a budget binder, one per spending category. When an envelope is empty, spending in that category stops until the next payday."

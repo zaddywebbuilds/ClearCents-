@@ -116,4 +116,4 @@ Every year you wait, you give up the most powerful years of compounding. A 22-ye
 5. Go to "Invest" and choose your fund (FZROX at Fidelity is the cleanest starting point)
 6. Set up a monthly automatic contribution
 
-You're done. You've done something more valuable with 15 minutes than most people do in years of reading about money. Next step: learn [what to put inside it — starting with index funds](/investing/index-funds-for-beginners/). If you're wondering how to fund the account while also building an emergency fund, the [emergency fund vs. investing guide](/investing/emergency-fund-before-investing/) explains the right order and when to do both simultaneously.
+You're done. You've done something more valuable with 15 minutes than most people do in years of reading about money. Next step: learn [what to put inside it — starting with index funds](/investing/index-funds-for-beginners/). If you're wondering how to fund the account while also building an emergency fund, the [emergency fund vs. investing guide](/investing/how-much-emergency-fund/) explains the right order and when to do both simultaneously.

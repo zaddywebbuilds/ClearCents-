@@ -85,7 +85,7 @@ You do not need to pay anyone to dispute an error on your behalf. Credit repair 
 
 ## The Bottom Line
 
-Checking your credit report isn't a once-a-year chore — it's a direct way to protect your score from mistakes that aren't your fault. Pull all three reports, read them closely, dispute anything wrong with documentation, and don't pay for a service that does nothing you can't do yourself for free. If debt beyond a reporting error is part of the picture, our breakdowns of [debt consolidation](/debt-free/debt-consolidation-guide/) and [debt snowball vs. avalanche](/debt-free/debt-snowball-vs-avalanche/) cover the next steps.
+Checking your credit report isn't a once-a-year chore — it's a direct way to protect your score from mistakes that aren't your fault. Pull all three reports, read them closely, dispute anything wrong with documentation, and don't pay for a service that does nothing you can't do yourself for free. If debt beyond a reporting error is part of the picture, our breakdowns of [debt consolidation](/debt-free/debt-consolidation-guide/) and [debt snowball vs. avalanche](/debt-free/debt-snowball-vs-debt-avalanche/) cover the next steps.
 
 ---
 

@@ -30,7 +30,7 @@ A night shift nurse has 10 free hours on days off but may be too physically and 
 
 Before picking a side hustle, honestly assess where your energy goes and what you have left at the end of the day.
 
-**High-energy-cost day jobs** (healthcare, teaching, social work, management): choose side hustles that are low-social and low-mental-effort. [Delivery driving, pet sitting, selling physical items](/side-hustles/best-side-hustles-for-beginners/), cleaning — things where you can show up without being "on." For people interested in earning without active hourly presence, [passive income ideas](/side-hustles/passive-income-ideas-that-work/) can layer on top of whatever active hustle you start.
+**High-energy-cost day jobs** (healthcare, teaching, social work, management): choose side hustles that are low-social and low-mental-effort. [Delivery driving, pet sitting, selling physical items](/side-hustles/best-side-hustles-for-beginners/), cleaning — things where you can show up without being "on." For people interested in earning without active hourly presence, [passive income ideas](/side-hustles/passive-income-ideas/) can layer on top of whatever active hustle you start.
 
 **Low-energy day jobs** (data entry, warehouse, administrative work): you may have more mental energy left over. Freelance writing, tutoring, virtual assistance, and graphic design can work well.
 

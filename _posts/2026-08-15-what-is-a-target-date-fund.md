@@ -54,7 +54,7 @@ Target-date funds typically charge a higher expense ratio than the plain index f
 - **Your plan's target-date fund fees are high** relative to building your own mix of a couple of low-cost index funds
 - **You're combining a 401(k) with other accounts** (an IRA, a taxable brokerage) and want to coordinate your overall allocation across all of them rather than let each account rebalance independently
 
-If you're earlier in the process and haven't opened a retirement account yet, our guide to [starting to invest with $100](/investing/how-to-start-investing-with-100-dollars/) and our breakdown of what a [Roth IRA](/investing/what-is-a-roth-ira/) offers are good places to start before deciding where a target-date fund fits into your overall plan.
+If you're earlier in the process and haven't opened a retirement account yet, our guide to [starting to invest with $100](/investing/how-to-start-investing/) and our breakdown of what a [Roth IRA](/investing/what-is-a-roth-ira/) offers are good places to start before deciding where a target-date fund fits into your overall plan.
 
 Before any of this matters, though, make sure the fundamentals are covered — if you don't yet have an emergency cushion, our guide on [saving your first $1,000 in 3 months](/save-money/how-to-save-1000-dollars-in-3-months/) is the right place to start before optimizing retirement account choices.
 

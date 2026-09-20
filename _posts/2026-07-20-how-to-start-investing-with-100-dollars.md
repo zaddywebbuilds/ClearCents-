@@ -127,4 +127,4 @@ For anything beyond $1,000 invested, a real brokerage (Fidelity, Schwab, Vanguar
 
 ---
 
-The best investment you'll ever make is the first one — not because $100 will make you rich, but because it starts the habit, removes the fear, and gives you a reason to learn more. Open the account today. Pick the index fund. Set up the automatic transfer. Everything else comes after. Not sure how much to keep liquid before investing? The guide on [building your emergency fund before investing](/investing/emergency-fund-before-investing/) walks through the right sequencing.
+The best investment you'll ever make is the first one — not because $100 will make you rich, but because it starts the habit, removes the fear, and gives you a reason to learn more. Open the account today. Pick the index fund. Set up the automatic transfer. Everything else comes after. Not sure how much to keep liquid before investing? The guide on [building your emergency fund before investing](/investing/how-much-emergency-fund/) walks through the right sequencing.

@@ -7,6 +7,8 @@ tags: [compound interest, investing basics, personal finance, saving, beginner i
 description: "Compound interest is the single most powerful force in personal finance. Here's exactly how it works, the formula behind it, and why starting early matters more than how much you invest."
 image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80&auto=format&fit=crop"
 permalink: /investing/what-is-compound-interest/
+redirect_from:
+  - /investing/compound-interest-explained/
 faq:
   - q: "What is compound interest in simple terms?"
     a: "Compound interest is interest earned on both your original money and on the interest that money has already earned. Instead of growing by the same amount every year, your balance grows by a larger amount each year because past gains start earning their own gains."
@@ -60,7 +62,7 @@ This is the part that surprises most people. Here's a side-by-side comparison as
 
 Emma invests for only 10 years and then never adds another dollar. Liam invests for 30 years straight — three times as much money out of pocket. Emma still ends up ahead, because her money had 10 extra years to compound before Liam even started.
 
-This is the core lesson of compound interest: **the earlier you start, the less you need to contribute to reach the same result.** It's why the [emergency fund before investing guide](/investing/emergency-fund-before-investing/) recommends getting your foundation in place quickly — every month you delay investing is a month of compounding you don't get back.
+This is the core lesson of compound interest: **the earlier you start, the less you need to contribute to reach the same result.** It's why the [emergency fund before investing guide](/investing/how-much-emergency-fund/) recommends getting your foundation in place quickly — every month you delay investing is a month of compounding you don't get back.
 
 ## The Rule of 72: A Fast Mental Shortcut
 
@@ -76,7 +78,7 @@ This works in reverse for debt too — a credit card charging 24% APR doubles yo
 
 Compounding isn't only a wealth-building tool — it's the same mechanism that makes high-interest debt so dangerous.
 
-Credit cards typically compound interest daily. If you carry a $5,000 balance at 22% APR and only make minimum payments, the interest compounds on top of interest that's already compounded, and it can take **years** to pay off while you hand over thousands in interest alone. This is exactly why [paying off credit card debt fast](/debt-free/how-to-pay-off-credit-card-debt-fast/) should come before most other financial goals — you're guaranteed to "earn" whatever your card's interest rate is by paying it down, which usually beats any investment return you could realistically expect.
+Credit cards typically compound interest daily. If you carry a $5,000 balance at 22% APR and only make minimum payments, the interest compounds on top of interest that's already compounded, and it can take **years** to pay off while you hand over thousands in interest alone. This is exactly why [paying off credit card debt fast](/debt-free/how-to-pay-off-credit-card-debt/) should come before most other financial goals — you're guaranteed to "earn" whatever your card's interest rate is by paying it down, which usually beats any investment return you could realistically expect.
 
 ## How to Put Compound Interest to Work
 

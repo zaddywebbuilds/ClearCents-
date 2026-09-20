@@ -146,7 +146,7 @@ That's it. No branch visit, no waiting in line, no paperwork to mail.
 
 Think of a HYSA as a place for three types of money:
 
-1. **Emergency fund** — 3–6 months of expenses, untouched unless something goes wrong. Not sure how much you need? The [emergency fund vs. investing guide](/investing/emergency-fund-before-investing/) explains the right target based on your situation.
+1. **Emergency fund** — 3–6 months of expenses, untouched unless something goes wrong. Not sure how much you need? The [emergency fund vs. investing guide](/investing/how-much-emergency-fund/) explains the right target based on your situation.
 2. **Sinking funds** — money you're saving for specific upcoming expenses (car repair, vacation, new laptop)
 3. **Short-term savings goals** — anything you need within the next 1–3 years. The [52-week savings challenge](/save-money/52-week-savings-challenge/) is a structured way to build these goals systematically throughout the year.
 

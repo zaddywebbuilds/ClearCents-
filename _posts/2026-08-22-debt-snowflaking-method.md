@@ -35,7 +35,7 @@ Snowflaking doesn't replace a primary debt payoff method — it supplements one.
 - **Debt avalanche:** pay minimums on all debts, direct all extra to the highest-interest balance first
 - **Debt snowball:** pay minimums on all debts, direct all extra to the smallest balance first
 
-Our breakdown of [the debt snowball vs. debt avalanche methods](/debt-free/debt-snowball-vs-avalanche/) covers how to choose between them. Snowflaking sits on top of either approach: your regular extra payments follow the strategy, and any small irregular amounts also get thrown at the highest-priority debt immediately rather than waiting for the next payment date.
+Our breakdown of [the debt snowball vs. debt avalanche methods](/debt-free/debt-snowball-vs-debt-avalanche/) covers how to choose between them. Snowflaking sits on top of either approach: your regular extra payments follow the strategy, and any small irregular amounts also get thrown at the highest-priority debt immediately rather than waiting for the next payment date.
 
 ## Finding Snowflake Payments
 
@@ -69,4 +69,4 @@ Snowflaking works because credit card interest compounds daily on your principal
 
 ---
 
-*Related reading: [Debt Snowball vs. Debt Avalanche](/debt-free/debt-snowball-vs-avalanche/) and [How to Pay Off Credit Card Debt](/debt-free/how-to-pay-off-credit-card-debt/).*
+*Related reading: [Debt Snowball vs. Debt Avalanche](/debt-free/debt-snowball-vs-debt-avalanche/) and [How to Pay Off Credit Card Debt](/debt-free/how-to-pay-off-credit-card-debt/).*

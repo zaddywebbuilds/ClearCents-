@@ -31,7 +31,7 @@ If you bring home $3,800 this month and your budget only accounts for $3,400 of 
 
 ## Why It Works Better Than Percentage Budgets
 
-The [50/30/20 rule](/budgeting/5030-20-budget-rule-beginners-guide/) gives you guardrails. Zero-based budgeting gives you a complete map. There's a big difference.
+The [50/30/20 rule](/budgeting/50-30-20-budget-rule/) gives you guardrails. Zero-based budgeting gives you a complete map. There's a big difference.
 
 With percentage budgets, you know roughly where your money should go but you're not planning specific purchases. With zero-based budgeting, you're deciding in advance: $420 for groceries, $80 for gas, $200 for eating out, $150 for the emergency fund. Real numbers for real categories.
 

@@ -60,4 +60,4 @@ Budgeting on a single income requires a budget that's explicit, not aspirational
 
 ---
 
-*Related reading: [Zero-Based Budgeting Guide](/budgeting/zero-based-budgeting-guide/) and [How to Stop Living Paycheck to Paycheck](/save-money/how-to-stop-living-paycheck-to-paycheck/).*
+*Related reading: [Zero-Based Budgeting Guide](/budgeting/zero-based-budgeting-guide/) and [How to Stop Living Paycheck to Paycheck](/budgeting/how-to-stop-living-paycheck-to-paycheck/).*

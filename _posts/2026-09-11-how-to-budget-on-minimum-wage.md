@@ -84,7 +84,7 @@ At this income level, small recurring costs matter more than they do at higher i
 
 ## Step 5: Treat income growth as part of the budget, not separate from it
 
-Cutting expenses has a floor — you eventually run out of things to cut. Income has no ceiling. Budgeting on minimum wage should include an active plan to increase the wage itself: asking for scheduled raises, applying for a $1–2/hour higher-paying role, or adding a few hours a week of side income. Even a modest [side hustle](/side-hustles/how-much-can-you-make-with-doordash/) that adds $100 to $200 a month changes every number in the table above.
+Cutting expenses has a floor — you eventually run out of things to cut. Income has no ceiling. Budgeting on minimum wage should include an active plan to increase the wage itself: asking for scheduled raises, applying for a $1–2/hour higher-paying role, or adding a few hours a week of side income. Even a modest [side hustle](/side-hustles/delivery-driving-side-hustle/) that adds $100 to $200 a month changes every number in the table above.
 
 ## If you're behind before the month even starts
 

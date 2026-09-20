@@ -58,7 +58,7 @@ Common sinking fund categories:
 - A known future replacement: phone, laptop, appliances, tires, roof, HVAC
 - Vet care, back-to-school, travel
 
-Most households have between five and ten of these. Full setup details are in our [sinking funds guide](/budgeting/sinking-funds-guide/) and a plain-English primer at [what are sinking funds](/budgeting/what-are-sinking-funds/).
+Most households have between five and ten of these. Full setup details are in our [sinking funds guide](/budgeting/sinking-funds-guide/) and a plain-English primer at [what are sinking funds](/budgeting/sinking-funds-guide/).
 
 ## Why You Need Both
 

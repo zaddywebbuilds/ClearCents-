@@ -78,6 +78,6 @@ In practice, for a retirement account like a 401(k), the choice is often made fo
 
 If you don't have a brokerage account yet, opening one takes about 10 minutes at any major provider, and most now support both ETFs and mutual funds with no minimum. Once it's open, start with a single broad-market index ETF or mutual fund rather than trying to build a complex multi-fund portfolio right away — you can always add more specific holdings later once the basics are in place.
 
-Make sure your day-to-day finances are stable before committing new money to either one: if you're still building your safety net, [get your emergency fund in place first](/investing/emergency-fund-before-investing/) so a short-term cash need never forces you to sell investments at a bad time.
+Make sure your day-to-day finances are stable before committing new money to either one: if you're still building your safety net, [get your emergency fund in place first](/investing/how-much-emergency-fund/) so a short-term cash need never forces you to sell investments at a bad time.
 
-*For more on getting your investing foundation right, see our guides on [index funds for beginners](/investing/index-funds-for-beginners/) and [how to start investing with $100](/investing/how-to-start-investing-with-100-dollars/).*
+*For more on getting your investing foundation right, see our guides on [index funds for beginners](/investing/index-funds-for-beginners/) and [how to start investing with $100](/investing/how-to-start-investing/).*

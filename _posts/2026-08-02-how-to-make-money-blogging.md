@@ -101,4 +101,4 @@ Blogging compounds. The articles ranking and earning at month 18 include the art
 
 ---
 
-*For faster initial income while the blog builds, see the [reselling guide](/side-hustles/how-to-make-money-reselling/) and [passive income ideas](/side-hustles/passive-income-ideas-that-work/) — both generate returns much faster than SEO.*
+*For faster initial income while the blog builds, see the [reselling guide](/side-hustles/how-to-make-money-reselling/) and [passive income ideas](/side-hustles/passive-income-ideas/) — both generate returns much faster than SEO.*
